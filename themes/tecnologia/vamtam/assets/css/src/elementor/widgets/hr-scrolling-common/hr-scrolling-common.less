@@ -1,0 +1,217 @@
+.elementor-widget.vamtam-has-theme-widget-styles {
+	&.vamtam-has-hr-layout {
+		:is( ul.products, .elementor-posts-container ) {
+			--scroller-padding: 20px;
+			--col-size: calc((100% / var(--vamtam-cols)) - var(--vamtam-col-gap, var(--grid-column-gap)) - calc(var(--vamtam-col-hint) / var(--vamtam-cols)));
+			grid-auto-flow: column;
+			grid-template-columns: var(--col-size);
+			grid-auto-columns: var(--col-size);
+			overflow-x: auto;
+			overflow-y: hidden;
+			padding-bottom: var(--scroller-padding);
+			scroll-behavior: smooth;
+
+			// Firefox
+			:is(body.e--firefox) & {
+				scrollbar-width: thin;
+			}
+
+			// Chrome\Edge
+			:is(body.e--ua-chrome, body.e--ua-edge) & {
+				width: calc(100% + 2px); // Issue: https://github.com/veniko/petopia/issues/15#issuecomment-1239360647
+
+				&::-webkit-scrollbar {
+					width: 10px;
+					height: 10px
+				}
+			}
+		}
+
+		&.vamtam-has-nav {
+			user-select: none;
+
+			.vamtam-nav {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				pointer-events: none;
+			}
+
+			@nav-btn-width: 60px;
+			@nav-btn-height: 60px;
+
+			.vamtam-nav-btn {
+				cursor: pointer;
+				pointer-events: all;
+				position: absolute;
+				display: inline-block;
+				height: @nav-btn-height;
+				width: @nav-btn-width;
+				top: 50%;
+				transform: translateY(-50%);
+				background-color: var(--vamtam-accent-color-2);
+				border: 1px solid var(--vamtam-accent-color-2);
+				border-radius: 18px;
+				z-index: 1;
+				opacity: 1;
+				transition: opacity .15s ease;
+
+				display: flex;
+				flex-flow: column nowrap;
+				align-content: center;
+				justify-content: center;
+
+				&.vamtam-nav-btn-prev {
+					left: -30px;
+
+					.vamtam-theme-arrow-left {
+						&::before {
+							content: "\f30a";
+						}
+					}
+				}
+
+				&.vamtam-nav-btn-next {
+					right: -30px;
+
+					.vamtam-theme-arrow-right {
+						&::before {
+							content: "\f30b";
+						}
+					}
+				}
+
+				i {
+					pointer-events: none;
+					text-align: center;
+					font-size: 18px;
+					font-family: "Font Awesome 5 Free" !important;
+    				font-weight: 900;
+				}
+			}
+
+
+
+			&.vamtam-nav-pos- {
+				@nav-btns-gap: var(--vamtam-nav-btns-gap, 20px);
+				@nav-btns-spacing: var(--vamtam-nav-btns-spacing, 10px);
+
+				&top-,
+				&bottom- {
+					&left {
+						.vamtam-nav-btn-prev {
+							left: 0;
+							right: auto;
+						}
+						.vamtam-nav-btn-next {
+							left: calc(@nav-btn-width + @nav-btns-gap);
+							right: auto;
+						}
+					}
+
+					&right {
+						.vamtam-nav-btn-prev {
+							left: auto;
+							right: calc(@nav-btn-width + @nav-btns-gap);
+						}
+						.vamtam-nav-btn-next {
+							left: auto;
+							right: 0;
+						}
+					}
+
+					&center {
+						.vamtam-nav-btn-prev {
+							left: calc(50% - @nav-btn-width - (@nav-btns-gap / 2));
+							right: auto;
+						}
+						.vamtam-nav-btn-next {
+							left: auto;
+							right: calc(50% - @nav-btn-width - (@nav-btns-gap / 2));
+						}
+					}
+				}
+
+				&top- {
+					&left,
+					&right,
+					&center {
+						.vamtam-nav-btn {
+							top: 0;
+							bottom: auto;
+							transform: translateY(calc((100% + @nav-btns-spacing) * -1));
+						}
+					}
+				}
+
+				&bottom- {
+					&left,
+					&right,
+					&center {
+						.vamtam-nav-btn {
+							top: auto;
+							bottom: 0;
+							transform: translateY(calc(100% + @nav-btns-spacing));
+						}
+					}
+				}
+
+				&custom {
+					.vamtam-nav-btn-prev {
+						left: var(--vamtam-nav-prev-x, -30px);
+						top: var(--vamtam-nav-prev-y, 50%);
+						right: auto;
+						bottom: auto;
+					}
+					.vamtam-nav-btn-next {
+						right: var(--vamtam-nav-next-x, -30px);
+						top: var(--vamtam-nav-next-y, 50%);
+						left: auto;
+						bottom: auto
+					}
+				}
+			}
+
+			&.vamtam-nav-no-hide-anim {
+				.vamtam-nav {
+					opacity: 1 !important;
+				}
+
+				.vamtam-nav-btn {
+					opacity: 1 !important;
+
+					&.disabled {
+						opacity: 1 !important;
+					}
+				}
+			}
+		}
+
+		@media (pointer:fine) {
+			// Show on Hover anim only for fine pointing devices.
+			&.vamtam-has-nav {
+				.vamtam-nav {
+					opacity: 0;
+					transition: opacity .7s ease;
+				}
+
+				&:hover {
+					.vamtam-nav {
+						opacity: 1;
+					}
+
+					.vamtam-nav-btn {
+						opacity: 1;
+
+						&.disabled {
+							opacity: 1;
+						}
+					}
+				}
+			}
+		}
+
+	}
+}

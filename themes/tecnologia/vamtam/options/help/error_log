@@ -1,0 +1,4 @@
+[21-Sep-2026 00:02:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function admin_url() in /home2/icarusit/public_html/wp-content/themes/tecnologia/vamtam/options/help/docs.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/icarusit/public_html/wp-content/themes/tecnologia/vamtam/options/help/docs.php on line 2

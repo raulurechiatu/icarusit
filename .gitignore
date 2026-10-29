@@ -1,0 +1,9 @@
+# Ignore media uploads so your repo doesn't bloat
+uploads/
+
+# Ignore cache, logs, and temp files
+cache/
+upgrade/
+debug.log
+w3tc-config/
+aiowps-logs/

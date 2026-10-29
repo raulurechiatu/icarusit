@@ -1,0 +1,17 @@
+[15-Sep-2026 05:07:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function vamtam_has_woocommerce() in /home2/icarusit/public_html/wp-content/themes/tecnologia/vamtam/helpers/woocommerce-integration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/icarusit/public_html/wp-content/themes/tecnologia/vamtam/helpers/woocommerce-integration.php on line 9
+[15-Sep-2026 08:45:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/icarusit/public_html/wp-content/themes/tecnologia/vamtam/helpers/the-events-calendar-integration.php:4
+Stack trace:
+#0 {main}
+  thrown in /home2/icarusit/public_html/wp-content/themes/tecnologia/vamtam/helpers/the-events-calendar-integration.php on line 4
+[20-Sep-2026 03:17:09 UTC] PHP Warning:  Undefined variable $l in /home2/icarusit/public_html/wp-content/themes/tecnologia/vamtam/helpers/lessphp-extensions.php on line 68
+[20-Sep-2026 03:17:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function registerFunction() on null in /home2/icarusit/public_html/wp-content/themes/tecnologia/vamtam/helpers/lessphp-extensions.php:68
+Stack trace:
+#0 {main}
+  thrown in /home2/icarusit/public_html/wp-content/themes/tecnologia/vamtam/helpers/lessphp-extensions.php on line 68
+[06-Oct-2026 19:51:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/icarusit/public_html/wp-content/themes/tecnologia/vamtam/helpers/template.php:45
+Stack trace:
+#0 {main}
+  thrown in /home2/icarusit/public_html/wp-content/themes/tecnologia/vamtam/helpers/template.php on line 45

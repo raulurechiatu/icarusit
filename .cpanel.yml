@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/icarusit/public_html/wp-content
+    - /bin/cp -R * $DEPLOYPATH

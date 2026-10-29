@@ -1,0 +1,43 @@
+.widget_nav_menu > div {
+  padding: 0 !important;
+}
+.widget_nav_menu > div:after {
+  top: 0 !important;
+  margin: 0 !important;
+}
+.widget_nav_menu.widget .menu-pagepost-options-container {
+  border-right: none !important;
+  border-bottom: none !important;
+  border-left: none !important;
+}
+.widget_nav_menu .menu li {
+  margin: 0;
+  padding: var(--widget-whitespace) 0;
+}
+.widget_nav_menu .menu li:last-child {
+  padding-bottom: 0;
+}
+.widget_nav_menu .menu li.current_page_item > a {
+  color: var(--vamtam-body-link-hover);
+  font-weight: normal;
+}
+.widget_nav_menu .menu li a {
+  box-sizing: border-box;
+  display: inline;
+  padding: 0;
+  min-width: 100%;
+}
+.widget_nav_menu .menu li a:not(:last-child) {
+  border: 0;
+}
+.widget_nav_menu .menu li a:hover {
+  color: var(--vamtam-accent-color-2);
+}
+.widget_nav_menu .menu li .sub-menu {
+  padding-left: 0.8em;
+  padding-top: 0.8em;
+}
+.widget_nav_menu .menu > li:first-child {
+  margin-top: -10px;
+}
+/*# sourceMappingURL=nav-menu.css.map */

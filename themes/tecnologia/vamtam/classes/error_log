@@ -1,0 +1,4 @@
+[23-Sep-2026 09:37:29 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home2/icarusit/public_html/wp-content/themes/tecnologia/vamtam/classes/elementor-bridge.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/icarusit/public_html/wp-content/themes/tecnologia/vamtam/classes/elementor-bridge.php on line 10

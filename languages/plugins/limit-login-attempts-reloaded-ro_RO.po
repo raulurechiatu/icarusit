@@ -1,0 +1,203 @@
+# Translation of Plugins - Limit Login Attempts Reloaded – Login Security, 2FA, Brute Force Protection &amp; Firewall - Stable (latest release) in Romanian
+# This file is distributed under the same license as the Plugins - Limit Login Attempts Reloaded – Login Security, 2FA, Brute Force Protection &amp; Firewall - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-04-04 08:16:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ro\n"
+"Project-Id-Version: Plugins - Limit Login Attempts Reloaded – Login Security, 2FA, Brute Force Protection &amp; Firewall - Stable (latest release)\n"
+
+#: views/tab-settings.php:522
+msgid "GDPR compliance"
+msgstr "În conformitate cu GDPR"
+
+#: views/tab-logs-local.php:93 views/tab-logs-local.php:116
+msgid "One IP or IP range (1.2.3.4-5.6.7.8) per line"
+msgstr "Un IP sau un interval de IP-uri (1.2.3.4 - 5.6.7.8) pe linie"
+
+#: views/tab-logs-local.php:218
+msgctxt "Internet address"
+msgid "IP"
+msgstr "IP"
+
+#: views/tab-logs-local.php:217
+msgid "Date"
+msgstr "Dată"
+
+#: views/tab-logs-local.php:101 views/tab-logs-local.php:124
+msgid "One Username per line"
+msgstr "Un nume de utilizator pe linie"
+
+#: views/tab-settings.php:597
+msgid "lockouts"
+msgstr "blocări"
+
+#: views/tab-settings.php:191
+msgid "hours"
+msgstr "ore"
+
+#: views/tab-settings.php:175
+msgid "minutes lockout"
+msgstr "minute de blocare"
+
+#: views/tab-settings.php:162
+msgid "allowed retries"
+msgstr "reîncercări permise"
+
+#: views/tab-settings.php:148
+msgid "Lockout"
+msgstr "Blocare"
+
+#: views/tab-settings.php:493
+msgid "If disabled, the global settings will be forcibly applied to the entire network."
+msgstr "Dacă este dezactivat, setările globale vor fi aplicate forțat întregii rețele."
+
+#: views/tab-logs-local.php:68
+msgid "Restore Lockouts"
+msgstr "Restaurează blocările"
+
+#: views/tab-logs-local.php:64
+msgid "Active lockouts"
+msgstr "Blocări active"
+
+#: views/tab-logs-local.php:45
+msgid "Total lockouts"
+msgstr "Total blocări"
+
+#: views/tab-logs-local.php:35
+msgid "Statistics"
+msgstr "Statistici"
+
+#: core/LimitLoginAttempts.php:2975
+msgid "Cleared current lockouts"
+msgstr "Blocări actuale șterse"
+
+#: core/LimitLoginAttempts.php:2968
+msgid "Reset lockout count"
+msgstr "Resetează contorul de blocări"
+
+#: core/LimitLoginAttempts.php:2961
+msgid "Cleared IP log"
+msgstr "Jurnal de IP-uri curățat"
+
+#: core/LimitLoginAttempts.php:2775
+msgid "WC Error"
+msgstr "Eroare WC"
+
+#: core/LimitLoginAttempts.php:1153 core/LimitLoginAttempts.php:1289
+#: core/LimitLoginAttempts.php:2125 core/LimitLoginAttempts.php:2598
+#: core/LimitLoginAttempts.php:2657
+msgid "<strong>ERROR</strong>: Too many failed login attempts."
+msgstr "<strong>EROARE</strong>: Prea multe încercări de autentificare eșuate."
+
+#: core/LimitLoginAttempts.php:2336
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "Un minut"
+msgstr[1] "%d minute"
+msgstr[2] "%d de minute"
+
+#: core/LimitLoginAttempts.php:1296 core/LimitLoginAttempts.php:2134
+#: core/LimitLoginAttempts.php:2680
+msgid "Please try again in %d minute."
+msgid_plural "Please try again in %d minutes."
+msgstr[0] "Te rog reîncearcă într-un minut."
+msgstr[1] "Te rog reîncearcă în %d minute."
+msgstr[2] "Te rog reîncearcă în %d de minute."
+
+#: core/LimitLoginAttempts.php:1294 core/LimitLoginAttempts.php:2132
+#: core/LimitLoginAttempts.php:2677
+msgid "Please try again in %d hour."
+msgid_plural "Please try again in %d hours."
+msgstr[0] "Te rog reîncearcă într-o oră."
+msgstr[1] "Te rog reîncearcă în %d ore."
+msgstr[2] "Te rog reîncearcă în %d de ore."
+
+#: core/LimitLoginAttempts.php:883 core/LimitLoginAttempts.php:2702
+#: core/LimitLoginAttempts.php:2751 core/LimitLoginAttempts.php:2756
+msgid "<strong>ERROR</strong>: Incorrect username or password."
+msgstr "<strong>EROARE</strong>: nume utilizator incorect sau parolă incorectă."
+
+#: core/Ajax.php:992
+msgid "<strong>%d</strong> attempt remaining."
+msgid_plural "<strong>%d</strong> attempts remaining."
+msgstr[0] "<strong>O</strong> încercare rămasă."
+msgstr[1] "<strong>%d</strong> încercări rămase."
+msgstr[2] "<strong>%d</strong> de încercări rămase."
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: limit-login-attempts-reloaded.php core/LimitLoginAttempts.php:335
+#: views/emails/mfa-verification.php:218 views/emails/mfa-verification.php:301
+msgid "Limit Login Attempts Reloaded"
+msgstr "Limit Login Attempts Reloaded"
+
+#: views/tab-logs-local.php:71
+msgid "%d IP is currently blocked from trying to log in"
+msgstr "IP-ul %d este momentan blocat la încercarea de autentificare"
+
+#: views/tab-logs-local.php:57
+msgid "No lockouts yet"
+msgstr "Nicio blocare deocamdată"
+
+#: views/tab-logs-local.php:53
+msgid "%d lockout since last reset"
+msgid_plural "%d lockouts since last reset"
+msgstr[0] "O blocare de la ultima resetare"
+msgstr[1] "%d blocări de la ultima resetare"
+msgstr[2] "%d de blocări de la ultima resetare"
+
+#: views/tab-logs-local.php:50
+msgid "Reset Counter"
+msgstr "Resetează contorul"
+
+#: views/tab-logs-local.php:219
+msgid "Tried to log in as"
+msgstr "A încercat să se autentifice ca"
+
+#: views/tab-logs-local.php:202
+msgid "Clear Log"
+msgstr "Șterge jurnalul"
+
+#: views/tab-logs-local.php:194
+msgid "Lockout log"
+msgstr "Jurnal blocări"
+
+#: views/tab-settings.php:579
+msgid "Notify on lockout"
+msgstr "Notifică blocarea"
+
+#: views/tab-settings.php:204
+msgid "hours until retries are reset"
+msgstr "ore până când reîncercările sunt resetate"
+
+#: views/tab-settings.php:187
+msgid "lockouts increase lockout time to"
+msgstr "blocările măresc timpul de blocare la"
+
+#: views/app-widgets/event-log.php:39 views/tab-logs-local.php:220
+msgid "Gateway"
+msgstr "Gateway"
+
+#: views/tab-settings.php:498
+msgid "Use global settings"
+msgstr "Folosește setările globale"
+
+#: views/tab-settings.php:492
+msgid "Let network sites use their own settings"
+msgstr "Lasă site-urile din rețea să utilizeze propriile setări"
+
+#: core/LimitLoginAttempts.php:2329
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "o oră"
+msgstr[1] "%d ore"
+msgstr[2] "%d de ore"
+
+#: core/LimitLoginAttempts.php:2665
+msgid "Please try again later."
+msgstr "Te rog să încerci din nou mai târziu."

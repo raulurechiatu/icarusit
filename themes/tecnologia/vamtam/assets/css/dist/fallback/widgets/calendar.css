@@ -1,0 +1,127 @@
+/* Clearfix */
+/* Absolute Fill Container */
+/* buttons */
+/* Fonts */
+/* !! Attention !!
+	When you use this rule, remember to add the relevant equivalent styles
+	to layout-below-max.less (tablet) and layout-small.less (phone).
+*/
+.vamtam-font-primary-font {
+  font: var( --e-global-typography-vamtam_primary_font-font-weight, normal ) var( --e-global-typography-vamtam_primary_font-font-style, normal ) var( --e-global-typography-vamtam_primary_font-font-size )/var( --e-global-typography-vamtam_primary_font-line-height ) var( --e-global-typography-vamtam_primary_font-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_primary_font-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_primary_font-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_primary_font-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_primary_font-decoration, none );
+}
+.vamtam-font-h1 {
+  font: var( --e-global-typography-vamtam_h1-font-weight, normal ) var( --e-global-typography-vamtam_h1-font-style, normal ) var( --e-global-typography-vamtam_h1-font-size )/var( --e-global-typography-vamtam_h1-line-height ) var( --e-global-typography-vamtam_h1-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h1-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h1-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h1-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h1-decoration, none );
+}
+.vamtam-font-h2 {
+  font: var( --e-global-typography-vamtam_h2-font-weight, normal ) var( --e-global-typography-vamtam_h2-font-style, normal ) var( --e-global-typography-vamtam_h2-font-size )/var( --e-global-typography-vamtam_h2-line-height ) var( --e-global-typography-vamtam_h2-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h2-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h2-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h2-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h2-decoration, none );
+}
+.vamtam-font-h3 {
+  font: var( --e-global-typography-vamtam_h3-font-weight, normal ) var( --e-global-typography-vamtam_h3-font-style, normal ) var( --e-global-typography-vamtam_h3-font-size )/var( --e-global-typography-vamtam_h3-line-height ) var( --e-global-typography-vamtam_h3-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h3-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h3-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h3-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h3-decoration, none );
+}
+.vamtam-font-h4 {
+  font: var( --e-global-typography-vamtam_h4-font-weight, normal ) var( --e-global-typography-vamtam_h4-font-style, normal ) var( --e-global-typography-vamtam_h4-font-size )/var( --e-global-typography-vamtam_h4-line-height ) var( --e-global-typography-vamtam_h4-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h4-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h4-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h4-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h4-decoration, none );
+}
+.vamtam-font-h5 {
+  font: var( --e-global-typography-vamtam_h5-font-weight, normal ) var( --e-global-typography-vamtam_h5-font-style, normal ) var( --e-global-typography-vamtam_h5-font-size )/var( --e-global-typography-vamtam_h5-line-height ) var( --e-global-typography-vamtam_h5-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h5-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h5-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h5-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h5-decoration, none );
+}
+.vamtam-font-h6 {
+  font: var( --e-global-typography-vamtam_h6-font-weight, normal ) var( --e-global-typography-vamtam_h6-font-style, normal ) var( --e-global-typography-vamtam_h6-font-size )/var( --e-global-typography-vamtam_h6-line-height ) var( --e-global-typography-vamtam_h6-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h6-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h6-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h6-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h6-decoration, none );
+}
+.widget_calendar {
+  max-width: 100%;
+}
+.widget_calendar #wp-calendar {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.widget_calendar #wp-calendar caption {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: start;
+  padding: 0.4em 0.5em;
+  border: 1px solid var(--vamtam-default-line-color);
+  border-bottom: none;
+}
+.widget_calendar #wp-calendar thead {
+  border-top: 1px solid var(--vamtam-default-line-color);
+  border-bottom: 1px solid var(--vamtam-default-line-color);
+}
+.widget_calendar #wp-calendar thead th {
+  font-weight: 500;
+  font-size: 14px;
+}
+.widget_calendar #wp-calendar tbody {
+  padding: 10px 0;
+}
+.widget_calendar #wp-calendar tfoot {
+  border: 1px solid var(--vamtam-default-line-color);
+  border-bottom: 0;
+}
+.widget_calendar #wp-calendar tfoot td {
+  margin-top: 5px;
+  border: 0;
+  font-size: 12px;
+}
+.widget_calendar #wp-calendar tfoot td:first-child {
+  text-align: start;
+  padding: 10px;
+}
+.widget_calendar #wp-calendar tfoot td:last-child {
+  text-align: end;
+  padding: 10px;
+}
+.widget_calendar #wp-calendar tfoot td a {
+  font-weight: bold;
+}
+.widget_calendar #wp-calendar td#today {
+  background: var(--vamtam-accent-color-1);
+}
+.widget_calendar #wp-calendar td#today,
+.widget_calendar #wp-calendar td#today a {
+  color: var(--vamtam-accent-color-1-hc);
+}
+.widget_calendar th,
+.widget_calendar td {
+  padding: 4px 0;
+  text-align: center;
+}
+.vamtam-body-sidebar .widget_calendar th,
+.vamtam-body-sidebar .widget_calendar td {
+  padding: 0.3em;
+  line-height: 1.7em;
+  font-size: 0.9em;
+  color: var(--vamtam-widget-text-lighter);
+}
+.widget_calendar th {
+  font-size: 100%;
+}
+/*# sourceMappingURL=calendar.css.map */

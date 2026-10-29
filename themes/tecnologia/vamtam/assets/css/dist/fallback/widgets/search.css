@@ -1,0 +1,76 @@
+.widget_search .searchform,
+.widget_product_search .woocommerce-product-search {
+  position: relative;
+  display: block;
+  padding: 0 !important;
+  max-width: 100% !important;
+  width: 100%;
+  white-space: nowrap;
+}
+.widget_search .searchform:not( :first-child ),
+.widget_product_search .woocommerce-product-search:not( :first-child ) {
+  margin-top: 20px;
+}
+.widget_search .searchform input[name="s"],
+.widget_product_search .woocommerce-product-search input[name="s"] {
+  width: 100% !important;
+  min-height: 52px !important;
+  font-size: 1em;
+  padding: 1em 3.7em 1em 1em;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.widget_search .searchform input[name="s"]::clear,
+.widget_product_search .woocommerce-product-search input[name="s"]::clear {
+  display: none;
+}
+.widget_search .searchform input[name="s"]::-webkit-search-decoration,
+.widget_product_search .woocommerce-product-search input[name="s"]::-webkit-search-decoration,
+.widget_search .searchform input[name="s"]::-webkit-search-cancel-button,
+.widget_product_search .woocommerce-product-search input[name="s"]::-webkit-search-cancel-button,
+.widget_search .searchform input[name="s"]::-webkit-search-results-button,
+.widget_product_search .woocommerce-product-search input[name="s"]::-webkit-search-results-button,
+.widget_search .searchform input[name="s"]::-webkit-search-results-decoration,
+.widget_product_search .woocommerce-product-search input[name="s"]::-webkit-search-results-decoration {
+  display: none;
+}
+.widget_search .searchform [type="submit"],
+.widget_product_search .woocommerce-product-search [type="submit"] {
+  position: absolute;
+  z-index: 5;
+  padding: 0;
+  width: 65px;
+  background: transparent;
+  box-shadow: none;
+  font-size: 0 !important;
+  border: 1px solid transparent;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  color: transparent;
+}
+.widget_search .searchform:before,
+.widget_product_search .woocommerce-product-search:before {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 6;
+  padding: 0 20px;
+  margin: 0;
+  content: "\e935";
+  font: normal 20px/1 vamtam-theme;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  transition: all 0.3s;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+}
+.widget_search .searchform:hover:before,
+.widget_product_search .woocommerce-product-search:hover:before {
+  color: var(--vamtam-accent-color-5);
+}
+/*# sourceMappingURL=search.css.map */

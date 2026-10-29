@@ -1,0 +1,4048 @@
+# Translation of Plugins - Really Simple Security &#8211; Simple and Performant Security (formerly Really Simple SSL) - Stable (latest release) in Romanian
+# This file is distributed under the same license as the Plugins - Really Simple Security &#8211; Simple and Performant Security (formerly Really Simple SSL) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-09-08 07:45:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: ro\n"
+"Project-Id-Version: Plugins - Really Simple Security &#8211; Simple and Performant Security (formerly Really Simple SSL) - Stable (latest release)\n"
+
+#: upgrade/upgrade-to-pro.php:600
+msgid "Security check failed. Please refresh the page and try again."
+msgstr "Verificarea de securitate a eșuat. Te rugăm să reîmprospătezi pagina și să încerci din nou."
+
+#: upgrade/upgrade-to-pro.php:593
+msgid "Insufficient permissions to install plugins."
+msgstr "Permisiuni insuficiente pentru a instala module."
+
+#: core/config/related.php:18 settings/settings.php:545
+msgid "Social Media Management"
+msgstr "Administrare media socială"
+
+#: settings/config/disable-fields-filter.php:61
+msgid "REST API blocked"
+msgstr "REST API blocat"
+
+#: security/notices.php:78
+msgid "Failed to update uploads .htaccess"
+msgstr "Actualizarea .htaccess în uploads a eșuat."
+
+#: security/notices.php:56
+msgid "Failed to update security setting in your .htaccess file: file is not readable."
+msgstr "Actualizarea setării pentru securitate în fișierul .htaccess a eșuat: fișierul nu este lizibil."
+
+#: security/notices.php:47 security/notices.php:59 security/notices.php:82
+msgid "2. Add the following code manually:"
+msgstr "2. Adaugă manual codul următor:"
+
+#: security/notices.php:45 security/notices.php:57 security/notices.php:80
+msgid "Resolution:"
+msgstr "Rezoluție:"
+
+#: security/notices.php:43 security/notices.php:55
+msgid "Failed to update .htaccess"
+msgstr "Actualizarea .htaccess a eșuat"
+
+#: security/wordpress/two-fa/controllers/class-rsssl-email-controller.php:92
+#: security/wordpress/two-fa/controllers/class-rsssl-email-controller.php:129
+#: security/wordpress/two-fa/controllers/class-rsssl-email-controller.php:176
+#: security/wordpress/two-fa/controllers/class-rsssl-email-controller.php:186
+msgid "Two-Factor Authentication must be completed before it can be changed."
+msgstr "Autentificarea pe două niveluri trebuie finalizată înainte de a putea fi modificată."
+
+#: security/wordpress/two-fa/controllers/class-rsssl-base-controller.php:80
+msgid "Two-Factor Authentication must be completed before it can be disabled."
+msgstr "Autentificarea pe două niveluri trebuie finalizată înainte de a putea fi dezactivată."
+
+#: security/wordpress/two-fa/controllers/class-rsssl-abstract-controller.php:116
+msgid "Invalid authentication request."
+msgstr "Cererea de autentificare nu este validă."
+
+#. translators: 1: severity label
+#: core/app/Features/Vulnerability/Services/VulnerabilityEmailService.php:113
+msgid "A %s vulnerability has been found."
+msgstr "A fost găsită o vulnerabilitate %s."
+
+#: core/app/Features/Vulnerability/Controllers/VulnerabilityDataController.php:222
+msgid "Unable to send test notification at this time."
+msgstr "Nu se poate trimite notificarea de testare în acest moment."
+
+#: core/app/Features/Vulnerability/Controllers/ThemeController.php:183
+msgid "Really Simple Security detected a vulnerability in this theme"
+msgstr "Really Simple Security a detectat o vulnerabilitate în această temă"
+
+#: security/wordpress/two-fa/controllers/class-rsssl-base-controller.php:125
+msgid "Two-Factor Authentication setup is required for this account."
+msgstr "Este necesară configurarea autentificării cu doi factori pentru acest cont."
+
+#: security/wordpress/two-fa/controllers/class-rsssl-base-controller.php:71
+msgid "Two-Factor Authentication cannot be disabled for this account."
+msgstr "Autentificarea pe două niveluri nu poate fi dezactivată pentru acest cont."
+
+#: class-wp-cli.php:1497
+msgid "The user ID to reset 2FA for."
+msgstr "ID-ul utilizatorului pentru care se resetează 2FA."
+
+#: security/wordpress/two-fa/class-rsssl-two-factor.php:1438
+msgid "Invalid user."
+msgstr "Utilizatorul nu este valid."
+
+#: core/app/Managers/EndpointManager.php:174
+msgid "Forbidden."
+msgstr "Interzis."
+
+#: core/app/Features/Onboarding/OnboardingController.php:148
+msgid "Nonce validation failed"
+msgstr "Validarea nunicului a eșuat"
+
+#: class-wp-cli.php:1508
+msgid "Output format: table|json|csv (default: table)."
+msgstr "Format de ieșire: tabel|json|csv (implicit: tabel)."
+
+#: class-wp-cli.php:1507 class-wp-cli.php:1518
+msgid "Traverse all subsites in the network."
+msgstr "Traversează toate subsite-urile din rețea."
+
+#: class-wp-cli.php:1506 class-wp-cli.php:1517
+msgid "Limit to a single blog_id (multisite)."
+msgstr "Limitează la un singur blog_id (multi-site)."
+
+#. Author URI of the plugin
+#: rlrsssl-really-simple-ssl.php
+msgid "https://really-simple-ssl.com/about-us"
+msgstr "https://really-simple-ssl.com/about-us"
+
+#: settings/config/fields/limit-login-attempts.php:104
+msgid "The user will be blocked after entering too many incorrect logins on the password reset page."
+msgstr "Utilizatorul va fi blocat după ce introduce prea multe autentificări incorecte pe pagina de resetare a parolei."
+
+#: settings/config/fields/limit-login-attempts.php:101
+msgid "Limit Password Reset Attempts"
+msgstr "Limitează încercările pentru resetarea parolei"
+
+#: settings/config/disable-fields-filter.php:99
+msgid "Force confirm email"
+msgstr "Forțează emailul de confirmare"
+
+#: settings/config/disable-fields-filter.php:98
+msgid "Resend email"
+msgstr "Retrimite emailul"
+
+#: settings/config/disable-fields-filter.php:96
+msgid "Check your site's SMTP settings"
+msgstr "Verifică setările SMTP pentru site-ul tău"
+
+#: settings/config/disable-fields-filter.php:93
+msgid "Verification email sent"
+msgstr "Am trimis emailul de confirmare"
+
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:352
+msgid "A new verification code has been sent to your email address."
+msgstr "A fost trimis un cod de verificare nou la adresa ta de email."
+
+#: functions.php:665
+msgid "Error occurred"
+msgstr "A apărut o eroare"
+
+#: functions.php:657
+msgid "Failed to send"
+msgstr "Trimiterea a eșuat"
+
+#: functions.php:653 functions.php:659 functions.php:667
+msgid "Resend verification email"
+msgstr "Retrimite emailul de confirmare"
+
+#: functions.php:651
+msgid "Email sent!"
+msgstr "Am trimis emailul!"
+
+#: functions.php:640
+msgid "Sending..."
+msgstr "Trimit..."
+
+#: settings/config/menu.php:311
+msgid "Passkey"
+msgstr "Passkey"
+
+#: settings/config/menu.php:292
+msgid "Prevent account theft by offering more secure authentication methods. You can configure which methods are available per user role, or even enforce usage of secure authentication. Secure authentication can be either Two-Factor Authentication or Passkey login."
+msgstr "Împiedică furtul conturilor prin oferirea unor metode de autentificare mai sigure. Poți configura ce metode sunt disponibile pentru fiecare rol de utilizator sau chiar să impui utilizarea autentificării securizate. Autentificarea securizată poate fi autentificarea cu doi factori sau autentificarea cu cheie de acces."
+
+#: settings/config/fields/two-fa.php:142
+msgid "Enable TOTP Authentication for:"
+msgstr "Activează autentificarea TOTP pentru:"
+
+#: settings/config/fields/two-fa.php:141
+msgid "TOTP means authentication using apps like Google Authenticator."
+msgstr "TOTP înseamnă autentificare folosind aplicații precum Google Authenticator."
+
+#: settings/config/fields/two-fa.php:118
+msgid "Enable Email Authentication for:"
+msgstr "Activează autentificarea prin email pentru:"
+
+#: settings/config/fields/two-fa.php:82
+msgid "During the grace period users can configure their secure authentication method. When the grace period ends, users for which secure authentication is enforced won’t be able to log in unless secure authentication is correctly configured. The grace period is also applied to new users."
+msgstr "În timpul perioadei de grație, utilizatorii își pot configura metoda de autentificare securizată. La sfârșitul perioadei de grație, utilizatorii pentru care este impusă autentificarea securizată nu vor putea să se conecteze decât dacă autentificarea securizată este configurată corect. Perioada de grație se aplică și utilizatorilor noi."
+
+#: settings/config/fields/two-fa.php:29
+msgid "Enforce secure authentication for:"
+msgstr "Impune autentificarea securizată pentru:"
+
+#: security/wordpress/user-enumeration.php:57
+msgid "Sorry, you are not allowed to access user data without authentication."
+msgstr "Regret, nu ai voie să accesezi datele utilizatorului fără autentificare."
+
+#: security/wordpress/user-enumeration.php:39
+msgid "Sorry, you are not allowed to access users without authentication."
+msgstr "Regret, nu ai voie să accesezi utilizatorii fără autentificare."
+
+#: security/wordpress/two-fa/controllers/class-rsssl-email-controller.php:243
+msgid "Email authentication is not active for this user"
+msgstr "Autentificarea prin email nu este activă pentru acest utilizator"
+
+#: security/wordpress/two-fa/class-rsssl-two-factor.php:1525
+msgid "Two-Factor Authentication Setup"
+msgstr "Inițializare Autentificare pe două niveluri"
+
+#: security/wordpress/two-fa/class-rsssl-two-factor.php:1062
+msgid "Authentication provider not specified or invalid."
+msgstr "Furnizorul de autentificare nu este specificat sau nu este valid."
+
+#: security/wordpress/two-fa/class-rsssl-two-factor-profile-settings.php:205
+msgid "Two-Factor Authentication settings have been reset."
+msgstr "Setările Autentificare pe două niveluri au fost resetate."
+
+#: security/wordpress/two-fa/class-rsssl-passkey-list-table.php:110
+msgid "Add Device"
+msgstr "Adaugă dispozitiv"
+
+#: security/wordpress/two-fa/class-rsssl-passkey-list-table.php:30
+msgid "Actions"
+msgstr "Acțiuni"
+
+#: security/wordpress/two-fa/class-rsssl-passkey-list-table.php:29
+msgid "Last Used"
+msgstr "Ultima folosită"
+
+#: security/wordpress/two-fa/class-rsssl-passkey-list-table.php:28
+msgid "Registered"
+msgstr "Înregistrat"
+
+#: security/wordpress/two-fa/class-rsssl-passkey-list-table.php:27
+msgid "Device Name"
+msgstr "Nume dispozitiv"
+
+#: security/wordpress/two-fa/class-rsssl-passkey-list-table.php:15
+msgid "Devices"
+msgstr "Dispozitive"
+
+#: security/wordpress/two-fa/class-rsssl-passkey-list-table.php:14
+msgid "Device"
+msgstr "Dispozitiv"
+
+#: core/config/related.php:25 settings/settings.php:551
+msgid "Online Booking System"
+msgstr "Sistem de rezervare online"
+
+#: class-wp-cli.php:1347
+msgid ".htaccess file (%s) is not writable. Redirects cannot be configured automatically."
+msgstr "Fișierul .htaccess (%s) nu poate fi scris. Redirecționările nu pot fi configurate automat."
+
+#: assets/templates/two_fa/profile-settings.php:20
+msgid "Login protection"
+msgstr "Protecție la autentificare"
+
+#: assets/templates/passkey/login.php:13
+msgid "Remember Me"
+msgstr "Ține-mă minte"
+
+#: assets/templates/passkey/login.php:8
+msgid "Password"
+msgstr "Parolă"
+
+#: assets/templates/passkey/login.php:4
+msgid "Username or Email Address"
+msgstr "Nume utilizator sau adresă email"
+
+#: class-wp-cli.php:1666
+msgid "Flag to remove a permanent block."
+msgstr "Marcaj pentru a înlătura o blocare permanentă."
+
+#: class-wp-cli.php:1660
+msgid "The username to remove the block for."
+msgstr "Numele de utilizator pentru care înlături blocarea."
+
+#: class-wp-cli.php:1642
+msgid "The username to block."
+msgstr "Numele de utilizator de blocat."
+
+#: class-wp-cli.php:1575
+msgid "Remove a trusted IP from the firewall."
+msgstr "Elimină un IP de încredere din firewall."
+
+#: class-wp-cli.php:1570
+msgid "Add a trusted IP to the firewall."
+msgstr "Adaugă un IP de încredere la firewall."
+
+#: class-wp-cli.php:1565
+msgid "Show blocked IP's."
+msgstr "Arată IP-urile blocate."
+
+#: class-wp-cli.php:1559
+msgid "The IP to remove the block for."
+msgstr "IP-ul pentru care înlături blocarea."
+
+#: class-wp-cli.php:1553
+msgid "Remove IP block."
+msgstr "Înlătură blocarea unui IP."
+
+#: class-wp-cli.php:1547
+msgid "Optional note for the block."
+msgstr "Notă opțională pentru blocare."
+
+#: class-wp-cli.php:1541 class-wp-cli.php:1602 class-wp-cli.php:1620
+#: class-wp-cli.php:1648
+msgid "Flag to add a permanent block."
+msgstr "Marcaj pentru a adăuga o blocare permanentă."
+
+#: class-wp-cli.php:1535 class-wp-cli.php:1596 class-wp-cli.php:1614
+msgid "The IP to block."
+msgstr "IP-ul de blocat."
+
+#: class-wp-cli.php:1529
+msgid "Add IP block."
+msgstr "Adaugă o blocare IP."
+
+#: class-wp-cli.php:1524
+msgid "Update the advanced-headers.php with the latest rules."
+msgstr "Actualizează fișierul advanced-headers.php cu cele mai recente reguli."
+
+#: class-wp-cli.php:1481
+msgid "Add a lock file for safe mode."
+msgstr "Adaugă un fișier de blocare pentru modul de siguranță."
+
+#: class-wp-cli.php:1476
+msgid "Deactivate the license."
+msgstr "Dezactivează licența."
+
+#: class-wp-cli.php:1470
+msgid "The license key to activate."
+msgstr "Cheia de licență pentru activare."
+
+#: class-wp-cli.php:1464
+msgid "Activate a license key. Usage: wp rsssl activate_license YOUR_LICENSE_KEY."
+msgstr "Activează o cheie de licență. Utilizare: wp rsssl activate_license YOUR_LICENSE_KEY."
+
+#: class-wp-cli.php:1459
+msgid "Deactivate vulnerability scanning."
+msgstr "Dezactivează scanarea vulnerabilităților."
+
+#: class-wp-cli.php:1454
+msgid "Activate vulnerability scanning."
+msgstr "Activează scanarea vulnerabilităților."
+
+#: class-wp-cli.php:1429
+msgid "Deactivate Two-Factor Authentication."
+msgstr "Dezactivează Autentificare pe două niveluri."
+
+#: class-wp-cli.php:1424
+msgid "Activate Two-Factor Authentication."
+msgstr "Activează Autentificare pe două niveluri."
+
+#: class-wp-cli.php:1419
+msgid "Deactivate the firewall."
+msgstr "Dezactivează firewall-ul."
+
+#: class-wp-cli.php:1414
+msgid "Activate the firewall."
+msgstr "Activează firewall-ul."
+
+#: class-wp-cli.php:1409
+msgid "Deactivate essential security headers."
+msgstr "Dezactivează antetele de securitate esențiale."
+
+#: class-wp-cli.php:1404
+msgid "Activate essential security headers."
+msgstr "Activează antetele de securitate esențiale."
+
+#: class-wp-cli.php:1394
+msgid "Activate all recommended features."
+msgstr "Activează toate funcționalitățile recomandate."
+
+#: class-wp-cli.php:1388
+msgid "Value to set for the option."
+msgstr "Valoare de setat pentru opțiune."
+
+#: class-wp-cli.php:1382
+msgid "Name of the option to update."
+msgstr "Numele opțiunii de actualizat."
+
+#: class-wp-cli.php:1376
+msgid "Update a Really Simple Security option. Usage: wp rsssl update_option --name=option_name --value=option_value. Use 0 and 1 for booleans."
+msgstr "Actualizează o opțiune Really Simple Security. Utilizare: wp rsssl update_option --name=option_name --value=option_value. Folosește 0 și 1 pentru booleeni."
+
+#: class-wp-cli.php:1371
+msgid "Deactivate SSL on the site."
+msgstr "Dezactivează SSL pe site."
+
+#: class-wp-cli.php:1366
+msgid "Activate SSL on the site."
+msgstr "Activează SSL pe site."
+
+#: upgrade/upgrade-to-pro.php:399
+msgid "Unknown plugin encountered."
+msgstr "Am detectat un modul necunoscut."
+
+#: settings/config/fields/two-fa.php:115
+#: settings/config/fields/vulnerability-detection.php:114
+#: settings/config/fields/vulnerability-detection.php:133
+msgid "This feature is disabled because you have not verified that e-mail is correctly configured on your site."
+msgstr "Această funcționalitate este dezactivată deoarece nu ai verificat dacă emailul este configurat corect pe site-ul tău."
+
+#: security/wordpress/two-fa/class-rsssl-two-factor-profile-settings.php:176
+msgid "Verification code sent"
+msgstr "Am trimis codul de verificare"
+
+#: security/wordpress/two-fa/class-rsssl-two-factor-profile-settings.php:153
+#: security/wordpress/two-fa/class-rsssl-two-factor-profile-settings.php:170
+msgid "User not logged in."
+msgstr "Utilizatorul nu este autentificat."
+
+#: security/wordpress/two-fa/class-rsssl-two-factor-profile-settings.php:148
+msgid "Invalid nonce."
+msgstr "Nunicul nu este valid."
+
+#: security/wordpress/two-fa/controllers/class-rsssl-email-controller.php:351
+msgid "Too many attempts. Please try again later."
+msgstr "Prea multe încercări. Te rog să încerci din nou mai târziu."
+
+#: security/wordpress/two-fa/controllers/class-rsssl-email-controller.php:316
+#: security/wordpress/two-fa/controllers/class-rsssl-email-controller.php:334
+#: security/wordpress/two-fa/controllers/class-rsssl-email-controller.php:364
+msgid "Access denied."
+msgstr "Acces refuzat."
+
+#: security/wordpress/two-fa/class-rsssl-two-factor-profile-settings.php:160
+msgid "Verification code re-sent"
+msgstr "Am retrimis codul de verificare"
+
+#: class-admin.php:3375
+msgid "Claim your 6 Free months"
+msgstr "Solicită cele 6 luni gratuite"
+
+#: class-admin.php:3368
+msgid "Performant Firewall"
+msgstr "Firewall performant"
+
+#: class-admin.php:3365
+msgid "Discover:"
+msgstr "Descoperă:"
+
+#: class-admin.php:3360
+msgid "Thank you for being a long-time user! As a token of our gratitude, we want to offer you %s6 months Really Simple Security Pro, 100%% Free!%s"
+msgstr "Îți mulțumim că ești un utilizator consecvent! În semn de apreciere, dorim să îți oferim %s6 luni de Really Simple Security Pro, 100%% Gratuit!%s"
+
+#: class-site-health.php:243
+msgid "404 errors detected on your homepage. This means that the page requests images, scripts or other resources that are no longer available. It can interfere with your Firewall as well."
+msgstr "Erori 404 detectate pe pagina ta de pornire. Aceasta înseamnă că pagina solicită imagini, scripturi sau alte resurse care nu mai sunt disponibile. De asemenea, poate interfera cu firewall-ul tău."
+
+#: class-site-health.php:235 settings/config/disable-fields-filter.php:80
+msgid "404 errors detected on your homepage"
+msgstr "Erori 404 detectate pe prima pagină"
+
+#: class-admin.php:2465 settings/config/fields/firewall.php:106
+#: settings/config/fields/firewall.php:128
+#: settings/config/fields/firewall.php:150
+msgid "404 errors detected on your homepage. 404 blocking is unavailable, to prevent blocking of legitimate visitors. It is strongly recommended to resolve these errors."
+msgstr "Erori 404 detectate pe pagina ta de pornire. Blocarea 404 nu este disponibilă, pentru a preveni blocarea vizitatorilor legitimi. Este foarte recomandat să rezolvi aceste erori."
+
+#. translators: 1: Site URL.
+#: security/wordpress/two-fa/services/class-rsssl-two-fa-reminder-service.php:101
+msgid "You are receiving this email because you have an account registered at %s."
+msgstr "Primești acest email deoarece ai un cont înregistrat la %s."
+
+#: security/wordpress/two-fa/services/class-rsssl-two-fa-reminder-service.php:94
+msgid "Please login"
+msgstr "Te rog autentifică-te"
+
+#. translators: %s: First name. %s: Last name.
+#: security/wordpress/two-fa/services/class-rsssl-two-fa-reminder-service.php:153
+msgid "Hi %s %s"
+msgstr "Bună %s %s"
+
+#: security/wordpress/two-fa/services/class-rsssl-two-fa-reminder-service.php:82
+msgid "Important security notice"
+msgstr "Notificare importantă privind securitatea"
+
+#: settings/config/menu.php:564 settings/config/menu.php:565
+msgid "User-Agents"
+msgstr "Agenți utilizator"
+
+#: settings/config/fields/firewall.php:196
+msgid "Date Added"
+msgstr "Data adăugării"
+
+#: settings/config/fields/firewall.php:182
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Settings/firewall/UserAgentModal.js:104
+msgid "User-Agent"
+msgstr "Agent utilizator"
+
+#: settings/config/fields/firewall.php:169 settings/config/menu.php:578
+msgid "Deleted"
+msgstr "Eliminat"
+
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:299
+msgid "Below you'll find the email activation code for %1$s. It's valid for 15 minutes. %2$s"
+msgstr "Mai jos vei găsi codul de activare prin email pentru %1$s. Este valabil 15 minute. %2$s"
+
+#: progress/class-progress.php:86
+msgid "Basic security configuration completed!"
+msgstr "Configurarea de bază pentru securitate este finalizată!"
+
+#: class-site-health.php:153
+msgid "Secure your site with a Firewall"
+msgstr "Protejează-ți site-ul cu un firewall"
+
+#: class-site-health.php:149
+msgid "Your site is protected by a firewall."
+msgstr "Site-ul tău este protejat de un firewall."
+
+#: class-site-health.php:144
+msgid "Secure your site with the performant Firewall."
+msgstr "Securizează-ți site-ul cu firewall performant."
+
+#: class-site-health.php:122
+msgid "Protect your login form with Limit Login Attempts"
+msgstr "Protejează-ți formularul de autentificare cu Limitează încercările de autentificare"
+
+#: class-site-health.php:118
+msgid "Your site is protected by Limit Login Attempts."
+msgstr "Site-ul tău este protejat prin Limitează încercările de autentificare."
+
+#: class-site-health.php:113
+msgid "Enable Limit Login Attempts to protect the login form against brute-force attacks."
+msgstr "Activează Limitează încercările de autentificare pentru a proteja formularul de autentificare împotriva atacurilor cu forță-brută."
+
+#: class-site-health.php:91
+msgid "Protect your user logins with Two-Factor Authentication (at least for Administrator accounts)"
+msgstr "Protejează autentificările utilizatorilor cu Autentificare pe două niveluri (cel puțin pentru administratori)"
+
+#: class-site-health.php:87
+msgid "Your site is protected by Two-Factor Authentication (2FA)."
+msgstr "Site-ul tău este protejat prin Autentificare pe două niveluri (2FA)."
+
+#: class-site-health.php:82
+msgid "We recommend to enable Two-Factor Authentication at least for administrators."
+msgstr "Îți recomandăm să activezi Autentificare pe două niveluri, cel puțin pentru administratori."
+
+#: class-site-health.php:67
+msgid "Firewall Protection"
+msgstr "Protecție prin firewall"
+
+#: class-site-health.php:61
+msgid "Limit Login Attempts Protection"
+msgstr "Protecție prin Limitează încercările de autentificare"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: rlrsssl-really-simple-ssl.php
+msgid "Really Simple Security"
+msgstr "Really Simple Security"
+
+#. Description of the plugin
+#: rlrsssl-really-simple-ssl.php upgrade/upgrade-to-pro.php:140
+msgid "Easily improve site security with WordPress Hardening, Two-Factor Authentication (2FA), Login Protection, Vulnerability Detection and SSL certificate generation."
+msgstr "Îmbunătățeste cu ușurință securitatea site-ului cu întărirea WordPress, autentificarea cu doi factori (2FA), protecția conectării, detectarea vulnerabilităților și generarea certificatelor SSL."
+
+#: settings/config/menu.php:322
+msgid "TOTP requires users to authenticate using a third-party app such as Google Authenticator."
+msgstr "TOTP cere utilizatorilor să se autentifice folosind o aplicație terță, cum ar fi Google Authenticator."
+
+#: settings/config/menu.php:321
+msgid "Authenticator App (TOTP)"
+msgstr "Aplicație Authenticator (TOTP)"
+
+#: settings/config/menu.php:104
+msgid "Essential Security Headers"
+msgstr "Antete esențiale pentru securitate"
+
+#: settings/config/fields/two-fa.php:86 settings/config/fields/two-fa.php:87
+#: settings/config/fields/two-fa.php:88
+msgid "%s days"
+msgstr "%s zile"
+
+#: settings/config/fields/two-fa.php:81
+msgid "Allow grace period"
+msgstr "Permite o perioadă de grație"
+
+#: settings/config/fields/security-headers.php:28
+msgid "About Essential Security Headers"
+msgstr "Despre antetele esențiale pentru securitate"
+
+#: security/wordpress/two-fa/traits/trait-rsssl-email-trait.php:145
+msgid "Compromised password reset"
+msgstr "Resetare parolă compromisă"
+
+#: security/wordpress/two-fa/traits/trait-rsssl-email-trait.php:121
+msgid "Hello, this is a notice from your website to inform you that an unusually high number of failed login attempts have been detected on the %1$s account (ID %2$d). Those attempts successfully entered the user's password, and were only blocked because they entered invalid second authentication factors. To protect their account, the password has automatically been reset, and they have been notified that they will need to create a new one. If you do not wish to receive these notifications, you can disable them with the `two_factor_notify_admin_user_password_reset` filter. See %3$s for more information. Thank you"
+msgstr "Salut, aceasta este o notificare de pe site-ul tău pentru a te informa că a fost detectat un număr neobișnuit de mare de încercări de autentificare eșuate în contul %1$s (ID %2$d). Aceste încercări au introdus cu succes parola utilizatorului și au fost blocate doar pentru că au introdus al doilea factor de autentificare invalid. Pentru a proteja contul, parola a fost resetată automat, iar utilizatorii au fost notificați că vor trebui să creeze una nouă. Dacă nu dorești să primești aceste notificări, le poți dezactiva cu filtrul `two_factor_notify_admin_user_password_reset`. Pentru mai multe informații, consultă %3$s. Mulțumim."
+
+#: security/wordpress/two-fa/traits/trait-rsssl-email-trait.php:101
+msgid "Compromised password for %s has been reset"
+msgstr "Parola compromisă pentru %s a fost resetată"
+
+#. translators: %1$s: user login, %2$s: site url, %3$s: password best practices
+#. link, %4$s: lost password url
+#: security/wordpress/two-fa/traits/trait-rsssl-email-trait.php:49
+msgid ""
+"Hello %1$s, an unusually high number of failed login attempts have been detected on your account at %2$s.\n"
+"\n"
+"These attempts successfully entered your password, and were only blocked because they failed to enter your second authentication factor. Despite not being able to access your account, this behavior indicates that the attackers have compromised your password. The most common reasons for this are that your password was easy to guess, or was reused on another site which has been compromised.\n"
+"\n"
+"To protect your account, your password has been reset, and you will need to create a new one. For advice on setting a strong password, please read %3$s\n"
+"\n"
+"To pick a new password, please visit %4$s\n"
+"\n"
+"This is an automated notification. If you would like to speak to a site administrator, please contact them directly."
+msgstr ""
+"Bună ziua %1$s, a fost detectat un număr neobișnuit de mare de încercări eșuate de conectare în contul tău la %2$s.\n"
+"\n"
+"Aceste încercări au introdus cu succes parola ta și au fost blocate doar pentru că nu au reușit să introducă al doilea factor de autentificare. În ciuda faptului că nu ți-au putut accesa contul, acest comportament indică faptul că atacatorii ți-au compromis parola. Cele mai comune motive pentru aceasta sunt că parola ta a fost ușor de ghicit sau a fost reutilizată pe un alt site care a fost compromis.\n"
+"\n"
+"Pentru a-ți proteja contul, parola a fost resetată și va trebui să creezi una nouă. Pentru sfaturi despre setarea unei parole puternice, te rugăm să citești %3$s\n"
+"\n"
+"Pentru a alege o nouă parolă, accesează %4$s\n"
+"\n"
+"Aceasta este o notificare automată. Dacă dorești să vorbești cu un administrator de site, contactează-l direct."
+
+#: security/wordpress/two-fa/traits/trait-rsssl-email-trait.php:28
+msgid "Your password was compromised and has been reset"
+msgstr "Parola ta a fost compromisă și a fost resetată"
+
+#: security/wordpress/two-fa/function-login-header.php:136
+msgid "Powered by WordPress"
+msgstr "Propulsat de WordPress"
+
+#: security/wordpress/two-fa/function-login-header.php:133
+msgid "Usage of the title attribute on the login logo is not recommended for accessibility reasons. Use the link text instead."
+msgstr "Din motive de accesibilitate, nu este recomandată folosirea atributului titlu în logoul de autentificare. Folosește în schimb textul legăturii."
+
+#: security/wordpress/two-fa/function-login-header.php:107
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. translators: %s: Login screen title.
+#: security/wordpress/two-fa/function-login-header.php:60
+msgid "Recovery Mode &#8212; %s"
+msgstr "Mod recuperare &#8212; %s"
+
+#. translators: Login screen title. 1: Login screen name, 2: Network or site
+#. name.
+#: security/wordpress/two-fa/function-login-header.php:56
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr "%1$s &lsaquo; %2$s &#8212; WordPress"
+
+#. translators: %s: Site title.
+#: security/wordpress/two-fa/function-login-footer.php:31
+msgctxt "site"
+msgid "&larr; Go to %s"
+msgstr "&larr; Mergi la %s"
+
+#: security/wordpress/two-fa/class-rsssl-two-factor.php:1354
+msgid "Password Reset"
+msgstr "Resetare parolă"
+
+#: security/wordpress/two-fa/class-rsssl-two-factor.php:1347
+msgid "If you are the owner of this account, please check your email for instructions on regaining access."
+msgstr "Dacă ești proprietarul acestui cont, te rog să verifici emailurile primite pentru instrucțiuni despre redobândirea accesului."
+
+#: security/wordpress/two-fa/class-rsssl-two-factor.php:1343
+msgid "There have been too many failed two-factor authentication attempts, which often indicates that the password has been compromised. The password has been reset in order to protect the account."
+msgstr "Au existat prea multe încercări eșuate de autentificare pe două niveluri, adesea asta indică că parola a fost compromisă. Parola a fost resetată pentru a proteja contul."
+
+#: security/wordpress/two-fa/class-rsssl-two-factor.php:1154
+msgid "Invalid verification code."
+msgstr "Codul de verificare nu este valid."
+
+#. translators: %s: time delay between login attempts
+#: security/wordpress/two-fa/class-rsssl-two-factor.php:1092
+msgid "Too many invalid verification codes, you can try again in %s. This limit protects your account against automated attacks."
+msgstr "Prea multe coduri de verificare nevalide, poți încerca din nou în %s. Această limită îți protejează contul împotriva atacurilor automate."
+
+#: security/wordpress/two-fa/class-rsssl-two-factor.php:549
+#: security/wordpress/two-fa/class-rsssl-two-factor.php:1406
+msgid "Your 2FA grace period expired. Please contact your site administrator to regain access and to configure 2FA."
+msgstr "Perioada ta de grație pentru 2FA a expirat. Te rog să contactezi administratorul site-ului pentru a redobândi accesul și configura 2FA."
+
+#: security/wordpress/two-fa/class-rsssl-two-factor.php:1610
+msgid "Could not copy text: "
+msgstr "Nu am putut să copiez textul: "
+
+#: security/wordpress/two-fa/class-rsssl-two-factor.php:1609
+msgid "Key copied"
+msgstr "Am copiat cheia"
+
+#: security/wordpress/two-fa/class-rsssl-two-factor-profile-settings.php:291
+msgid "The Two-Factor Authentication setup for TOTP failed. Please try again."
+msgstr "Inițializarea Autentificare pe două niveluri pentru TOTP a eșuat. Te rog să încerci din nou."
+
+#: security/wordpress/two-fa/class-rsssl-two-factor-profile-settings.php:267
+msgid "Two-Factor Authentication for TOTP failed. No Authentication code provided, please try again."
+msgstr "Autentificare pe două niveluri pentru TOTP a eșuat. Nu ai furnizat niciun cod de autentificare, te rog să încerci din nou."
+
+#: security/wordpress/two-fa/controllers/class-rsssl-email-controller.php:100
+#: security/wordpress/two-fa/controllers/class-rsssl-email-controller.php:137
+#: security/wordpress/two-fa/controllers/class-rsssl-email-controller.php:163
+#: security/wordpress/two-fa/controllers/class-rsssl-email-controller.php:229
+msgid "Invalid provider"
+msgstr "Furnizorul nu este valid"
+
+#: security/wordpress/two-fa/controllers/class-rsssl-email-controller.php:200
+msgid "Code was invalid, try \"Resend Code\""
+msgstr "Codul a fost invalid, încearcă „Retrimite codul”"
+
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:587
+msgid "Receive a code by email"
+msgstr "Primești un cod prin email"
+
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:584
+msgid "Enabled"
+msgstr "Activată"
+
+#. translators: %s: email address
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:484
+msgid "Authentication codes will be sent to %s."
+msgstr "Codurile de autentificare vor fi trimise la %s."
+
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:415
+msgid "Don't use Two-Factor Authentication"
+msgstr "Nu folosi Autentificare pe două niveluri"
+
+#: assets/templates/passkey/login.php:17
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:382
+msgid "Log In"
+msgstr "Autentificare"
+
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:340
+msgid "Hi"
+msgstr "Bună"
+
+#. translators: %s is replaced with the site url
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:337
+#: security/wordpress/two-fa/services/class-rsssl-two-fa-reminder-service.php:125
+#: security/wordpress/two-fa/traits/trait-rsssl-email-trait.php:142
+msgid "Notification by %s"
+msgstr "Notificare de la %s"
+
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:305
+msgid "Below you will find your login code for %1$s. It's valid for 15 minutes. %2$s"
+msgstr "Mai jos vei găsi codul de autentificare pentru %1$s. Este valabil 15 minute. %2$s"
+
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:108
+msgctxt "Provider Label"
+msgid "Email"
+msgstr "Email"
+
+#: security/wordpress/two-fa/class-rsssl-parameter-validation.php:114
+msgid "The key is not valid."
+msgstr "Cheia nu este validă."
+
+#: security/wordpress/two-fa/class-rsssl-parameter-validation.php:95
+msgid "The authentication code is not valid."
+msgstr "Codul de autentificare nu este valid."
+
+#: security/wordpress/two-fa/class-rsssl-parameter-validation.php:76
+msgid "The selected provider is not valid."
+msgstr "Furnizorul selectat nu este valid."
+
+#: security/wordpress/two-fa/class-rsssl-parameter-validation.php:57
+msgid "The user object is not valid."
+msgstr "Obiectul nu este valid."
+
+#: security/wordpress/two-fa/class-rsssl-parameter-validation.php:38
+msgid "The user ID is not valid."
+msgstr "ID-ul utilizator nu este valid."
+
+#: security/notices.php:139
+msgid "Vulnerability scanning is enabled."
+msgstr "Scanare vulnerabilități este activată."
+
+#: security/notices.php:132
+msgid "Enable the Vulnerability scan to detect possible vulnerabilities."
+msgstr "Activează Scanare vulnerabilități pentru a detecta eventuale vulnerabilități."
+
+#: progress/class-progress.php:82
+msgid "Security configuration completed!"
+msgstr "Configurarea pentru securitate este finalizată!"
+
+#: progress/class-progress.php:79
+msgid "Security configuration not completed yet. You still have %s task open."
+msgid_plural "You still have %s tasks open."
+msgstr[0] "Configurația de securitate nu a fost finalizată încă. Încă mai ai %s sarcină deschisă."
+msgstr[1] "Încă mai ai %s sarcini deschise."
+msgstr[2] "Încă mai ai %s sarcini deschise."
+
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:144
+msgid "Instantly configure these essential features."
+msgstr "Configurează instantaneu aceste funcționalități esențiale."
+
+#: core/app/Services/SettingsConfigService.php:196
+msgid "Strong Password policy"
+msgstr "Politică pentru parole puternice"
+
+#: core/app/Services/SettingsConfigService.php:31
+msgid "Essential WordPress hardening"
+msgstr "Întărire WordPress esențială"
+
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:219
+msgid "We think you will like this"
+msgstr "Credem că-ți va plăcea asta"
+
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:179
+msgid "Activate your license key"
+msgstr "Activează-ți cheia de licență"
+
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:159
+msgid "Essential security"
+msgstr "Securitate esențială"
+
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:130
+msgid "Verify your email"
+msgstr "Confirmă-ți adresa de email"
+
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:83
+msgid "Welcome to Really Simple Security"
+msgstr "Bine ai venit la Really Simple Security"
+
+#: class-site-health.php:266
+msgid "Essential security headers installed"
+msgstr "Antetele esențiale pentru securitate sunt instalate"
+
+#: class-admin.php:2384
+msgid "Protect your site with a performant Firewall."
+msgstr "Protejează-ți site-ul cu un Firewall performant."
+
+#: class-admin.php:2372
+msgid "Protect your login form with Limit Login Attempts."
+msgstr "Protejează-ți formularul de autentificare cu Limitează încercările de autentificare."
+
+#: class-admin.php:2360
+msgid "Implement Two-Factor Authentication or Passkey login."
+msgstr "Implementează Autentificare pe două niveluri sau autentificare Passkey."
+
+#: class-admin.php:679
+msgid "View Dashboard"
+msgstr "Vezi panoul de control"
+
+#: assets/templates/two_fa/totp-config.php:54
+msgid "Submit"
+msgstr "Trimite"
+
+#. Translators: %s is the hyperlink for "Download"
+#: assets/templates/two_fa/totp-config.php:22
+msgid "Use your authenticator app like Google Authenticator to scan the QR code below, then paste the provided Authentication code. %s"
+msgstr "Folosește aplicația ta de autentificare, cum ar fi Google Authenticator, pentru a scana codul QR de mai jos, apoi copiază codul de autentificare furnizat. %s"
+
+#: assets/templates/two_fa/totp-config.php:11
+msgid "Authentication code is incorrect."
+msgstr "Codul de autentificare este incorect."
+
+#: assets/templates/two_fa/profile-settings.php:121
+msgid "A verification code has been sent to the email address associated with your account to verify functionality."
+msgstr "Un cod de verificare a fost trimis la adresa de e-mail asociată contului tău pentru a verifica funcționalitatea."
+
+#. translators: Example auth code.
+#: assets/templates/two_fa/profile-settings.php:100
+#: assets/templates/two_fa/totp-config.php:45
+msgid "eg. %s"
+msgstr "de exemplu %s"
+
+#: assets/templates/two_fa/profile-settings.php:97
+#: assets/templates/two_fa/totp-config.php:42
+msgid "Authentication Code:"
+msgstr "Cod de autentificare"
+
+#: assets/templates/two_fa/profile-settings.php:66
+msgid "Preferred Method"
+msgstr "Metoda preferată"
+
+#: assets/templates/two_fa/profile-settings.php:61
+msgid "Selected provider"
+msgstr "Furnizor selectat"
+
+#: assets/templates/two_fa/profile-settings.php:53
+msgid "Codes only available for 5 minutes"
+msgstr "Codurile sunt disponibile numai pentru 5 minute"
+
+#: assets/templates/two_fa/profile-settings.php:52
+#: assets/templates/two_fa/totp-config.php:23
+#: security/wordpress/two-fa/class-rsssl-two-factor.php:1608
+msgid "Download Backup Codes"
+msgstr "Descarcă codurile de rezervă"
+
+#: assets/templates/two_fa/profile-settings.php:42
+#: assets/templates/two_fa/profile-settings.php:48
+msgid "Backup Codes"
+msgstr "Coduri de rezervă"
+
+#: assets/templates/two_fa/profile-settings.php:31
+#: settings/config/fields/two-fa.php:14
+msgid "Enable Two-Factor Authentication"
+msgstr "Activează Autentificare pe două niveluri"
+
+#: assets/templates/two_fa/profile-settings.php:24
+msgid "Two-Factor Authentication is mandatory for your account, so you need to make a selection."
+msgstr "Autentificarea pe două niveluri este obligatorie pentru contul tău, deci trebuie să faci o selecție."
+
+#: assets/templates/two_fa/profile-settings.php:21
+msgid "Two-Factor Authentication adds an extra layer of security to your account. You can enable it here."
+msgstr "Autentificarea pe două niveluri adaugă un nivel suplimentar de securitate pentru contul tău. O poți activa aici."
+
+#: assets/templates/two_fa/onboarding.php:171
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:271
+msgid "Continue"
+msgstr "Continuă"
+
+#: assets/templates/two_fa/onboarding.php:156
+msgid "day"
+msgstr "zi"
+
+#: assets/templates/two_fa/onboarding.php:156
+msgid "days"
+msgstr "zile"
+
+#: assets/templates/two_fa/onboarding.php:154
+msgid "Skip (%1$d %2$s remaining)"
+msgstr "Omite (%1$d %2$s rămase)"
+
+#: assets/templates/two_fa/onboarding.php:150
+msgid "Skip (Only today remaining)"
+msgstr "Omite (a rămas doar ziua de azi)"
+
+#: assets/templates/two_fa/onboarding.php:126
+#: assets/templates/two_fa/profile-settings.php:121
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:383
+msgid "Resend Code"
+msgstr "Retrimite codul"
+
+#: assets/templates/two_fa/onboarding.php:118
+#: assets/templates/two_fa/profile-settings.php:117
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:378
+msgid "Verification Code:"
+msgstr "Cod de verificare:"
+
+#: assets/templates/two_fa/onboarding.php:116
+#: security/wordpress/two-fa/controllers/class-rsssl-email-controller.php:255
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:376
+msgid "A verification code has been sent to the email address associated with your account."
+msgstr "A fost trimis un cod de verificare la adresa de email asociată cu contul tău."
+
+#: assets/templates/two_fa/onboarding.php:72
+msgid "Please make sure to configure a method, access to your account will be denied if no method is configured today."
+msgstr "Te rugăm să ai grijă să configurezi o metodă, accesul la contul tău va fi refuzat dacă nu este configurată nicio metodă astăzi."
+
+#: assets/templates/two_fa/onboarding.php:67
+msgid "Please make sure to configure a method, access to your account will be denied if no method is configured within the next %s days."
+msgstr "Te rugăm să ai grijă să configurezi o metodă, accesul la contul tău va fi refuzat dacă nu este configurată nicio metodă în următoarele %s zile."
+
+#: assets/templates/two_fa/onboarding.php:56
+#: assets/templates/two_fa/onboarding.php:137
+msgid "Don't ask again"
+msgstr "Nu întreba din nou"
+
+#: assets/templates/two_fa/onboarding.php:53
+msgid "You can protect your account with a second authentication layer. Please choose one of the following methods, or click %s if you don't want to use Two-Factor Authentication."
+msgstr "Îți poți proteja contul cu un al doilea nivel de autentificare. Te rog să alegi una dintre metodele următoare sau să dai clic pe %s dacă nu vei să folosești Autentificare pe două niveluri."
+
+#: assets/templates/two_fa/onboarding.php:48
+msgid "This site requires you to secure your account with a second authentication method."
+msgstr "Acest site îți solicită să îți securizezi contul cu o a doua metodă de autentificare."
+
+#: settings/config/fields/hibp-integration.php:12
+msgid "Enable compromised password check"
+msgstr "Activează verificarea parolelor compromise"
+
+#: settings/config/fields/hardening-basic.php:93
+msgid "Unset X-Powered-By header"
+msgstr "Antet X-Powered-By nesetat"
+
+#: settings/config/menu.php:678 settings/config/menu.php:679
+msgid "Event Logs"
+msgstr "Jurnale evenimente"
+
+#: settings/config/menu.php:668
+msgid "Logs"
+msgstr "Jurnale"
+
+#: settings/config/menu.php:659
+msgid "Permanent"
+msgstr "Permanent"
+
+#: settings/config/menu.php:655
+msgid "Temporary"
+msgstr "Temporar"
+
+#: settings/config/menu.php:643
+msgid "This list shows all individually blocked IP addresses. On top the top-right you can filter between permanent blocks and temporary blocks. By default, blocks are only temporary, as attackers and bots will frequently alter between IP addresses. However, you can manually configure permanent blocks."
+msgstr "Această listă arată toate adresele IP blocate individual. În partea din dreapta sus, poți filtra între blocuri permanente și blocuri temporare. În mod implicit, blocările sunt doar temporare, deoarece atacatorii și roboții vor schimba frecvent adresele IP. Cu toate acestea, poți configura manual blocurile permanente."
+
+#: settings/config/menu.php:641 settings/config/menu.php:642
+msgid "IP Blocklist"
+msgstr "Listă cu IP-uri blocate"
+
+#: settings/config/menu.php:617
+msgid "Blocklists"
+msgstr "Liste cu blocări"
+
+#: settings/config/menu.php:555 settings/config/menu.php:556
+msgid "404 Blocking"
+msgstr "Blocare 404"
+
+#: settings/config/menu.php:548
+msgid "The lightweight Firewall can be used to lockout malicious traffic from your site. You can configure generic rules below, or block specific IP addresses by adding them to the Blocklist."
+msgstr "Firewall-ul ușor poate fi folosit pentru a bloca traficul rău intenționat de pe site-ul tău. Poți configura reguli generice de mai jos sau poți bloca anumite adrese IP adăugându-le la Lista de blocare."
+
+#: settings/config/menu.php:544
+msgid "Firewall Rules"
+msgstr "Reguli firewall"
+
+#: settings/config/menu.php:536
+msgid "Rules"
+msgstr "Reguli"
+
+#: settings/config/fields/firewall.php:148
+msgid "Trigger Captcha on lockout"
+msgstr "Declanșează Captcha la blocare"
+
+#: settings/config/fields/firewall.php:147
+msgid "Allow visitors that might accidentally exceed the threshold to unblock themselves using a Captcha."
+msgstr "Permite vizitatorilor care ar putea depăși accidental pragul să se deblocheze folosind un Captcha."
+
+#: settings/config/fields/firewall.php:133
+msgid "1 day"
+msgstr "O zi"
+
+#: settings/config/fields/firewall.php:130
+msgid "30 minutes"
+msgstr "30 de minute"
+
+#: settings/config/fields/firewall.php:126
+msgid "The IP address will see a locked-out screen for the selected duration."
+msgstr "Adresa IP va vedea un ecran blocat pentru durata selectată."
+
+#: settings/config/fields/firewall.php:111
+msgid "Strict - 10 errors in 10 seconds"
+msgstr "Strict - 10 erori în 10 secunde"
+
+#: settings/config/fields/firewall.php:110
+msgid "Normal - 10 errors in 5 seconds"
+msgstr "Normal - 10 erori în 5 secunde"
+
+#: settings/config/fields/firewall.php:109
+msgid "Lax - 10 errors in 2 seconds"
+msgstr "Superficial - 10 erori în 2 secunde"
+
+#: settings/config/fields/firewall.php:103
+msgid "A lockout will occur if an IP address exceeds the threshold within the given timeframe. Select ‘%s’ if you want to disable 404 blocking."
+msgstr "Dacă o adresă IP depășește pragul în intervalul de timp dat, ea va fi blocată. Selectează „%s” dacă dorești să dezactivezi blocarea 404."
+
+#: settings/config/fields/firewall.php:102
+msgid "Threshold"
+msgstr "Prag"
+
+#: settings/config/fields/firewall.php:84
+msgid "Time left"
+msgstr "Timp rămas"
+
+#: settings/config/fields/firewall.php:14
+msgid "Enable Firewall"
+msgstr "Activează firewall-ul"
+
+#: settings/config/fields/access-control.php:81
+msgid "Limit logged in session duration"
+msgstr "Limitează durata sesiunii de autentificare"
+
+#: settings/config/fields/access-control.php:79
+msgid "48 hours (default)"
+msgstr "48 de ore (implicit)"
+
+#: lets-encrypt/class-letsencrypt-handler.php:821
+msgid "Certificate not created."
+msgstr "Certificatul nu este creat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:817
+msgid "Due to a change in challenge type, the order had to be reset. Please start at the previous step."
+msgstr "Din cauza unei modificări a tipului de provocare, comanda a trebuit să fie resetată. Te rugăm să începi cu pasul anterior."
+
+#: lets-encrypt/class-letsencrypt-handler.php:683
+msgid "%d seconds"
+msgstr "%d secunde"
+
+#: lets-encrypt/class-letsencrypt-handler.php:681
+msgid "%d:%02d minutes"
+msgstr "%d:%02d minute"
+
+#: lets-encrypt/class-letsencrypt-handler.php:677
+msgid "%d:%02d:%02d hours"
+msgstr "%d:%02d:%02d ore"
+
+#: lets-encrypt/class-letsencrypt-handler.php:625
+msgid "Please wait %s before trying again, as this is the expiration of the DNS record currently."
+msgstr "Te rugăm să aștepți %s înainte de a încerca din nou, deoarece aceasta este expirarea înregistrării DNS în prezent."
+
+#: lets-encrypt/class-letsencrypt-handler.php:487
+#: lets-encrypt/class-letsencrypt-handler.php:508
+msgid "Please start at the previous step."
+msgstr "Te rog să începi de la pasul anterior."
+
+#: lets-encrypt/class-letsencrypt-handler.php:487
+#: lets-encrypt/class-letsencrypt-handler.php:508
+msgid "There are existing keys, the order had to be cleared first."
+msgstr "Au fost găsite chei existente, comanda a trebuit să fie ștearsă mai întâi."
+
+#: lets-encrypt/class-letsencrypt-handler.php:487
+#: lets-encrypt/class-letsencrypt-handler.php:490
+#: lets-encrypt/class-letsencrypt-handler.php:508
+msgid "DNS token not retrieved."
+msgstr "Tokenul DNS nu a fost preluat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:460
+#: lets-encrypt/class-letsencrypt-handler.php:468
+msgid "Token successfully retrieved. Click the refresh button if it's not visible yet."
+msgstr "Tokenul a fost preluat cu succes. Apasă pe butonul de reîmprospătare dacă nu este încă vizibil."
+
+#: settings/config/fields/security-headers.php:350
+msgid "Yes (don't set header)"
+msgstr "Da (nu seta antetul)"
+
+#: settings/config/menu.php:265
+msgid "Control and monitor the use of XML-RPC on your site with learning mode."
+msgstr "Controlează și monitorizează utilizarea XML-RPC pe site-ul tău cu modul de învățare."
+
+#: settings/config/menu.php:199
+msgid "Scan results"
+msgstr "Rezultate scanare"
+
+#: core/app/Services/SettingsConfigService.php:25 settings/config/menu.php:187
+#: settings/config/menu.php:192 settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/src/Dashboard/Progress/ProgressFooter.js:58
+#: settings/src/Dashboard/Progress/ProgressFooter.js:62
+msgid "Vulnerability scan"
+msgstr "Scanare pentru vulnerabilități"
+
+#: settings/config/fields/vulnerability-detection.php:15
+msgid "Enable vulnerability scanning"
+msgstr "Activează scanarea pentru vulnerabilități"
+
+#: settings/config/menu.php:592
+msgid "Restrict access to your site based on user location. By default, all regions are allowed. You can also block entire continents."
+msgstr "Restricționează accesul la site-ul tău în funcție de locația utilizatorului. În mod implicit, toate regiunile sunt permise. De asemenea, poți să blochezi un continente întregi."
+
+#: settings/config/menu.php:630
+msgid "Here you can add IP addresses that should never be blocked by the Firewall. We will automatically add the IP address of the administrator that enabled the Firewall."
+msgstr "Aici poți adăuga adrese IP care nu ar trebui să fie niciodată blocate de Firewall. Vom adăuga automat adresa IP a administratorului care a activat Firewall-ul."
+
+#: settings/config/menu.php:628 settings/config/menu.php:629
+msgid "Trusted IP addresses"
+msgstr "Adrese IP de încredere"
+
+#: settings/config/menu.php:588 settings/config/menu.php:625
+#: settings/config/menu.php:638 settings/config/menu.php:675
+msgid "This feature allows you to block visitors from your website based on country"
+msgstr "Această funcționalitate îți permite să blochezi vizitatorii pe site-ul tău în funcție de țară"
+
+#: settings/config/fields/hardening-extended.php:86
+msgid "File permissions check"
+msgstr "Verificare permisiuni fișiere"
+
+#: settings/config/fields/firewall.php:38
+#: settings/config/fields/firewall.php:78
+#: settings/config/fields/firewall.php:189
+msgid "Note"
+msgstr "Notă"
+
+#: settings/config/menu.php:46
+msgid "Protect your website against brute-force attacks with a captcha. Choose between Google reCAPTCHA or hCaptcha."
+msgstr "Protejează-ți site-ul împotriva atacurilor de forță brută cu un captcha. Alege între Google reCAPTCHA sau hCaptcha."
+
+#: settings/config/menu.php:45
+msgid "Really Simple Security can trigger a Captcha to limit access to your site or the log in form."
+msgstr "Really Simple Security poate declanșa un Captcha pentru a limita accesul la site-ul tău sau la formularul de autentificare."
+
+#: settings/config/menu.php:41 settings/config/menu.php:44
+msgid "Captcha"
+msgstr "Captcha"
+
+#: settings/config/fields/firewall.php:152
+#: settings/config/fields/limit-login-attempts.php:122
+msgid "Please configure your %sCaptcha settings%s before enabling this setting"
+msgstr "Te rog să configurezi %ssetările Captcha%s înainte de activarea acestei setări"
+
+#: settings/config/fields/limit-login-attempts.php:119
+msgid "Trigger captcha on failed login attempt"
+msgstr "Declanșează captcha pentru încercări de autentificare eșuate"
+
+#: settings/config/fields/limit-login-attempts.php:85
+msgid "%s months"
+msgstr "%s luni"
+
+#: settings/config/fields/limit-login-attempts.php:84
+msgid "%s month"
+msgstr "o lună"
+
+#: settings/config/fields/limit-login-attempts.php:83
+msgid "%s week"
+msgstr "o săptămână"
+
+#: settings/config/fields/general.php:201
+msgid "Captcha has not yet been verified, you need to complete the process of a Captcha to verify its availability."
+msgstr "Captcha nu a fost încă verificat, trebuie să finalizezi procesul unui Captcha pentru a verifica disponibilitatea acestuia."
+
+#: settings/config/fields/general.php:184
+msgid "hCaptcha secret key"
+msgstr "Cheie secretă hCaptcha"
+
+#: settings/config/fields/general.php:167
+msgid "hCaptcha site key"
+msgstr "cheie site hCaptcha"
+
+#: settings/config/fields/general.php:150
+msgid "reCaptcha secret key"
+msgstr "Cheie secretă reCaptcha"
+
+#: settings/config/fields/general.php:133
+msgid "reCaptcha site key"
+msgstr "Cheie site reCAPTCHA"
+
+#: settings/config/fields/general.php:115
+msgid "Captcha provider"
+msgstr "Furnizor de captcha"
+
+#: settings/config/fields/general.php:113
+msgid "hCaptcha"
+msgstr "hCaptcha"
+
+#: settings/config/fields/general.php:112
+msgid "reCaptcha v2"
+msgstr "reCaptcha v2"
+
+#: settings/config/fields/general.php:111
+msgid "Choose your provider"
+msgstr "Alege furnizorul"
+
+#: settings/config/menu.php:545 settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Settings/firewall/UserAgentTable.js:275
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:520
+msgid "Restrict access from specific countries or continents. You can also allow only specific countries."
+msgstr "Restricționează accesul din anumite țări sau continente. De asemenea, poți permite numai anumite țări."
+
+#: settings/config/fields/firewall.php:132
+msgid "4 hours"
+msgstr "4 ore"
+
+#: settings/config/fields/access-control.php:78
+msgid "8 hours (recommended)"
+msgstr "8 ore (recomandat)"
+
+#: core/app/Services/SettingsConfigService.php:183
+msgid "Vulnerability Measures"
+msgstr "Măsuri împotriva vulnerabilităților"
+
+#: core/app/Services/SettingsConfigService.php:43
+msgid "Mixed Content Fixer"
+msgstr "Program de reparare a conținutului mixt"
+
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:220
+msgid "Really Simple Plugins is also the author of the below privacy-focused plugins including consent management and legal documents!"
+msgstr "Really Simple Plugins este, de asemenea, autorul modulelor de mai jos, axate pe confidențialitate, inclusiv gestionarea consimțământului și documentele legale!"
+
+#: settings/config/menu.php:365
+msgid "Password security"
+msgstr "Securitate parolă"
+
+#: assets/templates/two_fa/expired.php:3
+#: assets/templates/two_fa/onboarding.php:44 class-admin.php:3370
+#: class-site-health.php:55 core/app/Services/SettingsConfigService.php:63
+#: core/app/Services/SettingsConfigService.php:138 settings/config/menu.php:302
+#: modal/build/index.dc39341c6b0a7592427c.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:96
+msgid "Two-Factor Authentication"
+msgstr "Autentificare pe două niveluri"
+
+#: core/app/Services/SettingsConfigService.php:189
+msgid "Advanced WordPress Hardening"
+msgstr "Consolidare WordPress avansată"
+
+#: settings/config/menu.php:510 settings/config/menu.php:604
+msgid "Continents"
+msgstr "Continente"
+
+#: settings/config/menu.php:499
+msgid "You can easily block countries, or entire continents. You can act on the event log below and see which countries are suspicious, or exclude all countries but your own."
+msgstr "Poți bloca cu ușurință țări sau continente întregi. Poți acționa în jurnalul de evenimente de mai jos și poți vedea care țări sunt suspecte sau poți exclude toate țările, cu excepția țării tale."
+
+#: settings/config/menu.php:498 settings/config/menu.php:518
+#: settings/config/menu.php:590 settings/config/menu.php:591
+msgid "Regions"
+msgstr "Regiuni"
+
+#: settings/config/menu.php:482 settings/config/menu.php:692
+msgid "Warnings"
+msgstr "Avertizări"
+
+#: settings/config/menu.php:475 settings/config/menu.php:491
+msgid "The Event Log shows all relevant events related to limit login attempts. You can filter the log using the dropdown on the top-right to only show warnings."
+msgstr "Jurnalul de evenimente arată toate evenimentele relevante legate de Limitează încercările de autentificare. Poți să filtrezi jurnalul folosind lista derulantă din dreapta sus pentru a arăta numai avertizări."
+
+#: settings/config/menu.php:474 settings/config/menu.php:490
+msgid "Event Log"
+msgstr "Jurnal evenimente"
+
+#: settings/config/menu.php:462
+msgid "Blocked IP addresses will be automatically unblocked after the above-configured interval. In the table below you can instantly unblock IP addresses."
+msgstr "Adresele IP blocate vor fi deblocate automat după intervalul configurat mai sus. În tabelul de mai jos poți debloca instantaneu adrese IP."
+
+#: settings/config/menu.php:440 settings/config/menu.php:460
+msgid "IP Addresses"
+msgstr "Adrese IP"
+
+#: settings/config/menu.php:432
+msgid "You can add any non-existing username to this table, to instantly block IP addresses that try common usernames like \"admin\"."
+msgstr "Poți adăuga orice nume de utilizator inexistent la acest tabel, pentru a bloca instantaneu adresele IP care încearcă nume de utilizator obișnuite, cum ar fi „admin”."
+
+#: settings/config/menu.php:428
+msgid "Blocked usernames will be automatically unblocked after the above-configured interval. In the table below you can instantly unblock usernames."
+msgstr "Numele de utilizator blocate vor fi deblocate automat după intervalul configurat mai sus. În tabelul de mai jos poți debloca instantaneu adrese IP."
+
+#: settings/config/menu.php:421 settings/config/menu.php:456
+msgid "Temporary block"
+msgstr "Blocat temporar"
+
+#: settings/config/menu.php:413 settings/config/menu.php:448
+msgid "Permanent block"
+msgstr "Blocat permanent"
+
+#: settings/config/menu.php:398
+msgid "The settings below determine how strict your site will be protected. You can leave these settings on their default values, unless you experience issues."
+msgstr "Setările de mai jos determină cât de strict va fi protejat site-ul tău. Poți lăsa aceste setări la valorile lor implicite, cu excepția cazului în care te confrunți cu probleme."
+
+#: settings/config/menu.php:397
+msgid "Limit Attempts"
+msgstr "Limitează încercările"
+
+#: core/app/Services/SettingsConfigService.php:78
+#: core/app/Services/SettingsConfigService.php:154 settings/config/menu.php:376
+#: settings/config/menu.php:384 modal/build/index.dc39341c6b0a7592427c.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:101
+msgid "Limit Login Attempts"
+msgstr "Limitează încercările de autentificare"
+
+#: settings/config/menu.php:370
+msgid "Improve security by requiring strong passwords and forced periodic password changes"
+msgstr "Îmbunătățește securitatea solicitând parole puternice și modificări periodice obligatorii ale parolei"
+
+#: settings/config/menu.php:369
+msgid "Passwords"
+msgstr "Parole"
+
+#: settings/config/menu.php:366
+msgid "Enforce secure password policies for your users by requiring strong passwords, and expiring passwords after a period of your choosing."
+msgstr "Impune politicile de parole sigure pentru utilizatorii tăi solicitând parole puternice și parole care expiră după o perioadă pe care o alegi."
+
+#: settings/config/menu.php:359
+msgid "Password Security"
+msgstr "Securitate parolă"
+
+#: settings/config/menu.php:328 settings/config/menu.php:406
+msgid "Here you control the users that are automatically, and temporarily blocked. You can also add or remove users manually. We recommend blocking ‘admin’ as username as a start."
+msgstr "Aici gestionezi utilizatorii care sunt blocați automat și temporar. De asemenea, poți adăuga sau elimina utilizatori manual. Îți recomandăm pentru început să blochezi „admin” ca nume de utilizator."
+
+#: settings/config/menu.php:273 modal/build/index.dc39341c6b0a7592427c.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:91
+msgid "Login Protection"
+msgstr "Protecție la autentificare"
+
+#: settings/config/menu.php:262
+msgid "Not sure if you're using XML-RPC, or want to restrict unauthorized use of XML-RPC? With learning mode you can see exactly which sources use XML-RPC, and you can revoke where necessary."
+msgstr "Nu ești sigur dacă utilizezi XML-RPC sau dorești să restricționezi utilizarea neautorizată a XML-RPC? Cu modul de învățare poți vedea exact ce surse folosesc XML-RPC și poți revoca acolo unde este necesar."
+
+#: settings/config/menu.php:261
+msgid "XML-RPC with Learning Mode"
+msgstr "XML-RPC cu modul de învățare"
+
+#: settings/config/menu.php:245
+msgid "Advanced"
+msgstr "Avansată"
+
+#: settings/config/menu.php:239
+msgid "Basic"
+msgstr "De bază"
+
+#: settings/config/menu.php:225
+msgid "Maintain peace of mind with our simple, but effective automated measures when vulnerabilities are discovered. When needed Really Simple Security will force update or quarantine vulnerable components, on your terms!"
+msgstr "Păstrează-ți liniștea cu ajutorul măsurilor noastre automate simple, dar eficiente atunci când sunt descoperite vulnerabilități. Când este nevoie, Really Simple Security va forța actualizarea sau va pune în carantină componentele vulnerabile, conform condițiilor stabilite de tine!"
+
+#: settings/config/menu.php:224
+msgid "Automated Measures"
+msgstr "Măsuri automatizate"
+
+#: settings/config/menu.php:163
+msgid "Allow only necessary third-party resources to be loaded on your website, thus preventing common attacks. Use our unique learning mode to automatically configure your Content Security Policy."
+msgstr "Permite numai încărcarea resurselor terțe necesare pe site-ul tău, prevenind astfel atacurile comune. Utilizează modul nostru unic de învățare pentru a-ți configura automat Politica de securitate a conținutului."
+
+#: settings/config/menu.php:143
+msgid "A correctly configured Content Security Policy can protect your visitors from the most common web attacks. It all starts with denying and upgrading insecure requests on your website."
+msgstr "O politică de securitate a conținutului configurată corect te poate proteja vizitatorii de cele mai comune atacuri web. Totul începe cu respingerea și actualizarea solicitărilor nesigure de pe site-ul tău."
+
+#: settings/config/menu.php:106
+msgid "The Essentials"
+msgstr "Esențiale"
+
+#: class-admin.php:3371 core/app/Services/SettingsConfigService.php:85
+#: core/app/Services/SettingsConfigService.php:161 settings/config/menu.php:98
+msgid "Security Headers"
+msgstr "Anteturi pentru securitate"
+
+#: settings/config/menu.php:76
+msgid "Redirection"
+msgstr "Redirecționare"
+
+#: settings/config/menu.php:69
+msgid "Let's Encrypt."
+msgstr "Let's Encrypt."
+
+#: settings/config/menu.php:55
+msgid "Why Premium Support?"
+msgstr "De ce suport premium?"
+
+#: settings/config/menu.php:54
+msgid "Elevate your security with our Premium Support! Our expert team ensures simple, hassle-free assistance whenever you need it."
+msgstr "Du securitatea la nivelul următor, cu Suportul Premium! Echipa noastră de experți asigură asistență simplă, fără probleme, ori de câte ori ai nevoie."
+
+#: settings/config/fields/access-control.php:63
+msgid "Change passwords every"
+msgstr "Schimbă parolele la fiecare"
+
+#: settings/config/fields/access-control.php:61
+msgid "2 years"
+msgstr "2 ani"
+
+#: settings/config/fields/access-control.php:60
+msgid "1 year"
+msgstr "Un an"
+
+#: settings/config/fields/access-control.php:59
+msgid "6 months"
+msgstr "6 luni"
+
+#: settings/config/fields/access-control.php:44
+msgid "User roles for password change"
+msgstr "Roluri de utilizator pentru schimbarea parolelor"
+
+#: settings/config/fields/access-control.php:28
+msgid "Enforce frequent password change"
+msgstr "Forțează schimbarea frecventă a parolelor"
+
+#: settings/config/fields/access-control.php:15
+msgid "This adds extra requirements for strong passwords for new users and updated passwords."
+msgstr "Acest lucru adaugă cerințe suplimentare pentru parole puternice pentru utilizatori noi și parole actualizate."
+
+#: settings/config/fields/access-control.php:20
+msgid "Improve the default WordPress password strength check. You can also enforce frequent password changes for user roles."
+msgstr "Îmbunătățește verificarea implicită a parolei WordPress. De asemenea, poți impune modificări frecvente ale parolei pentru rolurile de utilizator."
+
+#: settings/config/fields/access-control.php:12
+#: settings/config/fields/access-control.php:19
+msgid "Enforce strong passwords"
+msgstr "Forțează parole puternice"
+
+#: settings/config/fields/hardening-xml.php:37
+msgid "About XML-RPC"
+msgstr "Despre XML-RPC"
+
+#: settings/config/fields/firewall.php:125
+#: settings/config/fields/limit-login-attempts.php:76
+msgid "Lockout duration"
+msgstr "Durată blocare"
+
+#: settings/config/fields/limit-login-attempts.php:74
+msgid "The user and IP address will be temporarily unable to login for the specified duration. You can block IP addresses indefinitely via the IP addresses block."
+msgstr "Utilizatorul și adresa IP nu se vor putea autentifica temporar pe durata specificată. Poți să blochezi adrese IP pe termen nelimitat prin blocul Adrese IP."
+
+#: settings/config/fields/limit-login-attempts.php:58
+#: settings/config/fields/limit-login-attempts.php:82
+#: settings/config/fields/two-fa.php:85
+msgid "%s day"
+msgstr "o zi"
+
+#: settings/config/fields/limit-login-attempts.php:57
+#: settings/config/fields/limit-login-attempts.php:81
+msgid "%s hours"
+msgstr "%s ore"
+
+#: settings/config/fields/limit-login-attempts.php:56
+#: settings/config/fields/limit-login-attempts.php:80
+msgid "%s hour"
+msgstr "o oră"
+
+#: settings/config/fields/limit-login-attempts.php:54
+#: settings/config/fields/limit-login-attempts.php:55
+#: settings/config/fields/limit-login-attempts.php:78
+#: settings/config/fields/limit-login-attempts.php:79
+msgid "%s minutes"
+msgstr "%s minute"
+
+#: settings/config/fields/limit-login-attempts.php:27
+msgid "After this number of failed login attempts the user and IP address will be temporarily blocked."
+msgstr "După acest număr de încercări de autentificare eșuate, utilizatorul și adresa IP vor fi blocate temporar."
+
+#: security/sync-settings.php:37
+msgid "Debug.log"
+msgstr "Debug.log"
+
+#: settings/config/fields/firewall.php:31
+#: settings/config/fields/firewall.php:71
+#: settings/config/fields/firewall.php:287
+#: settings/config/fields/limit-login-attempts.php:199
+#: settings/config/fields/limit-login-attempts.php:323
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Settings/GeoBlockList/TrustIpAddressModal.js:89
+#: settings/src/Settings/LimitLoginAttempts/AddIpAddressModal.js:81
+msgid "IP Address"
+msgstr "Adresă IP"
+
+#: security/wordpress/two-fa/class-rsssl-passkey-list-table.php:77
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:297
+msgid "Remove"
+msgstr "Înlătură"
+
+#: settings/config/menu.php:318
+msgid "Get Login Protection with Really Simple Security Pro"
+msgstr "Beneficiază de protecție la autentificare cu Really Simple Security Pro"
+
+#: settings/config/menu.php:281
+msgid "Get two-factor authentication with Really Simple Security Pro"
+msgstr "Ia Autentificare pe două niveluri cu Really Simple SSL Pro"
+
+#: settings/config/disable-fields-filter.php:109
+msgid "Email validation completed"
+msgstr "Am finalizat validarea emailurilor"
+
+#: mailer/class-mail.php:210 settings/config/disable-fields-filter.php:120
+#: settings/config/fields/general.php:92
+msgid "Email validation"
+msgstr "Validare emailuri"
+
+#: settings/config/fields/two-fa.php:162 settings/config/menu.php:331
+#: settings/config/menu.php:405 settings/config/menu.php:425
+msgid "Users"
+msgstr "Utilizatori"
+
+#: settings/config/fields/firewall.php:301
+#: settings/config/fields/limit-login-attempts.php:331
+msgid "Event"
+msgstr "Eveniment"
+
+#: settings/config/fields/limit-login-attempts.php:315
+msgid "User"
+msgstr "Utilizator"
+
+#: settings/config/fields/firewall.php:270
+#: settings/config/fields/limit-login-attempts.php:292
+msgid "IP address overview"
+msgstr "Prezentare generală adresă IP"
+
+#: settings/config/fields/firewall.php:243
+#: settings/config/fields/limit-login-attempts.php:259
+msgid "Continent"
+msgstr "Continent"
+
+#: settings/config/fields/firewall.php:236
+#: settings/config/fields/firewall.php:281
+#: settings/config/fields/limit-login-attempts.php:251
+#: settings/config/fields/limit-login-attempts.php:303
+msgid "Country"
+msgstr "Țară"
+
+#: settings/config/fields/limit-login-attempts.php:188
+msgid "Enable open source blocklist API etc."
+msgstr "Activează API-ul pentru lista de blocare cu sursă deschisă etc."
+
+#: settings/config/fields/firewall.php:217
+#: settings/config/fields/limit-login-attempts.php:141
+#: settings/config/fields/limit-login-attempts.php:186
+#: settings/config/fields/limit-login-attempts.php:232
+#: settings/config/menu.php:417 settings/config/menu.php:452
+msgid "Trusted"
+msgstr "De încredere"
+
+#: settings/config/fields/firewall.php:216
+#: settings/config/fields/limit-login-attempts.php:140
+#: settings/config/fields/limit-login-attempts.php:185
+#: settings/config/fields/limit-login-attempts.php:231
+msgid "Locked-out"
+msgstr "Blocat"
+
+#: settings/config/fields/firewall.php:131
+msgid "1 hour"
+msgstr "O oră"
+
+#: settings/config/fields/limit-login-attempts.php:52
+msgid "Interval"
+msgstr "Interval"
+
+#: settings/config/fields/limit-login-attempts.php:31
+#: settings/config/fields/limit-login-attempts.php:32
+#: settings/config/fields/limit-login-attempts.php:33
+#: settings/config/fields/limit-login-attempts.php:34
+msgid "attempts"
+msgstr "încercări"
+
+#: settings/config/fields/limit-login-attempts.php:29
+msgid "Login attempts"
+msgstr "Încercări de autentificare"
+
+#: settings/config/fields/limit-login-attempts.php:17
+msgid "About Limit Login Attempts"
+msgstr "Despre Limitează încercările de autentificare"
+
+#: settings/config/fields/limit-login-attempts.php:13
+msgid "Enable Limit Login Attempts"
+msgstr "Activează Limitează încercările de autentificare"
+
+#: security/firewall-manager.php:800
+msgid "A firewall rule was enabled, but the firewall does not seem to get loaded correctly."
+msgstr "A fost activată o regulă de firewall, dar firewall-ul nu pare să se încarce corect."
+
+#: mailer/class-mail.php:124
+msgid "Verify email"
+msgstr "Confirmă adresa de email"
+
+#: mailer/class-mail.php:122
+msgid "Please verify your email"
+msgstr "Te rog confirmă-ți emailul"
+
+#: mailer/class-mail.php:121
+msgid "Really Simple Security - Verify your email address"
+msgstr "Really Simple Security - confirmă-ți adresa de email"
+
+#: class-admin.php:2431
+msgid "Email address successfully verified."
+msgstr "Adresa de email a fost confirmată cu succes."
+
+#: settings/config/fields/hardening-extended.php:50
+msgid "Restrict creation of administrator roles"
+msgstr "Restricționează crearea de roluri administrator"
+
+#: settings/config/fields/hardening-extended.php:48
+msgid "Many vulnerabilities are exploited by injecting a user with administrator capabilities outside of the native WordPress creation process. Under advanced hardening you can prevent this from happening."
+msgstr "Multe vulnerabilități sunt exploatate prin injectarea unui utilizator cu capabilități de administrator în afara procesului nativ de creare WordPress. Cu întărirea avansată, poți preveni acest lucru."
+
+#: settings/config/fields/hardening-extended.php:47
+msgid "Unauthorized administrators"
+msgstr "Administratori neautorizati"
+
+#: core/app/Features/Vulnerability/Controllers/VulnerabilityNoticeController.php:167
+#: core/app/Features/Vulnerability/Services/VulnerabilityEmailService.php:160
+msgid "You have %s low-risk vulnerability"
+msgid_plural "You have %s low-risk vulnerabilities"
+msgstr[0] "Ai o vulnerabilitate cu risc mic"
+msgstr[1] "Ai %s vulnerabilități cu risc mic"
+msgstr[2] "Ai %s de vulnerabilități cu risc mic"
+
+#: core/app/Features/Vulnerability/Controllers/VulnerabilityNoticeController.php:143
+msgid "You have %s critical vulnerability"
+msgid_plural "You have %s critical vulnerabilities"
+msgstr[0] "Ai o vulnerabilitate critică"
+msgstr[1] "Ai %s vulnerabilități critice"
+msgstr[2] "Ai %s de vulnerabilități critice"
+
+#: core/app/Features/Vulnerability/Controllers/VulnerabilityNoticeController.php:113
+msgid "Please take appropriate action."
+msgstr "Te rugăm să iei măsurile corespunzătoare."
+
+#: settings/config/fields/encryption.php:74
+msgid "Only enable this if you experience mixed content in the admin environment of your WordPress website."
+msgstr "Activează această opțiune numai dacă ai conținut mixt în mediul de administrare al site-ului tău WordPress."
+
+#: settings/config/menu.php:221
+msgid "You can choose to automate the most common actions for a vulnerability. Each action is set to a minimum risk level, similar to the notifications. Please read the instructions to learn more about the process."
+msgstr "Poți alege să automatizezi cele mai comune acțiuni pentru o vulnerabilitate. Fiecare acțiune este setată la un nivel minim de risc, similar notificărilor. Te rugăm să citești instrucțiunile pentru a afla mai multe despre proces."
+
+#: settings/config/menu.php:220
+msgid "Measures"
+msgstr "Măsuri"
+
+#: settings/config/menu.php:214
+msgid "These notifications are set to the minimum risk level that triggers a notification. For example, the default site-wide notification triggers on high-risk and critical vulnerabilities."
+msgstr "Aceste notificări sunt setate la nivelul minim de risc care declanșează o notificare. De exemplu, notificarea implicită la nivelul întregului site se declanșează la vulnerabilitățile cu risc ridicat și critice."
+
+#: settings/config/menu.php:193
+msgid "Here you can configure vulnerability detection, notifications and measures. To learn more about the features displayed, please use the instructions linked in the top-right corner."
+msgstr "Aici poți să configurezi detectarea vulnerabilităților, notificările și măsurile. Pentru a afla mai multe despre funcționalitățile afișate, te rog să folosești instrucțiunile din colțul dreapta sus."
+
+#: settings/config/fields/vulnerability-detection.php:237
+msgid "I have read and understood the risks to intervene with these measures."
+msgstr "Am citit și am înțeles riscurile intervenției cu aceste măsuri."
+
+#: settings/config/fields/firewall.php:44
+#: settings/config/fields/firewall.php:295
+#: settings/config/fields/limit-login-attempts.php:166
+#: settings/config/fields/limit-login-attempts.php:212
+#: settings/config/fields/limit-login-attempts.php:309
+#: settings/config/fields/vulnerability-detection.php:169
+msgid "Date"
+msgstr "Dată"
+
+#: settings/config/fields/vulnerability-detection.php:176
+#: settings/config/fields/vulnerability-detection.php:219
+msgid "Risk"
+msgstr "Risc"
+
+#: settings/config/fields/vulnerability-detection.php:161
+msgid "Component"
+msgstr "Componentă"
+
+#: settings/config/fields/vulnerability-detection.php:149
+msgid "Vulnerabilities Overview"
+msgstr "Prezentare generală vulnerabilități"
+
+#: settings/config/fields/vulnerability-detection.php:131
+msgid "Test notifications can be used to test email delivery and shows how vulnerabilities will be reported on your WordPress installation."
+msgstr "Notificările de testare pot fi folosite pentru a testa livrarea e-mailurilor și pentru a arăta cum vor fi raportate vulnerabilitățile asociate cu instalarea ta WordPress."
+
+#: settings/config/fields/vulnerability-detection.php:130
+#: settings/config/fields/vulnerability-detection.php:134
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Settings/RiskConfiguration/NotificationTester.js:63
+msgid "Test notifications"
+msgstr "Notificări de testare"
+
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:586
+#: settings/config/fields/vulnerability-detection.php:110
+#: settings/config/menu.php:35
+msgid "Email"
+msgstr "Email"
+
+#: settings/config/fields/vulnerability-detection.php:108
+msgid "Critical (default)"
+msgstr "Critică (implicit)"
+
+#: settings/config/fields/vulnerability-detection.php:105
+#: settings/config/fields/vulnerability-detection.php:198
+msgid "Low-risk"
+msgstr "Risc mic"
+
+#: settings/config/fields/vulnerability-detection.php:88
+msgid "Site-wide, admin notification"
+msgstr "Notificare de administrator la nivelul întregului site"
+
+#: settings/config/fields/vulnerability-detection.php:85
+msgid "High-risk (default)"
+msgstr "Risc mare (implicit)"
+
+#: settings/config/fields/vulnerability-detection.php:83
+msgid "Low-risk "
+msgstr "Risc mic "
+
+#: core/app/Features/Vulnerability/Services/VulnerabilityPresentationService.php:22
+#: settings/config/fields/vulnerability-detection.php:64
+#: settings/config/fields/vulnerability-detection.php:86
+#: settings/config/fields/vulnerability-detection.php:201
+#: settings/build/536.a59728be12baf4673c92.js:1
+msgid "Critical"
+msgstr "Critic"
+
+#: settings/config/fields/vulnerability-detection.php:63
+#: settings/config/fields/vulnerability-detection.php:107
+#: settings/config/fields/vulnerability-detection.php:200
+msgid "High-risk"
+msgstr "Risc mare"
+
+#: settings/config/fields/vulnerability-detection.php:62
+#: settings/config/fields/vulnerability-detection.php:84
+#: settings/config/fields/vulnerability-detection.php:106
+#: settings/config/fields/vulnerability-detection.php:199
+msgid "Medium-risk"
+msgstr "Risc mediu"
+
+#: settings/config/fields/vulnerability-detection.php:61
+msgid "Low-risk (default)"
+msgstr "Risc mic (implicit)"
+
+#: security/wordpress/two-fa/class-rsssl-two-factor-settings.php:667
+#: settings/config/fields/vulnerability-detection.php:60
+#: settings/config/fields/vulnerability-detection.php:82
+#: settings/config/fields/vulnerability-detection.php:104
+#: settings/config/fields/vulnerability-detection.php:197
+msgid "None"
+msgstr "Niciuna"
+
+#: settings/config/fields/vulnerability-detection.php:43
+msgid "Feedback in plugin overview"
+msgstr "Impresii in prezentarea generală a modulului"
+
+#: settings/config/fields/vulnerability-detection.php:40
+msgid "If there's a vulnerability, you will also get feedback on the themes and plugin overview."
+msgstr "Dacă există o vulnerabilitate, vei primi, de asemenea, feedback cu privire la teme și prezentarea generală a modulelor."
+
+#: settings/config/fields/vulnerability-detection.php:24
+msgid "Really Simple Security collects information about plugins, themes, and core vulnerabilities from our database powered by WPVulnerability. Anonymized data about these vulnerable components will be sent to Really Simple Security for statistical analysis to improve open-source contributions. For more information, please read our privacy statement."
+msgstr "Really Simple Security colectează informații despre module, teme și vulnerabilități principale din baza noastră de date alimentată de WPVulnerability. Datele anonimizate despre aceste componente vulnerabile vor fi trimise către Really Simple SSL pentru analize statistice, în scopul de a îmbunătăți contribuțiile open-source. Pentru mai multe informații, te rugăm să citești declarația noastră de confidențialitate."
+
+#: settings/config/fields/vulnerability-detection.php:23
+msgid "About Vulnerabilities"
+msgstr "Despre vulnerabilități"
+
+#: settings/config/fields/vulnerability-detection.php:16
+msgid "This feature depends on multiple standard background processes. If a process fails or is unavailable on your system, detection might not work. We run frequent tests for this purpose. We will notify you accordingly if there are any issues."
+msgstr "Această funcționalitate depinde de mai multe procese standard de fundal. Dacă un proces eșuează sau nu este disponibil pe sistemul tău, este posibil ca detectarea să nu funcționeze. Facem teste frecvente în acest scop. Te vom anunța în caz că există probleme."
+
+#. translators: %s is a clickable domain
+#: core/app/Features/Vulnerability/Services/VulnerabilityEmailService.php:125
+msgid "Get more information from the Really Simple Security dashboard on %s"
+msgstr "Obțineți mai multe informații din tabloul de bord Really Simple Security pe %s"
+
+#: core/app/Features/Vulnerability/Services/VulnerabilityEmailService.php:122
+msgid "Based on your settings, Really Simple Security will take appropriate action, or you will need to solve it manually."
+msgstr "Pe baza setărilor tale, Really Simple Security va lua măsurile corespunzătoare sau va trebui să rezolvi problema manual."
+
+#. translators: 1: severity label
+#: core/app/Features/Vulnerability/Services/VulnerabilityEmailService.php:118
+msgid "Multiple %s vulnerabilities have been found."
+msgstr "Au fost găsite mai multe vulnerabilități %s."
+
+#. translators: %s is a clickable domain
+#: core/app/Features/Vulnerability/Services/VulnerabilityEmailService.php:82
+msgid "This is a vulnerability alert from Really Simple Security for %s."
+msgstr "Aceasta este o alertă de vulnerabilitate de la Really Simple Security pentru %s."
+
+#: core/app/Features/Vulnerability/Services/VulnerabilityEmailService.php:70
+msgid "%s: %s vulnerability found"
+msgid_plural "%s: %s vulnerabilities found"
+msgstr[0] "%s: o vulnerabilitate găsită"
+msgstr[1] "%s: %s vulnerabilități găsite"
+msgstr[2] "%s: %s de vulnerabilități găsite"
+
+#. translators: %s is the site url
+#: core/app/Features/Vulnerability/Services/VulnerabilityEmailService.php:65
+msgid "Vulnerability Alert: %s"
+msgstr "Alertă pentru vulnerabilități: %s"
+
+#: core/app/Features/Vulnerability/Controllers/PluginController.php:68
+#: settings/config/menu.php:182 settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesHeader.js:15
+msgid "Vulnerabilities"
+msgstr "Vulnerabilități"
+
+#: security/cron.php:104
+msgid "Every three hours"
+msgstr "O dată la fiecare 3 ore"
+
+#: mailer/class-mail.php:147
+msgid "Email could not be sent. No message or subject set."
+msgstr "E-mailul nu a putut fi trimis. Nu  a fost setat un mesaj sau un subiect."
+
+#: mailer/class-mail.php:38
+msgid "Why did I receive this email?"
+msgstr "De ce am primit acest email?"
+
+#: assets/templates/two_fa/onboarding.php:140
+#: settings/build/635.b035afd7cc3020bda9bb.js:1
+#: settings/src/Onboarding/OnboardingControls.js:201
+msgid "Skip"
+msgstr "Sari peste"
+
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:132
+#: settings/build/995.1951bdba4c61ca45e7ca.js:1
+#: settings/src/Settings/Settings.js:153
+msgid "Save and continue"
+msgstr "Salvează și continuă"
+
+#: settings/config/fields/encryption.php:27
+msgid "Settings update: .htaccess redirect"
+msgstr "Actualizare setări: redirecționare .htaccess"
+
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:584
+#: settings/config/fields/firewall.php:103
+#: settings/config/fields/firewall.php:108
+#: settings/config/fields/security-headers.php:17
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Settings/DataTable/DataTableWrapper.js:167
+#: settings/src/Settings/DynamicDataTable/DynamicDataTable.js:168
+#: settings/src/Settings/EventLog/EventLogDataTable.js:232
+#: settings/src/Settings/firewall/UserAgentTable.js:273
+#: settings/src/Settings/GeoBlockList/BlockListDatatable.js:362
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:520
+#: settings/src/Settings/GeoBlockList/WhiteListDatatable.js:415
+#: settings/src/Settings/LearningMode/LearningMode.js:386
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:454
+#: settings/src/Settings/LimitLoginAttempts/IpAddressDatatable.js:319
+#: settings/src/Settings/LimitLoginAttempts/UserDatatable.js:281
+#: settings/src/Settings/PermissionsPolicy.js:205
+#: settings/src/Settings/RiskConfiguration/VulnerabilitiesOverview.js:134
+#: settings/src/Settings/RolesDropDown.js:94
+#: settings/src/Settings/TwoFA/TwoFaDataTable.js:315
+#: settings/src/Settings/TwoFA/TwoFaEnabledDropDown.js:133
+msgid "Disabled"
+msgstr "Dezactivată"
+
+#: settings/config/fields/hardening-extended.php:129
+msgid "Users trying to enter via /wp-admin or /wp-login.php will be redirected to this URL."
+msgstr "Utilizatorii care încearcă să intre folosind /wp-admin sau /wp-login.php vor fi redirecționați la acest URL."
+
+#: settings/config/fields/hardening-extended.php:112
+msgid "Custom login URL"
+msgstr "URL personalizat pentru autentificare"
+
+#: settings/config/fields/hardening-extended.php:111
+msgid "Example: If you want to change your login page from /wp-admin/ to /control/ answer: control"
+msgstr "Exemplu: dacă dorești să îți schimbi pagina de conectare din /wp-admin/ în /control/ răspunde: control"
+
+#: settings/config/fields/hardening-extended.php:110
+msgid "Enter a custom login URL. This allows you to log in via this custom URL instead of /wp-admin or /wp-login.php"
+msgstr "Introdu un URL de autentificare personalizat. Îți va permite să te autentifici prin acest URL personalizat în loc de /wp-admin sau /wp-login.php"
+
+#: settings/config/fields/hardening-extended.php:99
+msgid "Your login URL has changed to {login_url} to prevent common bot attacks on standard login URLs. Learn more about this feature, common questions and measures to prevent any issues."
+msgstr "Adresa URL de conectare s-a schimbat în {login_url} pentru a preveni atacurile obișnuite cu programe („boți”) asupra adreselor URL de conectare standard. Află mai multe despre această funcție, despre răspunsuri la întrebările frecvente și despre măsurile pentru a preveni orice probleme."
+
+#: settings/config/fields/hardening-extended.php:98
+msgid "You have changed your login URL"
+msgstr "Ai schimbat URL-ul tău de autentificare"
+
+#: settings/config/fields/hardening-extended.php:96
+msgid "Enable Custom login URL"
+msgstr "Activează URL-ul de autentificare personalizat"
+
+#: settings/config/fields/hardening-extended.php:95
+msgid "Allows you to enter a custom login URL."
+msgstr "Îți permite să introduci un URL de autentificare personalizat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:259
+msgid "Please adjust the CAA records via your DNS provider to allow Let’s Encrypt SSL certificates"
+msgstr "Te rugăm să ajustezi înregistrările CAA prin intermediul furnizorului tău de DNS pentru a permite certificatele SSL Let's Encrypt"
+
+#: mailer/class-mail.php:31
+msgid "This email is part of the Really Simple Security Notification System"
+msgstr "Acest email face parte din sistemul de notificări Really Simple Security"
+
+#: mailer/class-mail.php:36
+msgid "This email was sent to"
+msgstr "Acest email a fost trimis la"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1873
+msgid "This is a multisite configuration with subdomains. You should generate a wildcard certificate on the root domain."
+msgstr "Aceasta este o configurație multisite cu subdomenii. Ar trebui să generezi un certificat wildcard pe domeniul rădăcină."
+
+#: settings/config/fields/encryption.php:28
+msgid "The .htaccess redirect has been enabled on your site. If the server configuration is non-standard, this might cause issues. Please check if all pages on your site are functioning properly."
+msgstr "Redirecționarea .htaccess a fost activată pe site-ul tău. Dacă configurarea serverului nu este una standard, este posibil să apară probleme. Te rog să verifici dacă toate paginile site-ului tău funcționează corect."
+
+#: settings/config/disable-fields-filter.php:29
+msgid "Enable .htaccess only if you know how to regain access in case of issues."
+msgstr "Activează .htaccess doar dacă știi cum să recapeți accesul, în cazul în care apar probleme."
+
+#: settings/config/disable-fields-filter.php:24
+msgid "On Apache you can use a .htaccess redirect, which is usually faster, but may cause issues on some configurations. Read the instructions in the sidebar first."
+msgstr "Pe Apache, poți să folosești o redirecționare .htaccess care este de obicei mai rapidă, dar care poate cauza probleme pe anumite configurări. Mai întâi, citește instrucțiunile din bara laterală."
+
+#: settings/config/fields/hardening-extended.php:19
+msgid "From now on, the debug.log won’t be publicly accessible whenever wp-debugging is enabled. The debug log will be stored in a randomly named folder in /wp-content/. This prevents possible leakage of sensitive debugging information."
+msgstr "De acum înainte, debug.log nu va fi accesibil public atunci când wp-debugging este activat. Jurnalul de depanare va fi stocat într-un dosar numit aleatoriu în /wp-content/. Acest lucru previne posibila scurgere de informații sensibile de depanare."
+
+#: settings/config/fields/hardening-extended.php:18
+msgid "Settings update: Debug.log file relocated"
+msgstr "Actualizare a setărilor: fișierul debug.log a fost relocat."
+
+#: settings/config/fields/hardening-extended.php:16
+msgid "A debug.log is publicly accessible and has a standard location. This will change the location to a randomly named folder in /wp-content/"
+msgstr "Un fișier debug.log este accesibil public și are o locație standard. Această opțiune va schimba locația într-un director numit aleatoriu în /wp-content/"
+
+#: settings/config/fields/hardening-extended.php:59
+msgid "This will limit or fully disable HTTP requests that are not needed, but could be used with malicious intent."
+msgstr "Acest lucru va limita sau va dezactiva complet solicitările HTTP care nu sunt necesare, dar care ar putea fi utilizate cu rele intenții."
+
+#: settings/config/fields/hardening-basic.php:111
+msgid "If the username 'admin' currently exists, you can rename it here. Please note that you can no longer use this username, and should use the new username or an email address"
+msgstr "Dacă numele de utilizator „admin” există în prezent, îl poți redenumi aici. Te rugăm să reții că nu mai poți utiliza acest nume de utilizator și ar trebui să utilizezi noul nume de utilizator sau o adresă de e-mail"
+
+#: settings/config/fields/hardening-basic.php:107
+msgid "As a security precaution, the username ‘admin’ has been changed on %s. From now on, you can login with '%s' or an email address."
+msgstr "Ca măsură de siguranță, numele de utilizator „admin” a fost schimbat pe %s. De acum înainte, te poți autentifica cu „%s” sau cu o adresă de e-mail."
+
+#: settings/config/fields/hardening-basic.php:106
+msgid "Settings update: Username 'admin' renamed"
+msgstr "Actualizare setări: numele de utilizator „admin” a fost redenumit"
+
+#: settings/config/fields/hardening-basic.php:104
+msgid "Block the username 'admin'"
+msgstr "Blochează numele de utilizator „admin”"
+
+#: settings/config/fields/hardening-basic.php:63
+msgid "Prevent login feedback"
+msgstr "Previne erorile de conectare"
+
+#: settings/config/fields/hardening-basic.php:62
+msgid "By default, WordPress shows if a username or email address exists when a login fails. This will change it to generic feedback."
+msgstr "În mod implicit, WordPress arată dacă există un nume de utilizator sau o adresă de e-mail atunci când autentificarea eșuează. Acest lucru îl va schimba în erori generice."
+
+#: settings/config/fields/general.php:52
+msgid "Dismiss all notifications"
+msgstr "Respinge toate notificările"
+
+#: settings/config/fields/general.php:102
+msgid "Get notified of important changes, updates and settings. Recommended when using security features."
+msgstr "Fii la curent, cu ajutorul notificărilor despre modificările, actualizările și setările importante. Recomandat atunci când utilizezi funcțiile de securitate."
+
+#: settings/config/fields/general.php:101
+msgid "Notifications by email"
+msgstr "Notificări prin email"
+
+#: settings/config/disable-fields-filter.php:29
+#: settings/config/fields/encryption.php:24
+msgid "Redirects your site to https with a SEO friendly 301 redirect if it is requested over http."
+msgstr "Dacă site-ul tău este solicitat prin http, va fi redirecționat către https, cu o redirecționare 301 compatibilă cu SEO."
+
+#: settings/config/fields/encryption.php:19
+msgid "301 .htaccess redirect (read instructions first)"
+msgstr "301 redirecționare .htaccess (citește mai întâi instrucțiunile)"
+
+#: settings/config/fields/encryption.php:13
+msgid "Changing redirect methods should be done with caution. Please make sure you have read our instructions beforehand at the right-hand side."
+msgstr "Schimbarea metodelor de redirecționare trebuie făcută cu prudență. Te rugăm să te asiguri că ai citit, în prealabil, instrucțiunile noastre din partea dreaptă."
+
+#: mailer/class-mail.php:35
+msgid "Learn more about our features!"
+msgstr "Învață mai multe despre funcționalitățile noastre!"
+
+#: mailer/class-mail.php:218 upgrade/upgrade-to-pro.php:333
+#: upgrade/upgrade-to-pro.php:334
+msgid "An error occurred:"
+msgstr "A apărut o eroare:"
+
+#: mailer/class-mail.php:216
+msgid "Email could not be sent."
+msgstr "Emailul nu a putut fi trimis."
+
+#: mailer/class-mail.php:211
+msgid "Email sent! Please check your mail"
+msgstr "Am trimis emailul. Te rog verifică corespondența"
+
+#: mailer/class-mail.php:74
+msgid "Email notifications are only sent for important updates, security notices or when certain features are enabled."
+msgstr "Notificările prin email sunt trimise numai pentru actualizări importante, notificări pentru securitate sau când sunt activate anumite funcționalități."
+
+#: mailer/class-mail.php:73
+msgid "About notifications"
+msgstr "Despre notificări"
+
+#: mailer/class-mail.php:32
+msgid "Notification by Really Simple Security"
+msgstr "Notificare de la Really Simple Security"
+
+#: mailer/class-mail.php:70
+msgid "This email is confirmation that any security notices are likely to reach your inbox."
+msgstr "Acest e-mail este o confirmare că este probabil ca orice notificări de securitate să ajungă în căsuța ta de e-mail."
+
+#: mailer/class-mail.php:69
+msgid "Really Simple Security - Notification Test"
+msgstr "Really Simple SSL - testare notificare"
+
+#: mailer/class-mail.php:66 mailer/class-mail.php:105 mailer/class-mail.php:151
+msgid "Email address not valid"
+msgstr "Adresa de email nu este validă"
+
+#: mailer/class-mail.php:41
+msgid "You have enabled a feature on %s. We think it's important to let you know a little bit more about this feature so you can use it without worries."
+msgstr "Ai activat o funcționalitate pe %s. Credem că este important să îți oferim câteva informații suplimentare despre această funcționalitate ca să o poți utiliza fără nicio grijă."
+
+#: lets-encrypt/config/notices.php:145
+msgid "You are using the Really Simple Security Shell Exec add on, but your current version needs to be updated."
+msgstr "Utilizezi suplimentul Really Simple Security Shell Exec, dar versiunea ta curentă trebuie actualizată."
+
+#: settings/config/fields/security-headers.php:18
+msgid "(recommended)"
+msgstr "(recomandat)"
+
+#: class-admin.php:2141
+msgid "SSL is now activated. Follow the three steps in this article to check if your website is secure."
+msgstr "SSL este acum activat. Urmează cei trei pași din acest articol pentru a verifica dacă site-ul tău este sigur."
+
+#: security/wordpress/file-editing.php:28
+msgid "The DISALLOW_FILE_EDIT constant is defined and set to false. You can remove it from your wp-config.php."
+msgstr "Constanta DISALLOW_FILE_EDIT este definită și setată la fals. O poți șterge din wp-config.php."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:113
+msgid "Login credentials incorrect. Please check your login credentials for cPanel."
+msgstr "Acreditările de conectare sunt incorecte. Te rugăm să îți verifici datele de conectare pentru cPanel."
+
+#: lets-encrypt/class-letsencrypt-handler.php:941
+msgid "Failed retrieving account."
+msgstr "Recuperarea contului a eșuat."
+
+#: security/notices.php:116
+msgid "Rename admin user enabled: Please choose a new username of at least 3 characters, which is not in use yet."
+msgstr "Redenumirea utilizatorului admin a fost activată: alege un nou nume de utilizator de cel puțin 3 caractere, care nu este încă utilizat."
+
+#: upgrade/upgrade-to-pro.php:420
+msgid "Could not rename folder!"
+msgstr "Nu am putut să redenumesc dosarul!"
+
+#: settings/config/fields/hardening-basic.php:121
+msgid "Choose new username to replace 'admin'"
+msgstr "Alege un nou nume de utilizator pentru a înlocui „admin”"
+
+#: core/config/related.php:40 lets-encrypt/config/fields.php:111
+msgid "Terms & Conditions"
+msgstr "Termeni și condiții"
+
+#: settings/config/fields/general.php:90
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Settings/Support.js:45
+msgid "Send"
+msgstr "Trimite"
+
+#: class-admin.php:692 settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/build/635.b035afd7cc3020bda9bb.js:1
+#: settings/src/Dashboard/TaskElement.js:72
+#: settings/src/Dashboard/TaskElement.js:76
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:80
+msgid "View"
+msgstr "Vezi"
+
+#: settings/config/fields/firewall.php:170
+#: settings/config/fields/firewall.php:215
+#: settings/config/fields/limit-login-attempts.php:139
+#: settings/config/fields/limit-login-attempts.php:184
+#: settings/config/fields/limit-login-attempts.php:230
+#: settings/config/menu.php:506 settings/config/menu.php:574
+#: settings/config/menu.php:600 settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:149
+msgid "Blocked"
+msgstr "Blocat"
+
+#: settings/config/menu.php:514 settings/config/menu.php:608
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:148
+msgid "Allowed"
+msgstr "Permis"
+
+#: settings/config/menu.php:339 settings/config/menu.php:486
+#: settings/config/menu.php:651 settings/config/menu.php:688
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Settings/DataTable/DataTableWrapper.js:151
+#: settings/src/Settings/EventLog/EventLogDataTable.js:213
+#: settings/src/Settings/firewall/UserAgentTable.js:257
+#: settings/src/Settings/GeoBlockList/BlockListDatatable.js:345
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:502
+#: settings/src/Settings/GeoBlockList/WhiteListDatatable.js:398
+#: settings/src/Settings/LearningMode/LearningMode.js:147
+#: settings/src/Settings/LearningMode/LearningMode.js:320
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:435
+#: settings/src/Settings/LimitLoginAttempts/IpAddressDatatable.js:298
+msgid "All"
+msgstr "Toate"
+
+#: settings/config/fields/firewall.php:250
+#: settings/config/fields/limit-login-attempts.php:160
+#: settings/config/fields/limit-login-attempts.php:206
+#: settings/config/fields/limit-login-attempts.php:266
+#: settings/config/fields/two-fa.php:208
+#: settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/src/Dashboard/SslLabs/SslLabsHeader.js:5
+msgid "Status"
+msgstr "Stare"
+
+#: settings/config/fields/security-headers.php:419
+msgid "Source"
+msgstr "Sursă"
+
+#: settings/config/fields/security-headers.php:412
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Settings/LearningMode/ManualCspAdditionModal.js:156
+msgid "Directive"
+msgstr "Directivă"
+
+#: settings/config/fields/security-headers.php:364
+msgid "Add additional domains which can embed your website, if needed. Comma separated."
+msgstr "Adaugă domenii suplimentare care pot îngloba conținut de pe site-ul tău, dacă este cazul. Domeniile enumerate trebuie separate prin virgulă."
+
+#: settings/config/fields/security-headers.php:354
+msgid "Allow your domain to be embedded"
+msgstr "Permite domeniului tău să fie înglobat"
+
+#: settings/config/fields/security-headers.php:335
+msgid "The content security policy has many options, so we always recommend starting in learning mode to see what files and scripts are loaded."
+msgstr "Politica pentru securitatea conținutului are numeroase opțiuni, dar recomandăm mereu să începi cu „mod învățare”, pentru a vedea fișierele și scripturile care sunt încărcate."
+
+#: settings/config/fields/security-headers.php:334
+msgid "About the Content Security Policy"
+msgstr "Despre Politică pentru securitatea conținutului"
+
+#: settings/config/fields/security-headers.php:327
+msgid "Serve encrypted and authenticated responses"
+msgstr "Servește răspunsuri criptate și autentificate"
+
+#: settings/config/fields/security-headers.php:318
+msgid "Enable Permissions Policy"
+msgstr "Activează Politica de permisiuni"
+
+#: settings/config/fields/security-headers.php:240
+msgid "Feature"
+msgstr "Funcționalitate"
+
+#: settings/config/fields/access-control.php:20
+#: settings/config/fields/security-headers.php:236
+msgid "They might be misused if you don’t actively tell the browser to disable these features."
+msgstr "Ar putea fi folosite greșit dacă nu îi comunici în mod activ navigatorului să dezactiveze aceste funcționalități."
+
+#: settings/config/fields/security-headers.php:236
+msgid "Browser features are plentiful, but most are not needed on your website."
+msgstr "Navigatoarele au numeroase funcționalități, dar majoritatea nu sunt necesare pentru site-ul tău."
+
+#: settings/config/fields/security-headers.php:235
+msgid "About the Permission Policy"
+msgstr "Despre Politica de permisiuni"
+
+#: settings/config/fields/security-headers.php:228
+#: settings/config/fields/security-headers.php:352
+msgid "Self (Default)"
+msgstr "Auto (implicit)"
+
+#: settings/config/fields/security-headers.php:228
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:335
+#: settings/src/Settings/LearningMode/LearningMode.js:343
+#: settings/src/Settings/PermissionsPolicy.js:200
+msgid "Disable"
+msgstr "Dezactivează"
+
+#: settings/config/fields/security-headers.php:228
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:278
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:295
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:473
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:484
+#: settings/src/Settings/LearningMode/ChangeStatus.js:7
+#: settings/src/Settings/LearningMode/LearningMode.js:276
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:310
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:321
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:330
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:401
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:412
+msgid "Allow"
+msgstr "Permite"
+
+#: settings/config/fields/encryption.php:107
+#: settings/config/fields/security-headers.php:405
+msgid "Location"
+msgstr "Locație"
+
+#: settings/config/fields/encryption.php:101
+#: settings/config/fields/vulnerability-detection.php:225
+msgid "Description"
+msgstr "Descriere"
+
+#: settings/config/fields/encryption.php:94
+msgid "Type"
+msgstr "Scrie"
+
+#: settings/config/fields/encryption.php:90 settings/config/menu.php:91
+msgid "The extensive mixed content scan will list all issues and provide a fix, or instructions to fix manually."
+msgstr "Scanarea extinsă a conținutului mixt va afișa toate problemele și oferă corecții sau instrucțiuni pentru o corecție manuală."
+
+#: settings/config/fields/encryption.php:89
+msgid "About the Mixed Content Scan"
+msgstr "Despre scanarea conținutului mixt"
+
+#: settings/config/fields/encryption.php:85
+msgid "Mixed content scan"
+msgstr "Scanare pentru conținut mixt"
+
+#: settings/config/fields/security-headers.php:217
+msgid "Cross Origin Embedder Policy"
+msgstr "Cross-Origin-Embedder-Policy"
+
+#: settings/config/fields/security-headers.php:201
+msgid "Cross Origin Resource Policy"
+msgstr "Cross-Origin Resource Policy"
+
+#: settings/config/fields/security-headers.php:185
+msgid "Cross Origin Opener Policy"
+msgstr "Cross-Origin-Opener-Policy"
+
+#: settings/config/fields/security-headers.php:182
+msgid "One of the most powerful features, and therefore the most complex are the Cross-Origin headers that can isolate your website so any data leaks are minimized."
+msgstr "Una dintre caracteristicile cele mai puternice, deci și cele mai complexe, este cea legată de antetele pentru Politicile privind domeniile diferite (Cross Origin), care pot izola site-ul tău astfel încât orice scurgeri de date să fie minimizate."
+
+#: settings/config/fields/security-headers.php:181
+msgid "About Cross Origin Policies"
+msgstr "Despre politicile Cross-Origin"
+
+#: settings/config/fields/security-headers.php:156
+msgid "Choose the max-age for HSTS"
+msgstr "Alege max-age pentru HSTS"
+
+#: settings/config/fields/security-headers.php:154
+msgid "Two years (required for preload)"
+msgstr "Doi ani (necesar pentru pre-încărcare)"
+
+#: settings/config/fields/security-headers.php:153
+msgid "One year"
+msgstr "Un an"
+
+#: settings/config/fields/security-headers.php:152
+msgid "One day (for testing only)"
+msgstr "O zi (doar pentru testare)"
+
+#: settings/config/fields/security-headers.php:135
+msgid "Include subdomains"
+msgstr "Include subdomeniile"
+
+#: settings/config/fields/security-headers.php:110
+msgid "After enabling this feature, you can submit your site to %shstspreload.org%s"
+msgstr "După activarea acestei funcționalități, îți poți trimite site-ul la %shstspreload.org%s"
+
+#: settings/config/fields/security-headers.php:109
+msgid "Include preload"
+msgstr "Include preîncărcarea"
+
+#: settings/config/fields/security-headers.php:94
+msgid "Leveraging your SSL certificate with HSTS is a staple for every website. Force your website over SSL, mitigating risks of malicious counterfeit websites in your name."
+msgstr "Utilizarea certificatului SSL cu HSTS este un element de bază pentru fiecare site. Forțează site-ul tău să funcționeze prin SSL, atenuând riscurile de site-uri contrafăcute, rău intenționate, care încearcă să utilizeze identitatea ta."
+
+#: settings/config/fields/security-headers.php:93
+msgid "About HTTP Strict Transport Security"
+msgstr "Despre HTTP Strict Transport Security"
+
+#: settings/config/fields/security-headers.php:66
+msgid "recommended"
+msgstr "recomandat"
+
+#: settings/config/fields/security-headers.php:49
+#: settings/config/fields/security-headers.php:65
+#: settings/config/fields/security-headers.php:173
+#: settings/config/fields/security-headers.php:196
+#: settings/config/fields/security-headers.php:212
+msgid "Off"
+msgstr "Oprit"
+
+#: settings/config/fields/security-headers.php:29
+msgid "These security headers are the fundamental security measures to protect your website visitors while visiting your website."
+msgstr "Antetele de securitate sunt măsuri esențiale de securitate pentru a proteja vizitatorii în timpul vizitei pe site-ul tău."
+
+#: settings/config/fields/vulnerability-detection.php:213
+msgid "Action"
+msgstr "Acțiune"
+
+#: settings/config/fields/hardening-xml.php:61
+msgid "Count"
+msgstr "Număr"
+
+#: settings/config/fields/hardening-xml.php:55
+msgid "Login status"
+msgstr "Stare autentificare"
+
+#: settings/config/fields/hardening-xml.php:48
+#: settings/config/fields/two-fa.php:200
+msgid "Method"
+msgstr "Metodă"
+
+#: settings/config/fields/hardening-extended.php:31
+msgid "Disable application passwords"
+msgstr "Dezactivează parolele de aplicație"
+
+#: settings/config/fields/hardening-extended.php:22
+msgid "Change debug.log file location"
+msgstr "Schimbă locația fișierului debug.log"
+
+#: settings/config/fields/hardening-extended.php:60
+msgid "Disable HTTP methods"
+msgstr "Dezactivează metodele HTTP"
+
+#: settings/config/fields/hardening-basic.php:161
+msgid "Block user registrations when login and display name are the same"
+msgstr "Blochează înregistrarea utilizatorilor atunci când autentificarea și numele afișat sunt aceleași"
+
+#: settings/config/fields/hardening-basic.php:145
+msgid "Disable XML-RPC"
+msgstr "Dezactivează XML-RPC"
+
+#: settings/config/fields/hardening-basic.php:83
+msgid "Disable user enumeration"
+msgstr "Dezactivează enumerarea utilizatorilor"
+
+#: settings/config/fields/hardening-basic.php:73
+msgid "Disable directory browsing"
+msgstr "Dezactivează navigarea prin directori"
+
+#: settings/config/fields/hardening-basic.php:52
+msgid "Hide your WordPress version"
+msgstr "Ascunde versiunea ta de WordPress"
+
+#: settings/config/fields/hardening-basic.php:42
+msgid "Prevent code execution in the public 'Uploads' folder"
+msgstr "Previno execuția codului în folderul public „Uploads”."
+
+#: settings/config/fields/hardening-basic.php:32
+msgid "Disable the built-in file editors"
+msgstr "Dezactivează editorii de fișiere incluși"
+
+#: settings/config/fields/hardening-basic.php:23
+msgid "Hardening features limit the possibility of potential weaknesses and vulnerabilities which can be misused."
+msgstr "Caracteristicile de Întărire limitează probabilitatea unor potențiale puncte slabe sau vulnerabilități care constituie un risc de folosire neautorizată."
+
+#: settings/config/fields/hardening-basic.php:22
+msgid "About Hardening"
+msgstr "Despre întărire"
+
+#: settings/config/fields/hardening-basic.php:16
+msgid "Disable \"anyone can register\""
+msgstr "Dezactivează „oricine se poate înregistra”"
+
+#: settings/config/fields/general.php:72
+msgid "Delete all data on plugin deletion"
+msgstr "Șterge toate informațiile în momentul ștergerii modulului"
+
+#: lets-encrypt/config/fields.php:8 settings/config/fields/general.php:63
+#: settings/config/menu.php:717
+msgid "System status"
+msgstr "Stare sistem"
+
+#: settings/config/fields/encryption.php:73
+msgid "Mixed content fixer - back-end"
+msgstr "Reparator de conținut mixt - partea administrativă a site-ului"
+
+#: settings/config/fields/encryption.php:55
+msgid "Mixed content fixer - init hook"
+msgstr "Reparator de conținut mixt - cârlig de inițiere"
+
+#: class-admin.php:2279 class-admin.php:2285
+msgid "301 .htaccess redirect"
+msgstr "Redirecționare 301 prin .htaccess"
+
+#: settings/config/fields/encryption.php:18
+msgid "301 PHP redirect"
+msgstr "Redirecționare 301 prin PGP"
+
+#: settings/config/fields/encryption.php:17
+msgid "No redirect"
+msgstr "Fără redirecționare"
+
+#: settings/config/disable-fields-filter.php:28
+#: settings/config/fields/encryption.php:14
+#: settings/config/fields/encryption.php:23
+msgid "Redirect method"
+msgstr "Metodă de redirecționare"
+
+#: lets-encrypt/config/fields.php:21 settings/config/menu.php:740
+msgid "DNS verification"
+msgstr "Verificare DNS"
+
+#: lets-encrypt/config/fields.php:12 settings/config/menu.php:725
+msgid "General Settings"
+msgstr "Setări generale"
+
+#: settings/config/menu.php:68 settings/build/index.8a738e7fc52f3a6e7f2a.js:1
+#: settings/src/Header.js:32
+msgid "Let's Encrypt"
+msgstr "Let's Encrypt"
+
+#: settings/config/menu.php:133
+msgid "Content Security Policy Headers"
+msgstr "Anteturi Politică pentru securitatea conținutului"
+
+#: settings/config/menu.php:132
+msgid "Content Security Policy"
+msgstr "Politică pentru securitatea conținutului"
+
+#: settings/config/fields/security-headers.php:229
+msgid "Permissions Policy"
+msgstr "Politică permisiuni"
+
+#: settings/config/fields/security-headers.php:86
+msgid "HTTP Strict Transport Security"
+msgstr "HTTP Strict Transport Security"
+
+#: settings/config/menu.php:88 settings/config/menu.php:90
+msgid "Mixed Content Scan"
+msgstr "Scanare pentru conținut mixt"
+
+#: settings/config/menu.php:264
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#: class-admin.php:3369 settings/config/menu.php:254
+msgid "Advanced Hardening"
+msgstr "Întărire avansată"
+
+#: settings/config/menu.php:233 settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesHeader.js:15
+msgid "Hardening"
+msgstr "Întărire"
+
+#: settings/config/menu.php:57
+msgid "Debugging with Really Simple Security"
+msgstr "Depanare cu Really Simple Security"
+
+#: settings/config/menu.php:52
+msgid "The following information is attached when you send this form: license key, scan results, your domain, .htaccess file, debug log and a list of active plugins."
+msgstr "La trimiterea acestui formular vor fi atașate următoarele informații: cheia de licență, rezultatele scanării, domeniul tău, fișierul .htaccess, istoricul de depanare și o listă a modulelor active."
+
+#: settings/config/menu.php:11
+msgid "Dashboard"
+msgstr "Panou control"
+
+#: security/wordpress/user-enumeration.php:10
+msgid "forbidden - number in author name not allowed = %s"
+msgstr "interzis - nu sunt permise cifre în numele autorului = %s"
+
+#: security/wordpress/rename-admin-user.php:15
+msgid "Username 'admin' has been changed to %s"
+msgstr "Numele de utilizator „admin” a fost schimbat în %s"
+
+#: security/wordpress/prevent-login-info-leakage.php:9
+msgid "Invalid login details."
+msgstr "Detalii de autentificare nevalide."
+
+#: security/wordpress/block-code-execution-uploads.php:24
+msgid "Could not copy code execution test file."
+msgstr "Nu s-a putut copia fișierul de test pentru executarea de cod."
+
+#: security/wordpress/block-code-execution-uploads.php:19
+msgid "Uploads folder not writable."
+msgstr "Dosarul uploads nu poate fi scris."
+
+#: security/wordpress/block-code-execution-uploads.php:14
+msgid "Could not find code execution test file."
+msgstr "Nu am găsit fișierul testare pentru executarea codului."
+
+#: security/sync-settings.php:38
+msgid "Changed debug.log location to:"
+msgstr "Am schimbat locația fișierului debug.log la:"
+
+#: security/notices.php:115 settings/config/fields/limit-login-attempts.php:153
+#: settings/config/fields/two-fa.php:184
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Settings/LimitLoginAttempts/AddUserModal.js:60
+msgid "Username"
+msgstr "Nume utilizator"
+
+#: security/firewall-manager.php:784
+msgid "Please set the wp-content folder to writable:"
+msgstr "Te rugăm setează directorul wp-content ca editabil:"
+
+#: security/firewall-manager.php:784
+msgid "A firewall rule was enabled, but /the wp-content/ folder is not writable."
+msgstr "A fost activată o regulă pentru firewall, dar dosarul /wp-content/ nu poate fi scris."
+
+#: security/firewall-manager.php:778
+msgid "Please set the wp-config.php to writable until the rule has been written."
+msgstr "Te rugăm setează wp-config.php ca editabil, până când regula este scrisă."
+
+#: security/firewall-manager.php:778
+msgid "A firewall rule was enabled, but the wp-config.php is not writable."
+msgstr "A fost activată o regulă pentru firewall, dar wp-config.php nu poate fi scris."
+
+#: core/app/Services/SettingsConfigService.php:56
+#: core/app/Services/SettingsConfigService.php:131
+#: security/firewall-manager.php:777 security/firewall-manager.php:783
+#: security/firewall-manager.php:799 settings/config/menu.php:529
+#: settings/config/menu.php:547 modal/build/index.dc39341c6b0a7592427c.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:76
+#: settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/src/Dashboard/Progress/ProgressFooter.js:44
+#: settings/src/Dashboard/Progress/ProgressFooter.js:48
+msgid "Firewall"
+msgstr "Firewall"
+
+#: rlrsssl-really-simple-ssl.php:193
+msgid "Visit the plugins overview or %srenew your license%s."
+msgstr "Vezi ecranul general de module sau %sînnoiește-ți licența%s."
+
+#: rlrsssl-really-simple-ssl.php:191
+msgid "Update Really Simple SSL Pro: the plugin needs to be updated to the latest version to be compatible."
+msgstr "Actualizează Really Simple SSL Pro: modulul trebuie să fie actualizat la ultima versiune pentru a fi compatibil."
+
+#: placeholders/class-placeholder.php:426
+msgid "Widget with mixed content"
+msgstr "Piesă cu conținut mixt"
+
+#: placeholders/class-placeholder.php:421
+msgid "Widget area"
+msgstr "Zonă piese"
+
+#: placeholders/class-placeholder.php:400
+msgid "Mixed content in the postmeta table"
+msgstr "Conținut mixt în tabelul postmeta"
+
+#: placeholders/class-placeholder.php:375
+msgid "Mixed content in post: %s"
+msgstr "Conținut mixt în articol: %s"
+
+#: placeholders/class-placeholder.php:358
+msgid "Mixed content in CSS/JS file from another domain"
+msgstr "Conținut mixt în fișier CSS / JS din alt domeniu"
+
+#: placeholders/class-placeholder.php:347
+#: placeholders/class-placeholder.php:388
+#: placeholders/class-placeholder.php:414
+#: placeholders/class-placeholder.php:439
+msgid "Copyright warning!"
+msgstr "Avertisment privind drepturile de autor!"
+
+#: placeholders/class-placeholder.php:346
+#: placeholders/class-placeholder.php:387
+#: placeholders/class-placeholder.php:413
+#: placeholders/class-placeholder.php:438
+msgid "Import and insert file"
+msgstr "Importă și inserează fișier"
+
+#: placeholders/class-placeholder.php:333
+msgid "Mixed content in %s"
+msgstr "Conținut mixt în %s"
+
+#: placeholders/class-placeholder.php:321
+#: placeholders/class-placeholder.php:338
+#: placeholders/class-placeholder.php:362
+#: placeholders/class-placeholder.php:379
+#: placeholders/class-placeholder.php:405
+#: placeholders/class-placeholder.php:430
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:90
+#: settings/src/Settings/RiskConfiguration/RiskData.js:115
+msgid "Details"
+msgstr "Detalii"
+
+#: placeholders/class-placeholder.php:317
+msgid "Mixed content in PHP file in %s"
+msgstr "Conținut mixt în fișierul PHP în %s"
+
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:184
+#: settings/config/menu.php:755 settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/build/635.b035afd7cc3020bda9bb.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPluginsData.js:74
+#: settings/src/Onboarding/OnboardingControls.js:192
+#: settings/src/Settings/License/License.js:49
+msgid "Activate"
+msgstr "Activează"
+
+#: settings/settings.php:558
+msgid "Complianz - Consent Management as it should be"
+msgstr "Complianz - gestionarea consimțământului, așa cum ar trebui să fie"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:108
+#: lets-encrypt/integrations/cpanel/cpanel.php:192
+msgid "Your website's ip address is blocked. Please add your domain's ip address to the security policy in CPanel"
+msgstr "Adresa IP a site-ului tău este blocată. Te rog adaugă adresa de IP a domeniului tău la politica de securitate din CPanel"
+
+#: lets-encrypt/config/notices.php:170 lets-encrypt/config/notices.php:173
+msgid "Renew certificate"
+msgstr "Înnoiește certificatul"
+
+#: lets-encrypt/config/notices.php:167
+msgid "Renew installation"
+msgstr "Înnoiește instalarea"
+
+#: lets-encrypt/config/fields.php:396
+msgid "Do you want to store these credentials for renewal purposes?"
+msgstr "Dorești să stochezi aceste date de acreditare în scopul reînnoirii?"
+
+#: lets-encrypt/config/fields.php:356
+msgid "Plesk username and password"
+msgstr "Nume de utilizator și parolă Plesk"
+
+#: lets-encrypt/config/fields.php:332
+msgid "Plesk admin URL"
+msgstr "URL de administrare Plesk"
+
+#: lets-encrypt/config/fields.php:307 lets-encrypt/config/fields.php:312
+msgid "CloudWays API key"
+msgstr "Cheie API CloudWays"
+
+#: lets-encrypt/config/fields.php:231
+msgid "Direct Admin URL"
+msgstr "URL pentru administrare directă"
+
+#: lets-encrypt/config/fields.php:145 lets-encrypt/config/fields.php:148
+msgid "Include alias"
+msgstr "Include aliasul"
+
+#: lets-encrypt/config/fields.php:123 lets-encrypt/config/fields.php:126
+msgid "Disable OCSP stapling"
+msgstr "Dezactivează OCSP stapling"
+
+#: lets-encrypt/config/fields.php:110
+msgid "I agree to the Terms & Conditions from Let's Encrypt."
+msgstr "Sunt de acord cu Termenii și Condițiile Let's Encrypt."
+
+#: lets-encrypt/class-le-restapi.php:224
+msgid "Test not found."
+msgstr "Testul nu a fost găsit."
+
+#: lets-encrypt/class-le-restapi.php:155 lets-encrypt/class-le-restapi.php:216
+msgid "Permission denied."
+msgstr "Permisiunea a fost refuzată."
+
+#: class-site-health.php:219
+msgid "Read more about security concerns with debug display enabled"
+msgstr "Citește mai multe despre problemele de securitate în cazul activării afișajului de depanare"
+
+#: class-site-health.php:213
+msgid "The value, WP_DEBUG_DISPLAY, has either been enabled by WP_DEBUG or added to your configuration file. This will make errors display on the front end of your site."
+msgstr "Valoarea, WP_DEBUG_DISPLAY, a fost fie activată de WP_DEBUG, fie adăugată la fișierul tău de configurare. Aceasta va face ca erorile să fie afișate pe partea frontală a site-ului tău."
+
+#: class-site-health.php:205
+msgid "Your site is set to display errors on your website"
+msgstr "Site-ul tău este setat să afișeze erori în partea din față (frontend) a site-ului"
+
+#. translators: Accessibility text.
+#: class-site-health.php:191 class-site-health.php:221
+#: class-site-health.php:251
+msgid "(opens in a new tab)"
+msgstr "(se deschide într-o filă nouă)"
+
+#: class-site-health.php:189
+msgid "Remove from public location with Really Simple Security"
+msgstr "Elimină din locația publică cu Really Simple Security"
+
+#: class-site-health.php:183
+msgid "The value, WP_DEBUG_LOG, has been added to this website’s configuration file. This means any errors on the site will be written to a file which is potentially available to all users."
+msgstr "Valoarea WP_DEBUG_LOG a fost adăugată la fișierul de configurare a acestui site. Aceasta va avea ca efect scrierea de erori într-un fișier care este potențial accesibil tuturor utilizatorilor."
+
+#: class-site-health.php:175
+msgid "Your site is set to log errors to a potentially public file"
+msgstr "Site-ul tău este setat să înregistreze erori într-un fișier ce poate fi public"
+
+#: class-multisite.php:106
+msgid "A networkwide SSL activation process has been started, but has not been completed. Please go to the SSL settings page to complete the process."
+msgstr "A fost început un proces de activare SSL la nivel de rețea, dar nu a fost finalizat. Te rugăm să accesezi pagina de setări SSL pentru a finaliza procesul."
+
+#: class-multisite.php:105
+msgid "SSL activation in progress"
+msgstr "SSL în curs de activare"
+
+#: class-multisite.php:78
+msgid "SSL is not enabled on your network"
+msgstr "SSL nu este activat încă în rețeaua ta"
+
+#: class-admin.php:200
+msgid "Improve security - Upgrade"
+msgstr "Îmbunătățește securitatea - actualizează la Pro"
+
+#: class-admin.php:2340
+msgid "See which recommended security headers are not present on your website."
+msgstr "Vezi ce antete de securitate recomandate nu sunt prezente pe site-ul tău"
+
+#: class-admin.php:2089
+msgid "To safely enable SSL on your server configuration, you should add the following line of code to your wp-config.php."
+msgstr "Pentru a activa SSL în condiții de siguranță pe site-ul tău, ar fi indicat să adaugi următorul rând în fișierul tău wp-config.php."
+
+#: class-admin.php:2027 settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPlugins.js:21
+msgid "Upgrade"
+msgstr "Actualizează"
+
+#: upgrade/upgrade-to-pro.php:549
+msgid "Your license key has reached its activation limit."
+msgstr "Cheia ta de licență a ajuns la limita de activare."
+
+#: upgrade/upgrade-to-pro.php:546
+msgid "This appears to be an invalid license key for this plugin."
+msgstr "Se pare că această cheie de licență nu este validă pentru acest modul."
+
+#: upgrade/upgrade-to-pro.php:543
+msgid "Your license is not active for this URL."
+msgstr "Licența ta nu este activă pentru acest URL."
+
+#: upgrade/upgrade-to-pro.php:540
+msgid "Invalid license."
+msgstr "Licența nu este validă."
+
+#: upgrade/upgrade-to-pro.php:537
+msgid "Missing license."
+msgstr "Licența lipsește."
+
+#: upgrade/upgrade-to-pro.php:534
+msgid "Your license key has been disabled."
+msgstr "Cheia de licență a fost dezactivată."
+
+#: upgrade/upgrade-to-pro.php:528
+msgid "Your license key expired on %s."
+msgstr "Cheia ta de licență a expirat pe %s."
+
+#: upgrade/upgrade-to-pro.php:520 upgrade/upgrade-to-pro.php:552
+msgid "An error occurred, please try again."
+msgstr "A apărut o eroare, te rog să încerci din nou."
+
+#: upgrade/upgrade-to-pro.php:334
+msgid "Check your %slicense%s."
+msgstr "Verifică-ți %slicența%s."
+
+#: upgrade/upgrade-to-pro.php:333
+msgid "Install %sManually%s."
+msgstr "Instalează %smanual%s."
+
+#: upgrade/upgrade-to-pro.php:328
+msgid "Visit Dashboard"
+msgstr "Mergi la Panou control"
+
+#: upgrade/upgrade-to-pro.php:317
+msgid "Installing"
+msgstr "Instalez"
+
+#: upgrade/upgrade-to-pro.php:292
+msgid "Recommended by Really Simple Plugins"
+msgstr "Recomandat de Really Simple Plugins"
+
+#: upgrade/upgrade-to-pro.php:191
+msgid "Installation finished"
+msgstr "Am finalizat instalarea"
+
+#: upgrade/upgrade-to-pro.php:136
+msgid "One click SSL optimization"
+msgstr "Optimizare SSL cu un singur clic"
+
+#: upgrade/upgrade-to-pro.php:127
+msgid "Configure your Cookie Notice, Consent Management and Cookie Policy with our Wizard and Cookie Scan. Supports GDPR, DSGVO, TTDSG, LGPD, POPIA, RGPD, CCPA and PIPEDA."
+msgstr "Configurează Notificarea privind cookie-urile, Gestionarea consimțământului și Politica privind modulele cookie cu ajutorul asistentului nostru și a instrumentului de scanare a cookie-urilor. Suportă GDPR, DSGVO, TTDSG, LGPD, POPIA, RGPD, CCPA și PIPEDA."
+
+#: upgrade/upgrade-to-pro.php:123
+msgid "GDPR/CCPA Privacy Suite"
+msgstr "Suită de confidențialitate GDPR/CCPA"
+
+#: upgrade/upgrade-to-pro.php:100
+msgid "Failed to activate plugin"
+msgstr "Activarea modulului a eșuat"
+
+#: upgrade/upgrade-to-pro.php:99
+msgid "Plugin activated"
+msgstr "Modulul este activat"
+
+#: upgrade/upgrade-to-pro.php:98
+msgid "Activating plugin..."
+msgstr "Activez modulul..."
+
+#: upgrade/upgrade-to-pro.php:93
+msgid "Failed to install plugin"
+msgstr "Instalarea modulului a eșuat"
+
+#: upgrade/upgrade-to-pro.php:92
+msgid "Plugin installed"
+msgstr "Am instalat modulul"
+
+#: upgrade/upgrade-to-pro.php:91
+msgid "Installing plugin..."
+msgstr "Instalez modulul..."
+
+#: upgrade/upgrade-to-pro.php:86
+msgid "License invalid"
+msgstr "Licența nu este validă"
+
+#: upgrade/upgrade-to-pro.php:85
+msgid "License valid"
+msgstr "Licența este validă"
+
+#: upgrade/upgrade-to-pro.php:84
+msgid "Validating license..."
+msgstr "Validez licența..."
+
+#: upgrade/upgrade-to-pro.php:79
+msgid "Destination folder already exists"
+msgstr "Dosarul de destinație deja există"
+
+#: upgrade/upgrade-to-pro.php:78
+msgid "Able to create destination folder"
+msgstr "Pot să creez dosarul de destinație"
+
+#: upgrade/upgrade-to-pro.php:77
+msgid "Checking if plugin folder exists..."
+msgstr "Verific dacă există dosarul modulului..."
+
+#: class-admin.php:2194
+msgid "Check manually"
+msgstr "Verifică manual"
+
+#: class-admin.php:2189
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:107
+msgid "Could not test certificate"
+msgstr "Nu am putut să testez certificatul"
+
+#: class-admin.php:2190
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:107
+msgid "Automatic certificate detection is not possible on your server."
+msgstr "Detectarea automată a certificatelor nu este posibilă pe serverul tău."
+
+#: lets-encrypt/config/fields.php:422
+msgid "Checking host..."
+msgstr "Verific gazda..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1243
+msgid "After completing the installation, you can let Really Simple Security automatically configure your site for SSL by using the 'Activate SSL' button."
+msgstr "După finalizarea instalării, poți lăsa modulul Really Simple Security să-ți configureze automat site-ul pentru SSL folosind butonul „Activează SSL”."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1227
+msgid "We have not detected any known hosting limitations."
+msgstr "Nu am detectat nicio limită de găzduire cunoscută."
+
+#: class-admin.php:2174
+msgid "The wp-config.php file is not writable, and needs to be edited. Please set this file to writable."
+msgstr "Fișierul wp-config.php nu poate fi scris, dar el trebuie să fie editat. Te rog să setezi acest fișier ca să poată fi scris."
+
+#: class-site-health.php:287
+msgid "Your website does not send all essential security headers."
+msgstr "Site-ul tău web nu trimite toate antetele de securitate recomandate."
+
+#: class-multisite.php:234 class-multisite.php:235 class-site-health.php:94
+#: class-site-health.php:125 class-site-health.php:156
+#: class-site-health.php:178 class-site-health.php:208
+#: class-site-health.php:238 class-site-health.php:269
+#: class-site-health.php:309 settings/settings.php:226
+#: settings/settings.php:227 settings/settings.php:259
+msgid "Security"
+msgstr "Securitate"
+
+#: class-admin.php:2349
+msgid "Recommended security headers enabled."
+msgstr "Antetele de securitate recomandate au fost activate."
+
+#: lets-encrypt/config/fields.php:124
+msgid "OCSP stapling is configured as enabled by default. You can disable this option if this is not supported by your hosting provider."
+msgstr "OCSP stapling este configurată și activată în mod implicit. Poți să dezactivezi această opțiune dacă nu este acceptată de serviciul tău de găzduire."
+
+#: lets-encrypt/functions.php:12
+msgid "For more information, please read this %sarticle%s"
+msgstr "Pentru mai multe informații, te rugăm să citești acest %sarticol%s"
+
+#: class-admin.php:2410
+msgid "Black Friday sale! Get 40% Off Really Simple Security Pro"
+msgstr "Reducere de Black Friday! Ai o reducere de 40% la Really Simple Security Pro"
+
+#: lets-encrypt/config/fields.php:506
+msgid "Checking if Terms & Conditions are accepted..."
+msgstr "Verific dacă Termenii și condițiile sunt acceptate..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1107
+msgid "The Terms & Conditions were not accepted. Please accept in the general settings."
+msgstr "Nu ai acceptat termenii și condițiile. Te rugăm să accepți în setările generale."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1103
+msgid "Terms & Conditions are accepted."
+msgstr "Ai acceptat termenii și condițiile."
+
+#. translators: %s is replaced with the plugin name.
+#: class-admin.php:2396
+msgid "As Really Simple Security handles all the functionality this plugin provides, we recommend to disable this plugin to prevent unexpected behavior."
+msgstr "Deoarece Really Simple Security gestionează toate funcționalitățile oferite de acest modul, recomandăm să dezactivezi modulul pentru a evita un comportament neașteptat."
+
+#. translators: %s is replaced with the plugin name.
+#: class-admin.php:2396
+msgid "We have detected the %s plugin on your website."
+msgstr "Am detectat modulul %s pe site-ul tău."
+
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:114
+msgid "Please refresh the SSL status if a certificate has been installed recently."
+msgstr "Te rog reîmprospătează starea SSL dacă ai instalat recent un certificat."
+
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:114
+msgid "No SSL certificate has been detected."
+msgstr "Nu a fost detectat niciun certificat SSL."
+
+#: lets-encrypt/config/notices.php:129
+msgid "Your server provides shell functionality, which offers additional methods to install SSL. If installing SSL using the default methods is not possible, you can install the shell add on."
+msgstr "Serverul tău oferă funcționalități shell, care oferă metode suplimentare pentru a instala SSL. Dacă nu este posibilă instalarea SSL folosind metodele implicite, poți instala modulul adițional pentru shell."
+
+#: lets-encrypt/class-letsencrypt-handler.php:497
+msgid "If you entered your DNS records before, they need to be changed."
+msgstr "Dacă ai introdus anterior înregistrările tale DNS, ele trebuie modificate."
+
+#: lets-encrypt/class-letsencrypt-handler.php:494
+msgid "Order ID mismatch, regenerate order."
+msgstr "ID-ul comenzii nu corespunde, regenerează comanda."
+
+#: settings/config/fields/general.php:62
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/LetsEncrypt/Installation.js:95
+#: settings/src/LetsEncrypt/Installation.js:100
+#: settings/src/LetsEncrypt/Installation.js:104
+msgid "Download"
+msgstr "Descarcă"
+
+#: settings/config/menu.php:213 settings/build/995.1951bdba4c61ca45e7ca.js:1
+#: settings/src/Settings/Settings.js:164
+msgid "Notifications"
+msgstr "Notificări"
+
+#: lets-encrypt/config/notices.php:29
+msgid "Your Key and Certificate directories are not properly protected."
+msgstr "Directoarele tale pentru chei și certificate nu sunt protejate corespunzător."
+
+#: lets-encrypt/config/notices.php:112
+msgid "Your certificate will be renewed and installed automatically."
+msgstr "Certificatul tău va fi reînnoit și instalat automat."
+
+#: lets-encrypt/config/notices.php:105
+msgid "Automatic renewal of your certificate was not possible. The SSL certificate should be %srenewed%s manually."
+msgstr "Reînnoirea automată a certificatului tău nu a fost posibilă. Certificatul SSL trebuie să fie %sreînnoit%s manual."
+
+#: lets-encrypt/config/notices.php:98
+msgid "The SSL certificate has been renewed, and requires manual %sinstallation%s in your hosting dashboard."
+msgstr "Certificatul SSL a fost reînnoit și necesită o %sinstalare%s manuală în panoul de control al serviciului tău de găzduire."
+
+#: lets-encrypt/config/notices.php:91
+msgid "The automatic installation of your certificate has failed. Please check your credentials, and retry the %sinstallation%s."
+msgstr "Instalarea automată a certificatului tău a eșuat. Te rog verifică datele de conectare la server și încearcă %sinstalarea%s din nou."
+
+#: lets-encrypt/config/notices.php:76
+msgid "Your certificate will expire on %s. You can renew it %shere%s."
+msgstr "Certificatul tău va expira pe %s. Îl poți reînnoi %saici%s."
+
+#: lets-encrypt/config/notices.php:72
+msgid "Your certificate is valid until: %s"
+msgstr "Certificatul tău este valabil până la: %s"
+
+#: lets-encrypt/config/notices.php:44
+msgid "The www version of your site does not point to this website. This is recommended, as it will allow you to add it to the certificate as well."
+msgstr "Versiunea www a site-ului tău nu indică acest site. Acest lucru este recomandat, deoarece îți va permite să îl adaugi și la certificat."
+
+#: lets-encrypt/config/notices.php:42
+msgid "The non-www version of your site does not point to this website. This is recommended, as it will allow you to add it to the certificate as well."
+msgstr "Versiunea non-www a site-ului tău nu trimite spre acest site web. Acest lucru este recomandat, deoarece îți va permite să îl adăugi și la certificat."
+
+#: lets-encrypt/config/fields.php:532
+msgid "Searching for link to SSL installation page on your server..."
+msgstr "Caut legătura la pagina de instalare SSL pe serverul tău..."
+
+#: lets-encrypt/config/fields.php:29 settings/config/menu.php:750
+msgid "Installation"
+msgstr "Instalare"
+
+#: lets-encrypt/config/fields.php:25 settings/config/menu.php:745
+msgid "Generation"
+msgstr "Generare"
+
+#: lets-encrypt/config/fields.php:480
+msgid "Retrieving DNS verification token..."
+msgstr "Preiau tokenul pentru verificarea DNS..."
+
+#: lets-encrypt/config/fields.php:474 lets-encrypt/config/fields.php:512
+msgid "Creating account..."
+msgstr "Creez contul..."
+
+#: lets-encrypt/config/fields.php:453
+msgid "Checking challenge directory reachable over http..."
+msgstr "Verific dacă directorul challenge este accesibil prin http..."
+
+#: lets-encrypt/config/fields.php:446
+msgid "Checking permissions..."
+msgstr "Verific permisiunile..."
+
+#: lets-encrypt/config/fields.php:440
+msgid "Checking certs directory..."
+msgstr "Verific directorul certs..."
+
+#: lets-encrypt/config/fields.php:434
+msgid "Checking key directory..."
+msgstr "Verific directorul key..."
+
+#: lets-encrypt/config/fields.php:428
+msgid "Checking challenge directory..."
+msgstr "Verific directorul challenge..."
+
+#: lets-encrypt/config/fields.php:17 settings/config/menu.php:735
+msgid "Directories"
+msgstr "Directori"
+
+#: settings/config/menu.php:730
+msgid "Below you will find the instructions for different hosting environments and configurations. If you start the process with the necessary instructions and credentials the next steps will be done in no time."
+msgstr "Mai jos vei găsi instrucțiuni pentru diferite medii și configurări de găzduire. Dacă începi procesul cu instrucțiunile și datele de conectare necesare, vei parcurge pașii într-un timp foarte scurt."
+
+#: settings/config/menu.php:729
+msgid "Hosting"
+msgstr "Găzduire"
+
+#: settings/config/menu.php:718
+msgid "Letʼs Encrypt is a free, automated and open certificate authority brought to you by the non-profit Internet Security Research Group (ISRG)."
+msgstr "Let's Encrypt este o autoritate de certificare gratuită, automată și deschisă, care îți este oferită de organizația non-profit „Grupul de cercetare pentru securitate pe internet (ISRG)”."
+
+#: settings/config/menu.php:710
+msgid " Please note that you can always save and finish the wizard later, use our %sdocumentation%s for additional information or log a %ssupport ticket%s if you need our assistance."
+msgstr "Te rog să reții că poți să salvezi și să finalizezi asistentul de inițializare oricând, chiar mai târziu. Pentru informații suplimentare, folosește %sdocumentația%s sau deschide un %sticket de suport%s dacă ai nevoie de asistență."
+
+#: settings/config/menu.php:708
+msgid "We have tried to make our Wizard as simple and fast as possible. Although these questions are all necessary, if there’s any way you think we can improve the plugin, please let us %sknow%s!"
+msgstr "Am încercat să facem asistentul de inițializare cât mai simplu și rapid posibil. Deși toate aceste întrebări sunt necesare, dacă crezi că ne poți ajuta să îmbunătățim modulul, te rog %sanunță-ne%s!"
+
+#: lets-encrypt/config/fields.php:76
+msgid "Checking for website configuration..."
+msgstr "Verific configurarea site-ului web..."
+
+#: lets-encrypt/config/fields.php:70
+msgid "Checking alias domain..."
+msgstr "Verific domeniul alias..."
+
+#: lets-encrypt/config/fields.php:64
+msgid "Checking server software..."
+msgstr "Verific software-ul serverului..."
+
+#: lets-encrypt/config/fields.php:58
+msgid "Checking if CURL is available..."
+msgstr "Verific dacă CURL este disponibilă..."
+
+#: lets-encrypt/config/fields.php:52
+msgid "Checking SSL certificate..."
+msgstr "Verific certificatul SSL..."
+
+#: lets-encrypt/config/fields.php:47
+msgid "Detected status of your setup."
+msgstr "Starea detectată a configurării tale."
+
+#: lets-encrypt/config/fields.php:400
+msgid "Store for renewal purposes. If not stored, renewal may need to be done manually."
+msgstr "Păstrează pentru reînnoire. Dacă nu este păstrat, poate fi necesară reînnoirea manuală."
+
+#: lets-encrypt/config/fields.php:377
+msgid "Plesk password"
+msgstr "Parolă Plesk"
+
+#: lets-encrypt/config/fields.php:357
+msgid "You can find your Plesk username and password in %s"
+msgstr "Poți găsi numele de utilizator și parola Plesk în %s"
+
+#: lets-encrypt/config/fields.php:353
+msgid "Plesk username"
+msgstr "Nume de utilizator Plesk"
+
+#: lets-encrypt/config/fields.php:333
+msgid "The URL you use to access your Plesk dashboard. Ends on :8443."
+msgstr "URL-ul pe care îl folosești pentru a accesa panoul de control Plesk. Se termină în :8443."
+
+#: lets-encrypt/config/fields.php:329
+msgid "Plesk host"
+msgstr "Gazdă Plesk"
+
+#: lets-encrypt/config/fields.php:313
+msgid "You can find your api key %shere%s (make sure you're logged in with your main account)."
+msgstr "Poți găsi cheia API %saici%s (asigură-te că ești autentificat cu contul tău principal)."
+
+#: lets-encrypt/config/fields.php:291
+msgid "CloudWays user email"
+msgstr "Email utilizator CloudWays"
+
+#: lets-encrypt/config/fields.php:271
+msgid "DirectAdmin password"
+msgstr "Parolă DirectAdmin"
+
+#: lets-encrypt/config/fields.php:252
+msgid "DirectAdmin username"
+msgstr "Numele de utilizator DirectAdmin"
+
+#: lets-encrypt/config/fields.php:232
+msgid "The URL you use to access your DirectAdmin dashboard. Ends on :2222."
+msgstr "URL-ul pe care îl folosești pentru a accesa panoul de control DirectAdmin. Se termină în :2222."
+
+#: lets-encrypt/config/fields.php:228
+msgid "DirectAdmin host"
+msgstr "Gazdă DirectAdmin"
+
+#: lets-encrypt/config/fields.php:209
+msgid "CPanel password"
+msgstr "Parolă CPanel"
+
+#: lets-encrypt/config/fields.php:190
+msgid "CPanel username"
+msgstr "Nume de utilizator CPanel"
+
+#: lets-encrypt/config/fields.php:170
+msgid "The URL you use to access your cPanel dashboard. Ends on :2083."
+msgstr "URL-ul pe care îl folosești pentru a accesa panoul de control cPanel. Se termină în :2083."
+
+#: lets-encrypt/config/fields.php:166 lets-encrypt/config/fields.php:169
+msgid "CPanel host"
+msgstr "Gazdă CPanel"
+
+#: settings/config/fields/general.php:34
+msgid "Hosting provider"
+msgstr "Furnizor de găzduire"
+
+#: lets-encrypt/config/fields.php:150
+msgid "You should have the www domain pointed to the same website as the non-www domain."
+msgstr "Domeniul www trebuie să indice la același site web ca și domeniul fără www."
+
+#: lets-encrypt/config/fields.php:149
+msgid "This will include both the www. and non-www. version of your domain."
+msgstr "Va include ambele versiuni ale domeniului tău, www. și fără www."
+
+#: lets-encrypt/config/fields.php:134 lets-encrypt/config/notices.php:52
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/LetsEncrypt/DnsVerification.js:62
+msgid "Domain"
+msgstr "Domeniu"
+
+#: settings/settings.php:566
+msgid "Terms and Conditions"
+msgstr "Termeni și condiții"
+
+#: lets-encrypt/config/fields.php:94 lets-encrypt/config/fields.php:97
+#: settings/config/fields/general.php:80
+msgid "Email address"
+msgstr "Adresă email"
+
+#: lets-encrypt/config/fields.php:98
+msgid "This email address is used to create a Let's Encrypt account. This is also where you will receive renewal notifications."
+msgstr "Această adresă de email este folosită pentru crearea unui cont Let's Encrypt. La această adresă vei primi și notificări pentru reînnoire."
+
+#: lets-encrypt/config/fields.php:550
+msgid "Checking for subdomain setup..."
+msgstr "Verific inițializarea subdomeniului..."
+
+#: lets-encrypt/config/fields.php:518
+msgid "Generating SSL certificate..."
+msgstr "Generez certificatul SSL..."
+
+#: lets-encrypt/integrations/plesk/plesk.php:90
+msgid "Successfully installed SSL"
+msgstr "SSL a fost instalat cu succes"
+
+#: lets-encrypt/integrations/plesk/functions.php:33
+msgid "Installing SSL certificate using PLESK API..."
+msgstr "Instalez certificatul SSL folosind PLESK API..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:107
+#: lets-encrypt/integrations/directadmin/functions.php:35
+msgid "Attempting to install certificate..."
+msgstr "Încerc să instalez certificatul..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:100
+msgid "Attempting to set DNS txt record..."
+msgstr "Încerc să setez înregistrarea DNS txt..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:91
+msgid "Attempting to install certificate using AutoSSL..."
+msgstr "Încerc să instalez certificatul folosind AutoSSL..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:63
+msgid "The system is not ready for the DNS verification yet. Please run the wizard again."
+msgstr "Sistemul nu este încă pregătit pentru verificarea DNS. Rulează din nou expertul."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:316
+#: lets-encrypt/integrations/cpanel/cpanel.php:335
+msgid "Could not automatically add TXT record. Please proceed manually, following the steps below."
+msgstr "Nu am putut să adaug automat înregistrarea TXT. Te rog adaug-o manual urmând pașii de mai jos."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:312
+#: lets-encrypt/integrations/cpanel/cpanel.php:331
+msgid "Successfully added TXT record."
+msgstr "Am adăugat cu succes înregistrarea TXT."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:304
+msgid "Login credentials incorrect"
+msgstr "Datele de autentificare sunt incorecte"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:300
+msgid "Unable to connect to cPanel"
+msgstr "Nu pot face conectarea la cPanel"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:128
+#: lets-encrypt/integrations/cpanel/cpanel.php:207
+msgid "Errors were reported during installation."
+msgstr "Au fost raportate erori în timpul instalării."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:123
+#: lets-encrypt/integrations/directadmin/directadmin.php:172
+msgid "SSL successfully installed on %s"
+msgstr "SSL a fost instalat cu succes pe %s"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:66
+#: lets-encrypt/integrations/directadmin/directadmin.php:108
+msgid "No valid list of domains."
+msgstr "Nu există o listă validă de domenii."
+
+#: lets-encrypt/integrations/cloudways/functions.php:49
+msgid "Enabling auto renew..."
+msgstr "Activez reînnoirea automată..."
+
+#: lets-encrypt/integrations/cloudways/functions.php:43
+msgid "Installing SSL certificate..."
+msgstr "Instalez certificatul SSL..."
+
+#: lets-encrypt/integrations/cloudways/functions.php:37
+msgid "Retrieving Cloudways server data..."
+msgstr "Se preiau datele serverului Cloudways..."
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:257
+msgid "Could not retrieve server list"
+msgstr "Nu s-a putut prelua lista serverelor"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:217
+#: lets-encrypt/integrations/cloudways/cloudways.php:250
+msgid "Successfully retrieved server id and app id"
+msgstr "ID-ul serverului și ID-ul aplicației au fost recuperate cu succes"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:201
+msgid "Error enabling auto renew for Let's Encrypt"
+msgstr "Eroare la activarea reînnoirii automate pentru Let's Encrypt"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:186
+#: lets-encrypt/integrations/cloudways/cloudways.php:192
+msgid "Successfully installed Let's Encrypt"
+msgstr "Let's Encrypt a fost instalat cu succes"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:166
+msgid "Failed retrieving access token"
+msgstr "Recuperarea tokenului de acces a eșuat"
+
+#: lets-encrypt/functions.php:406
+msgid "You can follow these %sinstructions%s."
+msgstr "Poți să urmezi aceste %sinstrucțiuni%s."
+
+#: lets-encrypt/functions.php:404
+msgid "Your hosting environment does not allow automatic SSL installation."
+msgstr "Mediul tău de găzduire nu permite instalarea automată SSL."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1235
+#: lets-encrypt/functions.php:401
+msgid "According to our information, your hosting provider does not allow any kind of SSL installation, other than their own paid certificate. For an alternative hosting provider with SSL, see this %sarticle%s."
+msgstr "Conform informațiilor noastre, furnizorul tău de găzduire web nu permite niciun fel de instalare SSL, altele decât certificatul lor plătit. Pentru un furnizor alternativ de găzduire cu SSL, consultă acest %sarticol%s."
+
+#: lets-encrypt/functions.php:395
+msgid "You already have free SSL on your hosting environment."
+msgstr "Ai deja SSL gratuit în mediul tău de găzduire."
+
+#: lets-encrypt/functions.php:393 lets-encrypt/functions.php:397
+#: lets-encrypt/functions.php:407
+msgid "After completing the installation, you can continue to the next step to complete your configuration."
+msgstr "După finalizarea instalării, poți continua la pasul următor pentru a finaliza configurarea."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1242
+#: lets-encrypt/functions.php:391
+msgid "According to our information, your hosting provider supplies your account with an SSL certificate by default. Please contact your %shosting support%s if this is not the case."
+msgstr "Conform informațiilor noastre, furnizorul tău de găzduire web furnizează în mod implicit un certificat SSL pentru contul tău. Te rugăm să contactezi asistența %sfurnizorului%s dacă nu este cazul."
+
+#: lets-encrypt/functions.php:386
+msgid "Go to installation"
+msgstr "Mergi la instalare"
+
+#: lets-encrypt/functions.php:385
+msgid "Go to activation"
+msgstr "Mergi la activare"
+
+#: lets-encrypt/functions.php:384
+msgid "Please activate it on your dashboard %smanually%s"
+msgstr "Te rog activează-l %smanual%s din panoul tău de control"
+
+#: lets-encrypt/functions.php:383
+msgid "Please complete %smanually%s"
+msgstr "Te rog completează %smanual%s"
+
+#: lets-encrypt/functions.php:381
+msgid "Please activate it manually on your hosting dashboard."
+msgstr "Te rog să îl activezi manual în panoul de control al serviciului tău de găzduire."
+
+#: lets-encrypt/functions.php:380
+msgid "Please complete manually in your hosting dashboard."
+msgstr "Te rog să completezi manual în panoul de control al serviciului tău de găzduire."
+
+#: lets-encrypt/download.php:49
+msgid "File missing. Please retry the previous steps."
+msgstr "Fișier lipsă. Încearcă din nou pașii anteriori."
+
+#: security/cron.php:96
+msgid "Once every 5 minutes"
+msgstr "O dată la fiecare 5 minute"
+
+#: security/cron.php:100
+msgid "Once every day"
+msgstr "O dată pe zi"
+
+#: security/cron.php:108
+msgid "Once every week"
+msgstr "O dată pe săptămână"
+
+#: lets-encrypt/class-letsencrypt-handler.php:2097
+#: lets-encrypt/integrations/cloudways/functions.php:22
+#: lets-encrypt/integrations/cpanel/functions.php:17
+#: lets-encrypt/integrations/cpanel/functions.php:35
+#: lets-encrypt/integrations/directadmin/functions.php:16
+#: lets-encrypt/integrations/plesk/functions.php:16
+msgid "The system is not ready for the installation yet. Please run the wizard again."
+msgstr "Sistemul nu este încă pregătit pentru instalare. Te rog rulează din nou asistentul de inițializare."
+
+#: lets-encrypt/class-letsencrypt-handler.php:2092
+msgid "Installation failed."
+msgstr "Instalarea a eșuat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:2087
+msgid "Not recognized server."
+msgstr "Server nerecunoscut."
+
+#: lets-encrypt/class-letsencrypt-handler.php:2057
+msgid "The certificate installation was rate limited. Please try again later."
+msgstr "Instalarea certificatului a fost limitată. Te rugăm să încerci din nou mai târziu."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1387
+#: lets-encrypt/class-letsencrypt-handler.php:1391
+#: lets-encrypt/class-letsencrypt-handler.php:1978
+msgid "Error code %s"
+msgstr "Cod de eroare %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1961
+msgid "Please create a folder 'rsssl' in the uploads directory, with 644 permissions."
+msgstr "Te rog creează un dosar „rsssl” în directorul „uploads”, cu permisiuni 644."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1960
+msgid "Could not create test folder and file."
+msgstr "Nu s-au putut crea dosarulși fișierul de testare."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1931
+msgid "If this is not the case, don't add this alias to your certificate."
+msgstr "Dacă nu este cazul, nu adăuga acest alias la certificatul tău."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1931
+msgid "Could not verify alias domain."
+msgstr "Nu s-a putut verifica domeniul alias."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1929
+msgid "Please check if the www version of your site also points to this website."
+msgstr "Te rog verifică dacă versiunea www a site-ului tău indică la acest site."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1927
+msgid "Please check if the non www version of your site also points to this website."
+msgstr "Te rog verifică dacă versiunea fără www a site-ului tău indică la acest site."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1908
+msgid "Alias domain check is not relevant for a subdomain"
+msgstr "Verificarea domeniului alias nu este relevantă pentru un subdomeniu"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1878
+msgid "No subdomain setup detected."
+msgstr "Nu am detectat nicio inițializare a subdomeniului."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1398
+#: lets-encrypt/class-letsencrypt-handler.php:1938
+#: lets-encrypt/class-letsencrypt-handler.php:1989
+msgid "Successfully verified alias domain."
+msgstr "Domeniul alias a fost verificat cu succes."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1373
+msgid "Challenge directory not writable."
+msgstr "Directorul challenge nu poate fi scris."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1367
+msgid "Could not reach challenge directory over %s."
+msgstr "Nu am putut ajunge la directorul challenge prin %s."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1363
+#: lets-encrypt/class-letsencrypt-handler.php:1915
+msgid "no response"
+msgstr "niciun răspuns"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1305
+msgid "The certs directory was successfully created."
+msgstr "Directorul certs a fost creat cu succes."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1301
+msgid "The certs directory is not created yet."
+msgstr "Directorul certs nu este încă creat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1287
+msgid "The key directory was successfully created."
+msgstr "Directorul key a fost creat cu succes."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1279
+msgid "Trying to create directory in root of website."
+msgstr "Încerc să creez directorul în rădăcina site-ului web."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1275
+msgid "The key directory is not created yet."
+msgstr "Directorul key nu este încă creat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1262
+msgid "The challenge directory was successfully created."
+msgstr "Directorul challenge a fost creat cu succes."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1258
+msgid "The challenge directory is not created yet."
+msgstr "Directorul challenge nu este încă creat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1214
+msgid "The required directories have the necessary writing permissions."
+msgstr "Directoarele necesare au permisiunile de scriere necesare."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1207
+msgid "Set permissions to 644 to enable SSL generation."
+msgstr "Setează permisiunile la 644 pentru a permite generarea SSL."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1207
+msgid "The following directories do not have the necessary writing permissions."
+msgstr "Următoarele directoare nu au permisiunile de scriere necesare."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1191
+msgid "Please complete the following step(s) first: %s"
+msgstr "Te rog să finalizezi mai întâi următorii pași: %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:966
+msgid "Order successfully retrieved."
+msgstr "Am preluat cu succes comanda."
+
+#: lets-encrypt/class-letsencrypt-handler.php:950
+msgid "Order successfully created."
+msgstr "Am creat cu succes comanda."
+
+#: lets-encrypt/class-letsencrypt-handler.php:860
+msgid "Bundle not available yet..."
+msgstr "Pachetul nu este încă disponibil ..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:776
+#: lets-encrypt/class-letsencrypt-handler.php:852
+msgid "Files not created yet..."
+msgstr "Fișierele nu au fost create încă..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:846
+msgid "Successfully generated certificate."
+msgstr "Certificatul a fost generat cu succes."
+
+#: lets-encrypt/class-letsencrypt-handler.php:832
+msgid "OCSP not supported, the certificate will be generated without OCSP."
+msgstr "OCSP nu este acceptat, certificatul va fi generat fără OCSP."
+
+#: lets-encrypt/class-letsencrypt-handler.php:824
+msgid "As your order will be regenerated, you'll need to update your DNS text records."
+msgstr "Deoarece comanda ta va fi regenerată, va trebui să actualizezi înregistrările text DNS."
+
+#: lets-encrypt/class-letsencrypt-handler.php:490
+#: lets-encrypt/class-letsencrypt-handler.php:821
+msgid "The order is invalid, possibly due to too many failed authorization attempts. Please start at the previous step."
+msgstr "Comanda nu este validă, posibil din cauza prea multor încercări de autorizare eșuate. Te rog să reîncepi de la pasul anterior."
+
+#: lets-encrypt/class-letsencrypt-handler.php:800
+msgid "Authorization not completed yet."
+msgstr "Autorizarea nu a fost finalizată încă."
+
+#: lets-encrypt/class-letsencrypt-handler.php:770
+msgid "Certificate already generated. It was renewed if required."
+msgstr "Certificat deja generat. A fost reînnoit, dacă este necesar."
+
+#: lets-encrypt/class-letsencrypt-handler.php:731
+msgid "DNS records were not verified yet. Please complete the previous step."
+msgstr "Înregistrările DNS nu au fost încă confirmate. Te rog finalizează pasul anterior."
+
+#: lets-encrypt/class-letsencrypt-handler.php:717
+msgid "Please double check your DNS txt record."
+msgstr "Te rugăm să verifici înregistrarea DNS txt."
+
+#: lets-encrypt/class-letsencrypt-handler.php:715
+msgid "The certificate generation was rate limited for 5 minutes because the authorization failed."
+msgstr "Generarea certificatului a fost limitată pentru 5 minute deoarece autorizarea a eșuat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:634
+msgid "Could not verify TXT record for domain %s"
+msgstr "Nu am putut verifica înregistrarea TXT pentru domeniul %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:619
+msgid "The DNS response for %s was %s, while it should be %s."
+msgstr "Răspunsul DNS pentru %s a fost %s, dar ar trebui să fie %s."
+
+#: lets-encrypt/class-letsencrypt-handler.php:602
+#: lets-encrypt/class-letsencrypt-handler.php:647
+#: lets-encrypt/class-letsencrypt-handler.php:656
+msgid "Successfully verified DNS records"
+msgstr "Înregistrările DNS verificate cu succes"
+
+#: lets-encrypt/class-letsencrypt-handler.php:569
+#: lets-encrypt/integrations/cpanel/functions.php:47
+msgid "Token not generated. Please complete the previous step."
+msgstr "Tokenul nu a fost generat. Te rog finalizează pasul anterior."
+
+#: lets-encrypt/class-letsencrypt-handler.php:525
+msgid "Configured for HTTP challenge"
+msgstr "Configurat pentru verificarea HTTP"
+
+#: lets-encrypt/class-letsencrypt-handler.php:475
+msgid "Token not received yet."
+msgstr "Tokenul nu a fost primit încă."
+
+#: lets-encrypt/class-letsencrypt-handler.php:422
+msgid "The email address was not set. Please set the email address"
+msgstr "Adresa de email nu a fost setată. Te rog setează adresa de email"
+
+#: lets-encrypt/class-letsencrypt-handler.php:414
+msgid "Please change your email address %shere%s and try again."
+msgstr "Te rog schimbă adresa de email %saici%s și încearcă din nou."
+
+#: lets-encrypt/class-letsencrypt-handler.php:413
+msgid "The used domain for your email address is not allowed."
+msgstr "Domeniul folosit pentru adresa ta de e-mail nu este permis."
+
+#: lets-encrypt/class-letsencrypt-handler.php:406
+msgid "Successfully retrieved account"
+msgstr "Cont recuperat cu succes"
+
+#: lets-encrypt/class-letsencrypt-handler.php:386
+msgid "The PHP function CURL has successfully been detected."
+msgstr "Funcția PHP CURL a fost detectată cu succes."
+
+#: lets-encrypt/class-letsencrypt-handler.php:382
+msgid "The PHP function CURL is not available on your server, which is required. Please contact your hosting provider."
+msgstr "Funcția PHP CURL nu este disponibilă pe serverul tău, dar este necesară. Te rugăm să contactezi furnizorul tău de găzduire."
+
+#: lets-encrypt/class-letsencrypt-handler.php:366
+msgid "DirectAdmin recognized. Possibly the certificate can be installed automatically."
+msgstr "DirectAdmin recunoscut. Este posibil ca certificatul să poată fi instalat automat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:363
+msgid "Plesk recognized. Possibly the certificate can be installed automatically."
+msgstr "Plesk recunoscut. Este posibil ca certificatul să poată fi instalat automat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:360
+msgid "CPanel recognized. Possibly the certificate can be installed automatically."
+msgstr "CPanel recunoscut. Este posibil ca certificatul să poată fi instalat automat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:356
+msgid "The Hosting Panel software was not recognized. Depending on your hosting provider, the generated certificate may need to be installed manually."
+msgstr "Software-ul de găzduire nu a fost recunoscut. În funcție de furnizorul tău de găzduire, este posibil ca certificatul generat să fie instalat manual."
+
+#: lets-encrypt/class-letsencrypt-handler.php:343
+msgid "SSL certificate should be generated and installed."
+msgstr "Certificatul SSL ar trebui să fie generat și instalat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:337
+msgid "You already have a valid SSL certificate."
+msgstr "Ai deja un certificat SSL valid."
+
+#: lets-encrypt/class-letsencrypt-handler.php:333
+msgid "Continue to renew."
+msgstr "Continuă pentru a reînnoi."
+
+#: lets-encrypt/class-letsencrypt-handler.php:333
+msgid "Your certificate will expire on %s."
+msgstr "Certificatul tău va expira pe %s."
+
+#: class-admin.php:2078 lets-encrypt/class-letsencrypt-handler.php:327
+msgid "(unknown)"
+msgstr "(necunoscut)"
+
+#: lets-encrypt/class-letsencrypt-handler.php:263
+msgid "Your domain meets the requirements for Let's Encrypt."
+msgstr "Domeniul tău îndeplinește cerințele pentru Let's Encrypt."
+
+#: lets-encrypt/class-letsencrypt-handler.php:245
+msgid "It is not possible to install Let's Encrypt on a localhost environment."
+msgstr "Nu este posibilă instalarea Let's Encrypt pe un mediu localhost."
+
+#: lets-encrypt/class-letsencrypt-handler.php:255
+msgid "It is not possible to install Let's Encrypt on a subfolder configuration."
+msgstr "Nu este posibilă instalarea Let's Encrypt pe o configurație cu subdirectoare."
+
+#: lets-encrypt/class-letsencrypt-handler.php:250
+msgid "It is not possible to install Let's Encrypt on a subsite. Please go to the main site of your website."
+msgstr "Nu poți să instalezi Let's Encrypt pe un sub-site. Te rog mergi la site-ul tău principal."
+
+#: class-admin.php:2209 settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/build/635.b035afd7cc3020bda9bb.js:1
+#: settings/src/Dashboard/TaskElement.js:66
+msgid "Re-check"
+msgstr "Reverificare"
+
+#. translators: %1$ and %2$s are replaced with the opening and closing tag with
+#. link.
+#: class-admin.php:2204
+msgid "Depending on your hosting provider, %1$smanual installation%2$s may be required."
+msgstr "În funcție de furnizorul tău de găzduire, poate fi necesară %1$sinstalarea manuală%2$s."
+
+#. translators: %s is replaced with date.
+#: class-admin.php:2202
+msgid "If your hosting provider auto-renews your certificate, no action is required. Alternatively, you have the option to generate an SSL certificate with Really Simple Security."
+msgstr "Dacă furnizorul tău de găzduire îți reînnoiește certificatul, nu este necesară nicio acțiune. În plus, ai opțiunea să generezi un certificat SSL cu Really Simple Security."
+
+#. translators: %s is replaced with date.
+#: class-admin.php:2202
+msgid "SSL certificate will expire on %s."
+msgstr "Certificatul SSL va expira pe %s."
+
+#: class-admin.php:2199
+msgid "Your SSL certificate will expire soon."
+msgstr "Certificatul tău SSL va expira în curând."
+
+#: class-admin.php:2179
+msgid "No SSL detected. Use the retry button to check again."
+msgstr "Nu a fost detectat SSL. Folosește butonul pentru reîncercare pentru a verifica din nou."
+
+#: class-admin.php:2183 class-admin.php:2193 class-admin.php:2208
+msgid "Install SSL certificate"
+msgstr "Instalează certificatul SSL"
+
+#: class-admin.php:2184
+msgid "Retry"
+msgstr "Reîncearcă"
+
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:99
+msgid "An SSL certificate has been detected"
+msgstr "A fost detectat un certificat SSL"
+
+#: class-site-health.php:286
+msgid "Not all essential security headers are installed"
+msgstr "Nu sunt instalate toate antetele esențiale pentru securitate"
+
+#: core/config/related.php:33
+msgid "Consent Management as it should be"
+msgstr "Managementul consimțământului așa cum ar trebui el să fie"
+
+#: class-site-health.php:274
+msgid "The essential security headers are detected on your site."
+msgstr "Antetele de securitate recomandate sunt detectate pe site-ul tău."
+
+#: class-site-health.php:31
+msgid "Security Headers Test"
+msgstr "Test antet securitate"
+
+#: class-site-health.php:26
+msgid "SSL Status Test"
+msgstr "Test de stare SSL"
+
+#: class-admin.php:2178 class-site-health.php:338
+msgid "No SSL detected"
+msgstr "Nu a fost detectat SSL"
+
+#: class-site-health.php:355
+msgid "Enable 301 redirect"
+msgstr "Activează redirecționarea 301"
+
+#: class-site-health.php:350
+msgid "To ensure all traffic passes through SSL, please enable a 301 redirect."
+msgstr "Pentru a te asigura că tot traficul trece prin SSL, te rugăm să activezi o redirecționare 301."
+
+#: class-site-health.php:347
+msgid "No 301 redirect to SSL enabled."
+msgstr "Nu este activată nicio redirecționare 301 la SSL."
+
+#: class-site-health.php:341
+msgid "Really Simple Security is installed, but no valid SSL certificate is detected."
+msgstr "Really Simple Security este instalat, dar nu este detectat niciun certificat SSL valid."
+
+#: class-site-health.php:326
+msgid "Really Simple Security detected an SSL certificate, but has not been configured to enforce SSL."
+msgstr "Really Simple Security a detectat un certificat SSL, dar nu a fost configurat pentru a aplica SSL."
+
+#: class-site-health.php:323
+msgid "SSL is not enabled."
+msgstr "SSL nu este activat."
+
+#: class-admin.php:2026
+msgid "Open"
+msgstr "Deschide"
+
+#: class-admin.php:2025 settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:58
+msgid "Warning"
+msgstr "Avertizare"
+
+#: class-admin.php:2024
+msgid "Completed"
+msgstr "Efectuat"
+
+#: upgrade/upgrade-to-pro.php:149 settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPlugins.js:24
+msgid "Installed"
+msgstr "Instalat"
+
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:200
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:222
+#: upgrade/upgrade-to-pro.php:125 upgrade/upgrade-to-pro.php:138
+#: settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPluginsData.js:73
+msgid "Install"
+msgstr "Instalează"
+
+#: class-admin.php:2329
+msgid "Your site uses Divi. This can require some additional steps before getting the secure lock."
+msgstr "Site-ul tău folosește Divi. Acest lucru poate necesita câțiva pași suplimentari înainte de a obține blocarea sigură."
+
+#: class-admin.php:2315
+msgid "Your site uses Elementor. This can require some additional steps before getting the secure lock."
+msgstr "Site-ul tău folosește Elementor. Acest lucru poate necesita câțiva pași suplimentari înainte de a obține blocarea sigură."
+
+#: class-admin.php:2300
+msgid "The .htaccess redirect rules selected by this plugin failed in the test. Set manually or dismiss to leave on PHP redirect."
+msgstr "Regulile de redirecționare .htaccess selectate de acest modul au eșuat la testare. Setează manual sau închide pentru a lăsa activă redirecționarea PHP."
+
+#: class-admin.php:2286
+msgid "WordPress 301 redirect enabled. We recommend to enable a 301 .htaccess redirect."
+msgstr "Redirecționare WordPress 301 activată. Îți recomandăm să activezi o redirecționare 301 .htaccess."
+
+#: class-admin.php:2240
+msgid "Mixed content fixer not enabled. Enable the option to fix mixed content on your site."
+msgstr "Programul pentru corectarea conținutului mixt nu este activat. Activează opțiunea ca să corectezi conținutul mixt pe site-ul tău."
+
+#: class-admin.php:2229
+msgid "The mixed content fixer is active, but was not detected on the frontpage."
+msgstr "Programul de reparare a conținutului mixt este activ, dar nu a fost detectat pe prima pagină."
+
+#: class-admin.php:2222
+msgid "Really Simple Security has received no response from the webpage."
+msgstr "Really Simple Security nu a primit niciun răspuns de la pagina web."
+
+#: class-admin.php:2157
+msgid "SSL is not enabled yet."
+msgstr "SSL nu este activat încă."
+
+#: class-admin.php:2064
+msgid "No recommended redirect rules detected."
+msgstr "Nu am detectat reguli de redirecționare recomandate."
+
+#: settings/config/menu.php:23 settings/config/menu.php:29
+#: settings/config/menu.php:386
+msgid "General"
+msgstr "Generale"
+
+#: class-admin.php:195 settings/build/index.8a738e7fc52f3a6e7f2a.js:1
+#: settings/src/Header.js:45
+msgid "Support"
+msgstr "Suport"
+
+#: class-multisite.php:74
+msgid "SSL is enabled networkwide."
+msgstr "SSL este activat în întreaga rețea."
+
+#: class-site-health.php:334 settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/build/635.b035afd7cc3020bda9bb.js:1
+#: settings/src/Dashboard/Progress/ProgressFooter.js:24
+#: settings/src/Onboarding/OnboardingControls.js:168
+msgid "Activate SSL"
+msgstr "Activează SSL"
+
+#: progress/class-progress.php:89
+msgid "SSL is not yet enabled on this site."
+msgstr "SSL nu este încă activat pe acest site."
+
+#: settings/config/menu.php:82
+msgid "Mixed content"
+msgstr "Conținut mixt"
+
+#: class-site-health.php:101 class-site-health.php:132
+#: class-site-health.php:163 class-site-health.php:249
+#: class-site-health.php:291
+#: settings/config/fields/vulnerability-detection.php:238
+#: settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/src/Dashboard/SslLabs/SslLabs.js:320
+#: settings/src/LetsEncrypt/DnsVerification.js:57
+msgid "Read more"
+msgstr "Citește mai mult"
+
+#. translators: %1$ and %2$ are replaced with opening and closing a tag
+#. containing hyperlink
+#: class-admin.php:1839
+msgid "Hi, Really Simple Security has kept your site secure for some time now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %1$smessage%2$s."
+msgstr "Salut, Really Simple Security a păstrat site-ul tău securizat de ceva timp, minunat! Dacă ai un moment, te rog să lași o recenzie pe WordPress.org pentru a răspândi vestea. Apreciem foarte mult acest lucru! Dacă ai întrebări sau feedback, lasă-ne un %1$smesaj%2$s."
+
+#: class-admin.php:1871
+msgid "Don't show again"
+msgstr "Nu mai arăta"
+
+#. translators: %s is replaced with the error description.
+#: class-admin.php:2247
+msgid "The mixed content fixer could not be detected due to a cURL error: %s. cURL errors are often caused by an outdated version of PHP or cURL and don't affect the front-end of your site. Contact your hosting provider for a fix."
+msgstr "Programul de reparare a conținutului mixt nu a putut fi detectat din cauza unei erori cURL: %s. Erorile cURL sunt adesea cauzate de o versiune învechită a PHP sau cURL și nu afectează partea din față a sitului tău. Contactează furnizorul de găzduire pentru o soluție."
+
+#: class-admin.php:2234
+msgid "Error occurred when retrieving the webpage."
+msgstr "A apărut o eroare la preluarea paginii web."
+
+#: class-site-health.php:362
+msgid "The 301 .htaccess redirect is the fastest and most reliable redirect option."
+msgstr "Redirecționarea 301 .htaccess este cea mai rapidă și mai fiabilă opțiune de redirecționare."
+
+#: class-site-health.php:359
+msgid "301 .htaccess redirect is not enabled."
+msgstr "Redirecționarea 301 prin .htaccess nu este activată."
+
+#: class-site-health.php:314
+msgid "You have set a 301 redirect to SSL. This is important for SEO purposes"
+msgstr "Ai setat o redirecționare 301 către SSL. Acest lucru este important în scopuri SEO"
+
+#: class-site-health.php:306
+msgid "301 SSL redirect enabled"
+msgstr "Redirecționarea 301 prin SSL este activată"
+
+#: class-admin.php:688
+msgid "Dismiss"
+msgstr "Închide"
+
+#: core/app/Features/Onboarding/OnboardingStepsGenerator.php:162
+#: settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:116
+msgid "Enable"
+msgstr "Activează"
+
+#: class-admin.php:2124
+msgid "The 'force-deactivate.php' file has to be renamed to .txt. Otherwise your ssl can be deactivated by anyone on the internet."
+msgstr "Fișierul „force-deactivate.php” trebuie redenumit în .txt. Dacă nu faci asta, SSL-ul tău poate fi dezactivat de oricine de pe internet."
+
+#: security/cron.php:112
+msgid "Once every month"
+msgstr "O dată pe lună"
+
+#: class-admin.php:1866
+msgid "Maybe later"
+msgstr "Poate mai târziu"
+
+#: class-admin.php:1862
+msgid "Leave a review"
+msgstr "Lasă o recenzie"
+
+#. translators: %1$ and %2$ are replaced with opening and closing a tag
+#. containing hyperlink
+#: class-admin.php:1846
+msgid "Hi, Really Simple Security has kept your site secure for a month now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %1$smessage%2$s."
+msgstr "Bună, Really Simple Security ți-a păstrat site-ul în siguranță de ceva timp! Dacă vrei, te rog lasă-ne o recenzie pe WordPress.org ca să afle și alții. Am fi recunoscători! Dacă ai întrebări, păreri sau idei, trimite-ne un %1$smesaj%2$s."
+
+#: class-multisite.php:123
+msgid "Activate SSL per site or install a wildcard certificate to fix this."
+msgstr "Activează SSL per site sau instalează un certificat wildcard pentru a remedia acest lucru."
+
+#: class-multisite.php:122
+msgid "This leads to issues when activating SSL networkwide since subdomains will be forced over SSL as well while they don't have a valid certificate."
+msgstr "Acest lucru duce la probleme la activarea SSL la nivel de rețea, deoarece subdomeniile vor fi forțate și prin SSL, în timp ce acestea nu au un certificat valid."
+
+#: class-multisite.php:121
+msgid "You run a Multisite installation with subdomains, but your site doesn't have a wildcard certificate."
+msgstr "Rulezi o instalare Multisite cu subdomenii, dar situl tău nu are un certificat wildcard."
+
+#: upgrade/upgrade-to-pro.php:331 modal/build/433.db1479f1e30c6b53cbd8.js:1
+#: modal/src/components/Modal/RssslModal.js:68
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/build/635.b035afd7cc3020bda9bb.js:1
+#: settings/src/Settings/firewall/UserAgentModal.js:151
+#: settings/src/Settings/GeoBlockList/TrustIpAddressModal.js:140
+#: settings/src/Settings/LearningMode/ManualCspAdditionModal.js:190
+#: settings/src/Settings/LimitLoginAttempts/AddIpAddressModal.js:110
+#: settings/src/Settings/LimitLoginAttempts/AddUserModal.js:90
+msgid "Cancel"
+msgstr "Anulează"
+
+#: class-admin.php:692 settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/build/536.a59728be12baf4673c92.js:1
+#: settings/build/635.b035afd7cc3020bda9bb.js:1
+#: settings/build/995.1951bdba4c61ca45e7ca.js:1
+#: settings/src/Dashboard/TaskElement.js:65 settings/src/Settings/Help.js:24
+msgid "More info"
+msgstr "Mai multe informații"
+
+#. translators: %s is replaced with the hyperlink
+#: class-admin.php:245
+msgid "Really Simple Security and Really Simple Security add-ons do not process any personal identifiable information, so the GDPR does not apply to these plugins or usage of these plugins on your website. You can find our privacy policy <a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>."
+msgstr "Really Simple Security și modulele Really Simple Security nu procesează nicio informație personală identificabilă, deci GDPR nu se aplică acestor module ori asupra utilizării acestor module pe site-ul tău. Poți găsi politica noastră privind confidențialitatea <a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">aici</a>."
+
+#: core/app/Features/Vulnerability/Services/VulnerabilityEmailService.php:86
+#: mailer/class-mail.php:33 mailer/class-mail.php:37
+#: settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:192
+msgid "Learn more"
+msgstr "Învață mai multe"
+
+#: settings/config/fields/encryption.php:59
+msgid "If this option is set to true, the mixed content fixer will fire on the init hook instead of the template_redirect hook. Only use this option when you experience problems with the mixed content fixer."
+msgstr "Dacă această opțiune este activată, programul de reparare a conținutului mixt se va declanșa cu cârligul init în loc de cârligul template_redirect. Folosește această opțiune numai când ai probleme cu programul de reparare a conținutului mixt."
+
+#: class-site-health.php:367
+msgid "Enable 301 .htaccess redirect"
+msgstr "Activează redirecționarea 301 prin .htaccess"
+
+#: class-admin.php:2264
+msgid "No 301 redirect is set. Enable the WordPress 301 redirect in the settings to get a 301 permanent redirect."
+msgstr "Nicio redirecționare 301 setată. Activează redirecționarea 301 WordPress în setări pentru a obține o redirecționare 301 permanentă."
+
+#: class-admin.php:2293
+msgid "Enable a .htaccess redirect or PHP redirect in the settings to create a 301 redirect."
+msgstr "Activează o redirecționare .htaccess sau o redirecționare PHP în setări ca să creezi o redirecționare 301."
+
+#: class-admin.php:2298
+msgid ".htaccess redirect."
+msgstr "Redirecționare .htaccess."
+
+#: class-admin.php:2260
+msgid "301 redirect to https set."
+msgstr "Setare redirecționare 301 către https."
+
+#: class-multisite.php:107
+msgid "View settings page"
+msgstr "Vezi pagina de setări"
+
+#: settings/config/fields/general.php:211 settings/config/menu.php:51
+msgid "Premium Support"
+msgstr "Suport premium"
+
+#: lets-encrypt/functions.php:376 lets-encrypt/functions.php:377
+#: settings/build/995.1951bdba4c61ca45e7ca.js:1
+#: settings/src/Settings/SettingsGroup.js:100
+msgid "Instructions"
+msgstr "Instrucțiuni"
+
+#: class-admin.php:2153
+msgid "SSL is enabled on your site."
+msgstr "SSL este activat pe site-ul tău."
+
+#: class-admin.php:2087
+msgid "Your wp-config.php has to be edited, but is not writable."
+msgstr "wp-config.php trebuie să fie editat, dar nu poate fi scris."
+
+#: class-admin.php:2088 class-admin.php:2109
+msgid "Set your wp-config.php to writable and reload this page."
+msgstr "Configurează wp-config.php ca să poată fi scris și apoi reîncarcă această pagină."
+
+#: class-admin.php:2109
+msgid "A definition of a site url or home url was detected in your wp-config.php, but the file is not writable."
+msgstr "Am detectat o definiție pentru siteurl sau homeurl în wp-config.php, dar fișierul nu poate fi scris."
+
+#. Plugin URI of the plugin
+#: rlrsssl-really-simple-ssl.php
+msgid "https://really-simple-ssl.com"
+msgstr "https://really-simple-ssl.com"
+
+#: settings/config/fields/general.php:221
+msgid "Stop editing the .htaccess file"
+msgstr "Oprește editarea fișierului .htaccess"
+
+#: class-admin.php:188 class-admin.php:190 settings/config/menu.php:17
+#: settings/config/menu.php:394 settings/build/366.0d5cd85e5385919f12a4.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:237
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesFooter.js:24
+msgid "Settings"
+msgstr "Setări"
+
+#: settings/config/menu.php:208
+msgid "Configuration"
+msgstr "Configurare"
+
+#: settings/config/fields/encryption.php:46
+msgid "Mixed content fixer"
+msgstr "Instrument de remediere pentru conținut mixt"
+
+#: class-multisite.php:93
+msgid "Activate networkwide to fix this."
+msgstr "Pentru a corecta asta, activează întreaga rețea."
+
+#: class-multisite.php:92
+msgid "Because the $_SERVER[\"HTTPS\"] variable is not set, your website may experience redirect loops."
+msgstr "Deoarece variabila $ _SERVER [\"HTTPS\"] nu este setată, site-ul tău web poate încerca bucle de redirecționare."
+
+#: class-multisite.php:91
+msgid "You run a Multisite installation with subfolders, which prevents this plugin from fixing your missing server variable in the wp-config.php."
+msgstr "Rulezi o instalare Multisite cu subdirectoare, ceea ce împiedică acest modul să remedieze variabila server lipsă din wp-config.php."
+
+#: class-admin.php:2125 settings/build/635.b035afd7cc3020bda9bb.js:1
+#: settings/src/Onboarding/Items/ListItem.js:46
+msgid "Check again"
+msgstr "Verifică din nou"

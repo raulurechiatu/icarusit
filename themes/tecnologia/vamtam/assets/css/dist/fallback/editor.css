@@ -1,0 +1,1051 @@
+/* Clearfix */
+/* Absolute Fill Container */
+/* buttons */
+/* Fonts */
+/* !! Attention !!
+	When you use this rule, remember to add the relevant equivalent styles
+	to layout-below-max.less (tablet) and layout-small.less (phone).
+*/
+.vamtam-font-primary-font,
+body,
+blockquote.small p,
+blockquote.small,
+blockquote.simple .quote-text,
+blockquote cite,
+blockquote .wp-block-pullquote__citation,
+blockquote .wp-block-quote__citation,
+blockquote cite a,
+blockquote .wp-block-pullquote__citation a,
+blockquote .wp-block-quote__citation a,
+.wp-caption figcaption,
+.wp-block-image figure figcaption,
+.wp-caption .wp-caption-text,
+.wp-block-image figure figcaption,
+figure.wp-block-image figcaption,
+.entry-caption,
+.gallery-caption {
+  font: var( --e-global-typography-vamtam_primary_font-font-weight, normal ) var( --e-global-typography-vamtam_primary_font-font-style, normal ) var( --e-global-typography-vamtam_primary_font-font-size )/var( --e-global-typography-vamtam_primary_font-line-height ) var( --e-global-typography-vamtam_primary_font-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_primary_font-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_primary_font-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_primary_font-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_primary_font-decoration, none );
+}
+.vamtam-font-h1,
+h1,
+.font-h1,
+.editor-post-title__input,
+.wp-block-freeform.block-library-rich-text__tinymce h1 {
+  font: var( --e-global-typography-vamtam_h1-font-weight, normal ) var( --e-global-typography-vamtam_h1-font-style, normal ) var( --e-global-typography-vamtam_h1-font-size )/var( --e-global-typography-vamtam_h1-line-height ) var( --e-global-typography-vamtam_h1-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h1-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h1-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h1-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h1-decoration, none );
+}
+.vamtam-font-h2,
+h2,
+.font-h2,
+.wp-block-freeform.block-library-rich-text__tinymce h2 {
+  font: var( --e-global-typography-vamtam_h2-font-weight, normal ) var( --e-global-typography-vamtam_h2-font-style, normal ) var( --e-global-typography-vamtam_h2-font-size )/var( --e-global-typography-vamtam_h2-line-height ) var( --e-global-typography-vamtam_h2-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h2-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h2-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h2-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h2-decoration, none );
+}
+.vamtam-font-h3,
+h3,
+.font-h3,
+.wp-block-latest-posts.is-grid li a,
+.wp-block-cover-image h2,
+.wp-block-cover h2,
+.wp-block-cover-image .wp-block-cover-image-text,
+.wp-block-cover .wp-block-cover-text,
+.wp-block-freeform.block-library-rich-text__tinymce h3 {
+  font: var( --e-global-typography-vamtam_h3-font-weight, normal ) var( --e-global-typography-vamtam_h3-font-style, normal ) var( --e-global-typography-vamtam_h3-font-size )/var( --e-global-typography-vamtam_h3-line-height ) var( --e-global-typography-vamtam_h3-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h3-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h3-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h3-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h3-decoration, none );
+}
+.vamtam-font-h4,
+h4,
+.font-h4,
+.wp-block-freeform.block-library-rich-text__tinymce h4 {
+  font: var( --e-global-typography-vamtam_h4-font-weight, normal ) var( --e-global-typography-vamtam_h4-font-style, normal ) var( --e-global-typography-vamtam_h4-font-size )/var( --e-global-typography-vamtam_h4-line-height ) var( --e-global-typography-vamtam_h4-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h4-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h4-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h4-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h4-decoration, none );
+}
+.vamtam-font-h5,
+h5,
+.font-h5,
+.wp-block-freeform.block-library-rich-text__tinymce h5 {
+  font: var( --e-global-typography-vamtam_h5-font-weight, normal ) var( --e-global-typography-vamtam_h5-font-style, normal ) var( --e-global-typography-vamtam_h5-font-size )/var( --e-global-typography-vamtam_h5-line-height ) var( --e-global-typography-vamtam_h5-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h5-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h5-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h5-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h5-decoration, none );
+}
+.vamtam-font-h6,
+h6,
+.font-h6,
+.wp-block-freeform.block-library-rich-text__tinymce h6 {
+  font: var( --e-global-typography-vamtam_h6-font-weight, normal ) var( --e-global-typography-vamtam_h6-font-style, normal ) var( --e-global-typography-vamtam_h6-font-size )/var( --e-global-typography-vamtam_h6-line-height ) var( --e-global-typography-vamtam_h6-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h6-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h6-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h6-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h6-decoration, none );
+}
+body {
+  --vamtam-accent-color-1: var(--e-global-color-vamtam_accent_1);
+  --vamtam-accent-color-1-hc: hsl(from var(--e-global-color-vamtam_accent_1) h 0 calc(100 - round(calc(l + 10), 100)));
+  --vamtam-accent-color-2: var(--e-global-color-vamtam_accent_2);
+  --vamtam-accent-color-2-hc: hsl(from var(--e-global-color-vamtam_accent_2) h 0 calc(100 - round(calc(l + 10), 100)));
+  --vamtam-accent-color-3: var(--e-global-color-vamtam_accent_3);
+  --vamtam-accent-color-3-hc: hsl(from var(--e-global-color-vamtam_accent_3) h 0 calc(100 - round(calc(l + 10), 100)));
+  --vamtam-accent-color-4: var(--e-global-color-vamtam_accent_4);
+  --vamtam-accent-color-4-hc: hsl(from var(--e-global-color-vamtam_accent_4) h 0 calc(100 - round(calc(l + 10), 100)));
+  --vamtam-accent-color-5: var(--e-global-color-vamtam_accent_5);
+  --vamtam-accent-color-5-hc: hsl(from var(--e-global-color-vamtam_accent_5) h 0 calc(100 - round(calc(l + 10), 100)));
+  --vamtam-accent-color-6: var(--e-global-color-vamtam_accent_6);
+  --vamtam-accent-color-6-hc: hsl(from var(--e-global-color-vamtam_accent_6) h 0 calc(100 - round(calc(l + 10), 100)));
+  --vamtam-accent-color-7: var(--e-global-color-vamtam_accent_7);
+  --vamtam-accent-color-7-hc: hsl(from var(--e-global-color-vamtam_accent_7) h 0 calc(100 - round(calc(l + 10), 100)));
+  --vamtam-accent-color-8: var(--e-global-color-vamtam_accent_8);
+  --vamtam-accent-color-8-hc: hsl(from var(--e-global-color-vamtam_accent_8) h 0 calc(100 - round(calc(l + 10), 100)));
+  --vamtam-primary-font-color: var(--e-global-color-vamtam_primary_font_color);
+  --vamtam-primary-font-font-size: var(--e-global-typography-vamtam_primary_font-font-size);
+  --vamtam-primary-font-font-family: var(--e-global-typography-vamtam_primary_font-font-family);
+  --vamtam-primary-font-font-weight: var(--e-global-typography-vamtam_primary_font-font-weight);
+  --vamtam-primary-font-font-style: var(--e-global-typography-vamtam_primary_font-font-style);
+  --vamtam-primary-font-text-transform: var(--e-global-typography-vamtam_primary_font-text-transform);
+  --vamtam-primary-font-text-decoration: var(--e-global-typography-vamtam_primary_font-text-decoration);
+  --vamtam-h1-color: var(--e-global-color-vamtam_h1_color);
+  --vamtam-h1-font-size: var(--e-global-typography-vamtam_h1-font-size);
+  --vamtam-h1-font-family: var(--e-global-typography-vamtam_h1-font-family);
+  --vamtam-h1-font-weight: var(--e-global-typography-vamtam_h1-font-weight);
+  --vamtam-h1-font-style: var(--e-global-typography-vamtam_h1-font-style);
+  --vamtam-h1-text-transform: var(--e-global-typography-vamtam_h1-text-transform);
+  --vamtam-h1-text-decoration: var(--e-global-typography-vamtam_h1-text-decoration);
+  --vamtam-h2-color: var(--e-global-color-vamtam_h2_color);
+  --vamtam-h2-font-size: var(--e-global-typography-vamtam_h2-font-size);
+  --vamtam-h2-font-family: var(--e-global-typography-vamtam_h2-font-family);
+  --vamtam-h2-font-weight: var(--e-global-typography-vamtam_h2-font-weight);
+  --vamtam-h2-font-style: var(--e-global-typography-vamtam_h2-font-style);
+  --vamtam-h2-text-transform: var(--e-global-typography-vamtam_h2-text-transform);
+  --vamtam-h2-text-decoration: var(--e-global-typography-vamtam_h2-text-decoration);
+  --vamtam-h3-color: var(--e-global-color-vamtam_h3_color);
+  --vamtam-h3-font-size: var(--e-global-typography-vamtam_h3-font-size);
+  --vamtam-h3-font-family: var(--e-global-typography-vamtam_h3-font-family);
+  --vamtam-h3-font-weight: var(--e-global-typography-vamtam_h3-font-weight);
+  --vamtam-h3-font-style: var(--e-global-typography-vamtam_h3-font-style);
+  --vamtam-h3-text-transform: var(--e-global-typography-vamtam_h3-text-transform);
+  --vamtam-h3-text-decoration: var(--e-global-typography-vamtam_h3-text-decoration);
+  --vamtam-h4-color: var(--e-global-color-vamtam_h4_color);
+  --vamtam-h4-font-size: var(--e-global-typography-vamtam_h4-font-size);
+  --vamtam-h4-font-family: var(--e-global-typography-vamtam_h4-font-family);
+  --vamtam-h4-font-weight: var(--e-global-typography-vamtam_h4-font-weight);
+  --vamtam-h4-font-style: var(--e-global-typography-vamtam_h4-font-style);
+  --vamtam-h4-text-transform: var(--e-global-typography-vamtam_h4-text-transform);
+  --vamtam-h4-text-decoration: var(--e-global-typography-vamtam_h4-text-decoration);
+  --vamtam-h5-color: var(--e-global-color-vamtam_h5_color);
+  --vamtam-h5-font-size: var(--e-global-typography-vamtam_h5-font-size);
+  --vamtam-h5-font-family: var(--e-global-typography-vamtam_h5-font-family);
+  --vamtam-h5-font-weight: var(--e-global-typography-vamtam_h5-font-weight);
+  --vamtam-h5-font-style: var(--e-global-typography-vamtam_h5-font-style);
+  --vamtam-h5-text-transform: var(--e-global-typography-vamtam_h5-text-transform);
+  --vamtam-h5-text-decoration: var(--e-global-typography-vamtam_h5-text-decoration);
+  --vamtam-h6-color: var(--e-global-color-vamtam_h6_color);
+  --vamtam-h6-font-size: var(--e-global-typography-vamtam_h6-font-size);
+  --vamtam-h6-font-family: var(--e-global-typography-vamtam_h6-font-family);
+  --vamtam-h6-font-weight: var(--e-global-typography-vamtam_h6-font-weight);
+  --vamtam-h6-font-style: var(--e-global-typography-vamtam_h6-font-style);
+  --vamtam-h6-text-transform: var(--e-global-typography-vamtam_h6-text-transform);
+  --vamtam-h6-text-decoration: var(--e-global-typography-vamtam_h6-text-decoration);
+  --vamtam-default-bg-color: #fff;
+  --vamtam-default-line-color: var(--vamtam-accent-color-7);
+  --vamtam-vertical-padding: 30px;
+  --vamtam-no-border-link: none;
+  --vamtam-border-radius: 0px;
+  --vamtam-border-radius-oval: 0px;
+  --vamtam-border-radius-small: 0px;
+  --vamtam-sticky-header-bg-color: var(--e-global-color-vamtam_sticky_header_bg_color);
+}
+html,
+body,
+th,
+td {
+  color: var(--vamtam-widget-text-lighter);
+}
+.color-accent-1,
+.hover-color-accent-1:hover {
+  color: var(--vamtam-accent-color-1) !important;
+}
+.color-accent-2,
+.hover-color-accent-2:hover {
+  color: var(--vamtam-accent-color-2) !important;
+}
+.color-accent-3,
+.hover-color-accent-3:hover {
+  color: var(--vamtam-accent-color-3) !important;
+}
+.color-accent-4,
+.hover-color-accent-4:hover {
+  color: var(--vamtam-accent-color-4) !important;
+}
+.color-accent-5,
+.hover-color-accent-5:hover {
+  color: var(--vamtam-accent-color-5) !important;
+}
+.color-accent-6,
+.hover-color-accent-6:hover {
+  color: var(--vamtam-accent-color-6) !important;
+}
+.color-accent-7,
+.hover-color-accent-7:hover {
+  color: var(--vamtam-accent-color-7) !important;
+}
+.color-accent-8,
+.hover-color-accent-8:hover {
+  color: var(--vamtam-accent-color-8) !important;
+}
+ul:not(.wp-block-gallery),
+ol {
+  margin: 0em 1.5em 0.5em 1.5em;
+}
+p.has-large-font-size {
+  font-size: 36px;
+}
+em {
+  font-style: italic;
+}
+h1,
+.color-h1,
+.wp-block-freeform.block-library-rich-text__tinymce h1 {
+  color: var(--vamtam-h1-color);
+}
+h2,
+.color-h2,
+.wp-block-freeform.block-library-rich-text__tinymce h2 {
+  color: var(--vamtam-h2-color);
+}
+h3,
+.color-h3,
+.wp-block-freeform.block-library-rich-text__tinymce h3 {
+  color: var(--vamtam-h3-color);
+}
+h4,
+.color-h4,
+.wp-block-freeform.block-library-rich-text__tinymce h4 {
+  color: var(--vamtam-h4-color);
+}
+h5,
+.color-h5,
+.wp-block-freeform.block-library-rich-text__tinymce h5 {
+  color: var(--vamtam-h5-color);
+}
+h6,
+.color-h6,
+.wp-block-freeform.block-library-rich-text__tinymce h6 {
+  color: var(--vamtam-h6-color);
+}
+a,
+.wp-block-freeform.block-library-rich-text__tinymce a {
+  text-decoration: none;
+  color: var(--vamtam-body-link-regular);
+  transition: all 0.3s;
+}
+a .icon.shortcode.use-hover {
+  transition: all 0.3s ease-out;
+  padding: 0.3em;
+  border-radius: 20em;
+  line-height: 1em;
+}
+a:visited,
+.wp-block-freeform.block-library-rich-text__tinymce a:visited {
+  color: var(--vamtam-body-link-visited);
+}
+a:active {
+  color: var(--vamtam-body-link-active);
+}
+a:hover {
+  color: var(--vamtam-body-link-hover);
+}
+a:hover .icon.shortcode.use-hover {
+  color: var(--vamtam-body-link-hover) !important;
+  background: var(--vamtam-accent-color-5);
+}
+.vamtam-main a .icon.shortcode.border {
+  color: var(--vamtam-body-link-regular);
+}
+.vamtam-main a:hover .icon.shortcode.border {
+  border-color: var(--vamtam-body-link-hover);
+  color: var(--vamtam-body-link-hover) !important;
+}
+p {
+  margin: 0 0 1em 0;
+}
+p:empty {
+  display: none;
+}
+strong,
+b {
+  font-weight: 700;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.wp-block-freeform.block-library-rich-text__tinymce h1,
+.wp-block-freeform.block-library-rich-text__tinymce h2,
+.wp-block-freeform.block-library-rich-text__tinymce h3,
+.wp-block-freeform.block-library-rich-text__tinymce h4,
+.wp-block-freeform.block-library-rich-text__tinymce h5,
+.wp-block-freeform.block-library-rich-text__tinymce h6 {
+  margin-top: 0.6em;
+  margin-bottom: 0.3em;
+}
+.mce-content-body {
+  line-height: var(--vamtam-primary-font-line-height);
+}
+blockquote {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin: 0 0 1em 0;
+  padding: 0.2em 1.5em;
+  font-style: italic;
+  text-align: start;
+  border-left: 5px solid var(--vamtam-accent-color-2) !important;
+  background-color: var(--vamtam-accent-color-5);
+}
+.wp-block-pullquote.has-background > blockquote {
+  background: none !important;
+  border: 0 !important;
+}
+blockquote.wp-block-quote {
+  text-align: inherit;
+  box-sizing: border-box;
+}
+blockquote.wp-block-quote.is-large {
+  border-left-width: 10px !important;
+}
+#main.layout-left-only blockquote {
+  margin-left: 0;
+}
+blockquote p,
+blockquote cite {
+  margin: 1em 0em !important;
+}
+blockquote.small p,
+blockquote.small {
+  margin-bottom: 0;
+}
+blockquote.simple {
+  overflow: auto;
+  margin: 0;
+  padding-left: 0;
+  border-left: 0 !important;
+  text-align: center;
+  display: flex;
+}
+blockquote.simple.alignment-center {
+  flex-flow: column;
+}
+blockquote.simple.alignment-left {
+  flex-flow: row;
+}
+blockquote.simple.alignment-left .quote-text {
+  text-align: start;
+}
+blockquote.simple.alignment-left .quote-thumbnail {
+  width: 17%;
+  margin: 0px 3% 0px 0px;
+}
+blockquote.simple.alignment-right {
+  flex-flow: row-reverse;
+}
+blockquote.simple.alignment-right .quote-text {
+  text-align: end;
+}
+blockquote.simple.alignment-right .quote-thumbnail {
+  width: 17%;
+  margin-left: 3%;
+  margin: 0px 0px 0px 3%;
+}
+blockquote.simple .quote-thumbnail {
+  width: 120px;
+  margin: auto auto 20px auto;
+  text-align: center;
+}
+blockquote.simple .quote-thumbnail img {
+  display: block;
+  margin: 0px;
+  width: 100%;
+  height: auto;
+  border-radius: var(--vamtam-border-radius);
+}
+blockquote.simple .quote-text {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+}
+blockquote.simple .quote-summary {
+  margin-top: 0;
+}
+blockquote.simple h3.quote-summary {
+  font-weight: 300;
+  font-size: calc(var(--vamtam-h3-font-size) - 4px);
+  color: var(--vamtam-accent-color-6);
+}
+blockquote.simple .quote-title-wrapper {
+  margin: 10px 0 0 0;
+}
+blockquote.simple .quote-title {
+  width: auto;
+  color: var(--vamtam-accent-color-6);
+  border: none;
+  padding: 0px;
+  border-radius: 0px;
+  margin: 0px 0px 15px 0px;
+  font-size: 10px;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+}
+blockquote.simple .quote-title a {
+  color: var(--vamtam-body-link-regular);
+}
+blockquote.simple .quote-title .the-title:not(:last-child) {
+  padding-right: 3px;
+}
+blockquote.simple .quote-title .the-title {
+  padding-left: 5px;
+}
+blockquote.simple .quote-title .icon {
+  font-size: 20px;
+  vertical-align: top;
+  margin-right: 5px;
+  color: var(--vamtam-accent-color-3);
+}
+blockquote.simple .quote-title .icon:last-child {
+  margin-right: 100px;
+}
+blockquote cite,
+blockquote .wp-block-pullquote__citation,
+blockquote .wp-block-quote__citation {
+  display: block;
+  margin: 20px 0 0 0;
+  text-transform: none;
+}
+blockquote cite,
+blockquote .wp-block-pullquote__citation,
+blockquote .wp-block-quote__citation,
+blockquote cite a,
+blockquote .wp-block-pullquote__citation a,
+blockquote .wp-block-quote__citation a {
+  color: var(--vamtam-body-link-regular);
+}
+blockquote cite a,
+blockquote .wp-block-pullquote__citation a,
+blockquote .wp-block-quote__citation a {
+  vertical-align: middle;
+}
+blockquote cite:before,
+blockquote .wp-block-pullquote__citation:before,
+blockquote .wp-block-quote__citation:before {
+  display: inline-block;
+  margin-right: 10px;
+  width: 30px;
+  height: 0;
+  border-bottom: 1px solid currentColor;
+  content: "";
+  vertical-align: middle;
+}
+blockquote:last-child cite:empty {
+  display: none;
+}
+blockquote p:first-child {
+  margin-top: 0;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+blockquote .wp-block-pullquote__citation,
+blockquote .wp-block-quote__citation,
+blockquote cite {
+  margin: 0;
+}
+.wp-block-pullquote {
+  padding-top: 0;
+  padding-bottom: 0;
+  border: solid;
+  border-width: 2px 0;
+}
+.wp-block-pullquote > blockquote {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 0 !important;
+  padding-left: 0;
+  text-align: center;
+}
+.wp-block-pullquote.alignleft + p,
+.wp-block-pullquote.alignright + p {
+  padding-top: 50px;
+}
+.wp-block-pullquote.is-style-solid-color {
+  padding: 30px 10%;
+}
+.wp-block-pullquote.is-style-solid-color > blockquote {
+  padding-left: 0;
+  border-left: 0 !important;
+}
+.wp-block-pullquote.is-style-solid-color > blockquote p {
+  font-size: 2.25em;
+}
+table.vamtam-styled {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: none;
+  margin: 0px;
+}
+table.vamtam-styled th,
+table.vamtam-styled td,
+table.vamtam-styled caption {
+  padding: 5px;
+  border: 0;
+}
+table.vamtam-styled caption {
+  border-bottom: none;
+}
+table.vamtam-styled thead th {
+  border-bottom: solid 1px var(--vamtam-accent-color-1);
+}
+table.vamtam-styled tbody tr {
+  border-bottom: solid 1px var(--vamtam-default-line-color);
+}
+table.vamtam-styled tbody tr:last-child td {
+  border: 0;
+}
+table.vamtam-styled td {
+  padding: 12px 0px;
+  vertical-align: middle;
+}
+table.vamtam-styled td p {
+  margin: 0px;
+}
+table.vamtam-styled tfoot {
+  font-size: 12px;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.3);
+}
+.alignnone {
+  float: none !important;
+  margin-bottom: 20px;
+  clear: both;
+}
+.has-text-align-center,
+.textcenter {
+  text-align: center;
+}
+.has-text-align-right,
+.textright {
+  text-align: end;
+}
+.alignright {
+  float: right;
+  margin: 0 0 0 20px;
+  text-align: end;
+}
+.alignleft {
+  float: left;
+  margin: 0 20px 0 0;
+  text-align: start;
+}
+.aligncenter {
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+  clear: both;
+}
+a img.alignright {
+  float: right;
+  margin: 20px 0 20px 25px;
+}
+a img.alignnone {
+  margin: 0px;
+}
+a img.alignleft {
+  float: left;
+  margin: 20px 1.5rem 1.5rem 0;
+}
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.alignleft {
+  margin: 20px 1.5rem 1.5rem 0;
+}
+img.alignright {
+  margin: 20px 0 1.5rem 1.5rem;
+}
+img.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
+img.alignnone {
+  margin: 0;
+}
+p + .alignfull p + .alignwide {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+body.has-blocks .the-content-parent > * {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--vamtam-site-max-width);
+}
+body.has-blocks .the-content-parent > *.alignfull,
+body.has-blocks .the-content-parent > *.alignwide {
+  max-width: none;
+}
+body.has-blocks .the-content-parent > *.wp-block-gallery,
+body.has-blocks .the-content-parent > *.vgblk-rw-wrapper > .wp-block-gallery {
+  display: flex;
+  padding: 0;
+}
+body.has-blocks .the-content-parent > *.wp-block-gallery:not(.alignleft):not(.alignright):not(.aligncenter):not(.alignfull):not(.alignwide),
+body.has-blocks .the-content-parent > *.vgblk-rw-wrapper > .wp-block-gallery:not(.alignleft):not(.alignright):not(.aligncenter):not(.alignfull):not(.alignwide) {
+  margin-left: 0;
+  margin-right: 0;
+}
+body.has-blocks .the-content-parent [class*="wp-block"].alignfull,
+body.has-blocks .the-content-parent [class*="wp-block"].alignwide {
+  margin: 1rem auto;
+}
+body.has-blocks .the-content-parent .wp-block-button {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.wp-block-search {
+  margin-bottom: 1em;
+}
+.wp-block-button.is-style-squared > a {
+  border-radius: 0 !important;
+}
+.wp-block-gallery ul {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  display: flex;
+}
+.wp-block-gallery ul:not(:last-child) {
+  margin-bottom: -16px;
+}
+.wp-block-gallery .blocks-gallery-caption {
+  width: 100%;
+  text-align: center;
+}
+.wp-block-latest-posts.is-grid {
+  padding-left: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.wp-block-latest-posts.is-grid li {
+  border-top: 2px solid var(--vamtam-accent-color-4);
+  padding-top: 20px;
+}
+.wp-block-latest-posts.is-grid li a {
+  word-break: break-all;
+}
+.wp-block-latest-posts.wp-block-latest-posts__list {
+  margin-left: 0;
+}
+.wp-caption,
+.wp-block-image figure {
+  max-width: 100%;
+  clear: both;
+  font-size: 0;
+  line-height: 0;
+}
+.wp-caption a,
+.wp-block-image figure a {
+  border: var(--vamtam-no-border-link);
+}
+.wp-caption .wp-caption-text,
+.wp-block-image figure figcaption,
+figure.wp-block-image figcaption,
+.entry-caption,
+.gallery-caption {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: normal;
+  line-height: 1.4em;
+}
+.wp-smiley,
+.wp-smiley * {
+  border: 0px !important;
+}
+.sticky,
+.gallery-caption,
+.bypostauthor {
+  outline: none;
+}
+.blocks-gallery-item figcaption {
+  left: 0;
+  right: 0;
+  width: auto !important;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+.blocks-gallery-grid .blocks-gallery-item figcaption,
+.wp-block-gallery .blocks-gallery-item figcaption,
+.blocks-gallery-grid .blocks-gallery-image figcaption,
+.wp-block-gallery .blocks-gallery-image figcaption {
+  font-size: 0.7em;
+  line-height: 1.3em;
+}
+figure figcaption,
+.entry-caption,
+.gallery-caption,
+.wp-block-image figcaption,
+.wp-caption .wp-caption-text {
+  margin-top: 0 !important;
+  margin-bottom: 20px;
+  border: 1px solid var(--vamtam-default-line-color);
+  border-top: 0;
+  padding: 10px;
+}
+.wp-block-video figcaption {
+  border: 0;
+}
+.vamtam-video-frame + p {
+  margin-top: 1em;
+}
+.wp-block-image figure > a {
+  display: block;
+  font-size: 0;
+}
+.wp-block-image figure > img,
+figure.wp-block-image > img {
+  display: block;
+}
+.wp-block-image .alignleft {
+  margin: 0.5rem 1rem 0.5rem 0;
+}
+.wp-block-image .alignright {
+  margin: 0.5rem 0 0.5rem 1rem;
+}
+figure.wp-block-audio figcaption,
+figure.wp-block-embed-twitter figcaption {
+  border: 0;
+  padding-left: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  line-height: 2;
+  width: 100%;
+  margin: 0 0 1.5em;
+}
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: start;
+}
+caption {
+  font-size: 16px;
+  margin: 20px 0;
+}
+table {
+  border: 0;
+}
+thead th {
+  border-bottom: 1px solid var(--vamtam-default-line-color);
+}
+th {
+  border: 0;
+  padding: 1em;
+  border-left: 1px solid var(--vamtam-default-line-color);
+  text-align: start;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.wp-block-table.is-style-stripes {
+  border-collapse: collapse;
+}
+.wp-block-table.is-style-stripes td,
+td {
+  border: 0;
+  border-left: 1px solid var(--vamtam-default-line-color);
+  padding: 1em;
+  line-height: 1.5;
+}
+.wp-block-table.is-style-stripes tr,
+tr {
+  border: 0;
+  border-bottom: 1px solid var(--vamtam-default-line-color);
+}
+.wp-block-table.is-style-stripes tr:first-child,
+tr:first-child {
+  border-top: 1px solid var(--vamtam-default-line-color);
+}
+.wp-block-table.is-style-stripes th:last-child,
+.wp-block-table.is-style-stripes td:last-child,
+th:last-child,
+td:last-child {
+  border-right: 1px solid var(--vamtam-default-line-color);
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin: 0 0 10px;
+}
+address {
+  font-style: italic;
+  margin: 0 0 24px;
+}
+var,
+cite {
+  font-style: italic;
+}
+.wp-block-separator {
+  margin: 1.65em auto;
+}
+.wp-block-separator:not(.is-style-dots):not(.is-style-wide) {
+  max-width: 100px !important;
+}
+.alignleft.vamtam-wp-block-cover-wrapper,
+.alignright.vamtam-wp-block-cover-wrapper {
+  width: 30%;
+  min-width: 300px;
+}
+.wp-block-audio:not(:first-child),
+.wp-block-video:not(:first-child),
+.wp-block-quote:not(:first-child),
+.wp-block-gallery:not(:first-child),
+.wp-block-cover:not(:first-child),
+.wp-block-archives.wp-block-archives-list:not(:first-child),
+.wp-block-archives.wp-block-archives-dropdown:not(:first-child),
+.wp-block-categories.wp-block-categories-list:not(:first-child),
+.wp-block-latest-comments:not(:first-child),
+ul.wp-block-latest-posts:not(:first-child),
+.wp-block-pullquote:not(:first-child) {
+  margin-top: 30px;
+}
+.wp-block-audio:not(:last-child),
+.wp-block-video:not(:last-child),
+.wp-block-quote:not(:last-child),
+.wp-block-gallery:not(:last-child),
+.wp-block-cover:not(:last-child),
+.wp-block-archives.wp-block-archives-list:not(:last-child),
+.wp-block-archives.wp-block-archives-dropdown:not(:last-child),
+.wp-block-categories.wp-block-categories-list:not(:last-child),
+.wp-block-latest-comments:not(:last-child),
+ul.wp-block-latest-posts:not(:last-child),
+.wp-block-pullquote:not(:last-child) {
+  margin-bottom: 30px;
+}
+.vamtam-wp-block-cover-wrapper:not(:first-child) {
+  margin-top: 50px !important;
+}
+.vamtam-wp-block-cover-wrapper:not(:last-child) {
+  margin-bottom: 50px !important;
+}
+.wp-block-cover.has-background-dim {
+  color: #fff;
+}
+.wp-block-cover-image h2,
+.wp-block-cover h2,
+.wp-block-cover-image .wp-block-cover-image-text,
+.wp-block-cover .wp-block-cover-text {
+  -webkit-hyphens: manual;
+      -ms-hyphens: manual;
+          hyphens: manual;
+}
+.wp-block-cover-image,
+.wp-block-cover {
+  box-sizing: border-box;
+}
+body.layout-full .wp-block-columns.alignfull {
+  margin-left: 32px !important;
+  margin-right: 32px !important;
+}
+.wp-block-column:not(:last-child) {
+  margin-right: 20px;
+}
+.wp-block-columns > .vgblk-rw-wrapper {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.wp-block-columns > .vgblk-rw-wrapper:not(:first-child) {
+  margin-left: 32px;
+}
+.wp-block-group.has-background {
+  padding: 30px;
+  margin-bottom: 1.75em;
+}
+.wp-block-archives.wp-block-archives-list,
+.wp-block-categories.wp-block-categories-list,
+.wp-block-latest-comments,
+ul.wp-block-latest-posts:not(.is-grid) {
+  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+.wp-block-archives.wp-block-archives-list li,
+.wp-block-categories.wp-block-categories-list li,
+.wp-block-latest-comments li,
+ul.wp-block-latest-posts:not(.is-grid) li {
+  margin: 0;
+  padding: 0.6em 0;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+}
+.wp-block-archives.wp-block-archives-list li:not(:last-child),
+.wp-block-categories.wp-block-categories-list li:not(:last-child),
+.wp-block-latest-comments li:not(:last-child),
+ul.wp-block-latest-posts:not(.is-grid) li:not(:last-child) {
+  border-bottom: dotted 1px var(--vamtam-default-line-color);
+}
+.wp-block-archives.wp-block-archives-list ul,
+.wp-block-categories.wp-block-categories-list ul,
+.wp-block-latest-comments ul,
+ul.wp-block-latest-posts:not(.is-grid) ul {
+  list-style: none;
+}
+.page-content form.post-password-form p:last-child {
+  display: flex;
+}
+.page-content form.post-password-form p:last-child label[for|="pwbox"],
+.page-content form.post-password-form p:last-child input[type="submit"] {
+  margin: 5px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.page-content form.post-password-form p:last-child label[for|="pwbox"],
+.page-content form.post-password-form p:last-child label[for|="pwbox"] input[type="password"] {
+  top: 0;
+}
+.page-content form.post-password-form p:last-child input[name="post_password"] {
+  padding: 5px 14px;
+}
+[class*="gallery-columns-"] {
+  margin: 0 -5px !important;
+}
+[class*="gallery-columns-"].gallery-columns-1 .gallery-item {
+  width: 100%;
+}
+[class*="gallery-columns-"].gallery-columns-2 .gallery-item {
+  width: 50%;
+}
+[class*="gallery-columns-"].gallery-columns-3 .gallery-item {
+  width: 33.33333333%;
+}
+[class*="gallery-columns-"].gallery-columns-4 .gallery-item {
+  width: 25%;
+}
+[class*="gallery-columns-"].gallery-columns-5 .gallery-item {
+  width: 20%;
+}
+[class*="gallery-columns-"].gallery-columns-6 .gallery-item {
+  width: 16.66666667%;
+}
+[class*="gallery-columns-"].gallery-columns-7 .gallery-item {
+  width: 14.28571429%;
+}
+[class*="gallery-columns-"].gallery-columns-8 .gallery-item {
+  width: 12.5%;
+}
+[class*="gallery-columns-"].gallery-columns-9 .gallery-item {
+  width: 11.11111111%;
+}
+[class*="gallery-columns-"] figure.gallery-item {
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  vertical-align: top;
+}
+[class*="gallery-columns-"] figure.gallery-item img {
+  display: block;
+  width: 100%;
+}
+[class*="gallery-columns-"] figure.gallery-item .gallery-caption {
+  border: 0;
+}
+@media (max-width: 60px + 160px * 5) {
+  [class*="gallery-columns-"] figure.gallery-item a,
+  [class*="gallery-columns-"] figure.gallery-item img {
+    display: block !important;
+    margin: auto;
+  }
+}
+@media (min-width: 60px + 160px * 4 + 1) and (max-width: 60px + 160px * 5) {
+  [class*="gallery-columns-"] figure.gallery-item {
+    width: 25% !important;
+  }
+}
+@media (min-width: 60px + 160px * 3 + 1) and (max-width: 60px + 160px * 4) {
+  [class*="gallery-columns-"] figure.gallery-item {
+    width: 33.33333333% !important;
+  }
+}
+@media (min-width: 60px + 160px * 2 + 1) and (max-width: 60px + 160px * 3) {
+  [class*="gallery-columns-"] figure.gallery-item {
+    width: 50% !important;
+  }
+}
+@media (max-width: 60px + 160px * 2) {
+  [class*="gallery-columns-"] figure.gallery-item {
+    width: 100% !important;
+  }
+}
+.editor-post-title__input {
+  color: var(--vamtam-h1-color);
+}
+hr {
+  border-bottom: 1px solid #ccc;
+  clear: both;
+}
+pre {
+  border: 1px solid var(--vamtam-default-line-color);
+  background: var(--vamtam-accent-color-5);
+  font-size: var(--vamtam-primary-font-font-size);
+  line-height: 1.5em;
+}
+.wp-block {
+  max-width: var(--vamtam-site-max-width);
+}
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+  max-width: 90%;
+}
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+  max-width: none;
+}
+.wp-block-cover-image .wp-block-cover__inner-container p,
+.wp-block-cover .wp-block-cover__inner-container p {
+  color: #f8f9f9;
+}
+.block-editor-block-list__layout .block-editor-block-list__block[data-align="left"] .block-editor-block-list__block-edit {
+  margin-right: 1.5em;
+}
+.block-editor-block-list__layout .block-editor-block-list__block[data-align="left"] .block-editor-block-list__block-edit .alignleft {
+  margin-right: 0;
+}
+.block-editor-block-list__layout .block-editor-block-list__block[data-align="right"] .block-editor-block-list__block-edit {
+  margin-left: 1.5em;
+}
+.block-editor-block-list__layout .block-editor-block-list__block[data-align="right"] .block-editor-block-list__block-edit .alignleft {
+  margin-left: 0;
+}
+/*# sourceMappingURL=editor.css.map */

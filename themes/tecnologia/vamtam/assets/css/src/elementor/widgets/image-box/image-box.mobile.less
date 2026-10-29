@@ -1,0 +1,72 @@
+
+// Image Box - Mobile.
+.elementor-widget-image-box {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		// Fixes for left/right image pos.
+		&.elementor-position- {
+			&left, &right {
+				.elementor-image-box-wrapper {
+					display: flex;
+				}
+
+				&.elementor-vertical-align- {
+					&top, &middle, &bottom {
+						.elementor-image-box-content {
+							display: flex;
+						}
+					}
+					&top {
+						.elementor-image-box-content {
+							align-items: flex-start;
+						}
+					}
+					&middle {
+						.elementor-image-box-content {
+							align-items: center;
+						}
+					}
+					&bottom {
+						.elementor-image-box-content {
+							align-items: flex-end;
+						}
+					}
+				}
+
+				&.vamtam-text-align-mobile- {
+					&left {
+						.elementor-image-box-content {
+							justify-content: flex-start;
+						}
+					}
+					&right {
+						.elementor-image-box-content {
+							justify-content: flex-end;
+						}
+					}
+					&center {
+						.elementor-image-box-content {
+							justify-content: center;
+						}
+					}
+				}
+			}
+
+			&left {
+				.elementor-image-box-img {
+					margin-right: var(--vamtam-img-spacing, 20px) !important;
+				}
+			}
+
+			&right {
+				.elementor-image-box-wrapper {
+					flex-direction: row-reverse;
+				}
+
+				.elementor-image-box-img {
+					margin-left: var(--vamtam-img-spacing, 20px) !important;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+// Form.
+.elementor-widget-form {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		// links inside form labels to inherit styles from label instead of global kit link selector
+		label a {
+			font: inherit;
+			color: inherit;
+			text-transform: inherit;
+		}
+
+		.flatpickr-mobile {
+			&:is([type=date],[type=time]) {
+				-webkit-appearance: initial;
+			}
+		}
+	}
+}

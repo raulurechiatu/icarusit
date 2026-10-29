@@ -1,0 +1,220 @@
+/* Clearfix */
+/* Absolute Fill Container */
+/* buttons */
+/* Fonts */
+/* !! Attention !!
+	When you use this rule, remember to add the relevant equivalent styles
+	to layout-below-max.less (tablet) and layout-small.less (phone).
+*/
+.vamtam-font-primary-font {
+  font: var( --e-global-typography-vamtam_primary_font-font-weight, normal ) var( --e-global-typography-vamtam_primary_font-font-style, normal ) var( --e-global-typography-vamtam_primary_font-font-size )/var( --e-global-typography-vamtam_primary_font-line-height ) var( --e-global-typography-vamtam_primary_font-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_primary_font-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_primary_font-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_primary_font-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_primary_font-decoration, none );
+}
+.vamtam-font-h1 {
+  font: var( --e-global-typography-vamtam_h1-font-weight, normal ) var( --e-global-typography-vamtam_h1-font-style, normal ) var( --e-global-typography-vamtam_h1-font-size )/var( --e-global-typography-vamtam_h1-line-height ) var( --e-global-typography-vamtam_h1-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h1-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h1-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h1-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h1-decoration, none );
+}
+.vamtam-font-h2 {
+  font: var( --e-global-typography-vamtam_h2-font-weight, normal ) var( --e-global-typography-vamtam_h2-font-style, normal ) var( --e-global-typography-vamtam_h2-font-size )/var( --e-global-typography-vamtam_h2-line-height ) var( --e-global-typography-vamtam_h2-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h2-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h2-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h2-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h2-decoration, none );
+}
+.vamtam-font-h3 {
+  font: var( --e-global-typography-vamtam_h3-font-weight, normal ) var( --e-global-typography-vamtam_h3-font-style, normal ) var( --e-global-typography-vamtam_h3-font-size )/var( --e-global-typography-vamtam_h3-line-height ) var( --e-global-typography-vamtam_h3-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h3-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h3-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h3-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h3-decoration, none );
+}
+.vamtam-font-h4 {
+  font: var( --e-global-typography-vamtam_h4-font-weight, normal ) var( --e-global-typography-vamtam_h4-font-style, normal ) var( --e-global-typography-vamtam_h4-font-size )/var( --e-global-typography-vamtam_h4-line-height ) var( --e-global-typography-vamtam_h4-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h4-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h4-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h4-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h4-decoration, none );
+}
+.vamtam-font-h5 {
+  font: var( --e-global-typography-vamtam_h5-font-weight, normal ) var( --e-global-typography-vamtam_h5-font-style, normal ) var( --e-global-typography-vamtam_h5-font-size )/var( --e-global-typography-vamtam_h5-line-height ) var( --e-global-typography-vamtam_h5-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h5-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h5-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h5-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h5-decoration, none );
+}
+.vamtam-font-h6,
+.widget.widget_recent_entries .post-date {
+  font: var( --e-global-typography-vamtam_h6-font-weight, normal ) var( --e-global-typography-vamtam_h6-font-style, normal ) var( --e-global-typography-vamtam_h6-font-size )/var( --e-global-typography-vamtam_h6-line-height ) var( --e-global-typography-vamtam_h6-font-family );
+  letter-spacing: var( --e-global-typography-vamtam_h6-letter-spacing, normal );
+  text-transform: var( --e-global-typography-vamtam_h6-transform, none );
+  -webkit-text-decoration: var( --e-global-typography-vamtam_h6-decoration, none );
+          text-decoration: var( --e-global-typography-vamtam_h6-decoration, none );
+}
+.widget {
+  margin: 0 auto 30px;
+  padding: 0;
+  line-height: 1.3;
+}
+.widget,
+.widget ul li,
+.widget ul li a {
+  font-size: 1em !important;
+  line-height: 1.4em;
+}
+.widget ul li a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-skip-ink: all;
+}
+.widget .widgettitle {
+  position: relative;
+  overflow: hidden;
+  text-transform: none;
+  margin-bottom: var(--vamtam-content-space-m);
+}
+.widget .widgettitle,
+.widget .widgettitle a {
+  word-wrap: break-word;
+}
+.widget .widgettitle a {
+  color: inherit;
+}
+.widget .widgettitle > .icon {
+  margin-right: 10px;
+  vertical-align: baseline;
+}
+.widget:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+  background: transparent;
+}
+.widget.widget_recent_entries a {
+  display: inline;
+}
+.widget.widget_recent_entries .post-date {
+  display: block;
+  padding-top: 5px;
+}
+.widget.widget_recent_comments li {
+  padding: 0 0 0.7em 0;
+  line-height: 1.7em;
+}
+.widget ul,
+.widget ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.widget li {
+  position: relative;
+  margin: 0;
+  padding: 0.43em 0;
+  transition: all 0.2s ease;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+}
+.widget li:first-child {
+  padding-top: 0 !important;
+}
+.widget li:not(:last-child) {
+  border: none;
+}
+.widget_archive.widget li,
+.widget_categories.widget li {
+  border-bottom: 0;
+}
+.widget li .count {
+  color: inherit;
+  font-size: inherit;
+}
+.widget input[type=text],
+.widget select {
+  max-width: 100%;
+  min-height: 52px !important;
+  line-height: 52px;
+  font-size: 1em;
+}
+.widget .entry-caption,
+.widget .gallery-caption,
+.widget .wp-block-image figcaption,
+.widget .wp-caption .wp-caption-text,
+.widget figure figcaption {
+  line-height: 1.4;
+}
+.widget .lang_sel_click li {
+  overflow: visible;
+}
+/* Widgets in sidebars ------------------------------------------------------ */
+.vamtam-body-sidebar {
+  --widget-whitespace: 0.43em;
+}
+.vamtam-body-sidebar,
+.vamtam-body-sidebar .widget select {
+  font-size: 14px;
+  color: var(--vamtam-widget-text-lighter);
+  font-weight: normal;
+}
+.vamtam-body-sidebar .widget {
+  margin: 0 0 var(--vamtam-content-space-xl) 0;
+  padding: 0;
+}
+.vamtam-body-sidebar .widget .widgettitle {
+  margin-bottom: 1.4em;
+  margin-top: 0;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  font-weight: 600;
+  border: none;
+  padding: 0;
+}
+.vamtam-limited-layout .vamtam-body-sidebar .widget .widgettitle {
+  color: var(--vamtam-widget-text-darker);
+}
+.vamtam-body-sidebar .widget .widgettitle > .icon {
+  margin-top: -3px;
+}
+.vamtam-body-sidebar .widget .widgettitle > .icon.shortcode {
+  color: var(--vamtam-accent-color-7);
+}
+.vamtam-body-sidebar .widget .widgettitle + ul,
+.vamtam-body-sidebar .widget .widgettitle + ol,
+.vamtam-body-sidebar .widget .widgettitle + div,
+.vamtam-body-sidebar .widget .widgettitle + form {
+  border: none;
+}
+.vamtam-body-sidebar .widget ul.children {
+  margin-bottom: -5px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.vamtam-body-sidebar .widget ul.children li:last-child {
+  border-bottom: none;
+}
+.vamtam-body-sidebar .widget > ul:after,
+.vamtam-body-sidebar .widget > ol:after,
+.vamtam-body-sidebar .widget > div:after,
+.vamtam-body-sidebar .widget > h4 + form:after {
+  position: relative;
+  top: 10px;
+  display: block;
+  clear: both;
+  margin: 0 -10px;
+  height: 1px;
+  content: "";
+}
+.vamtam-body-sidebar .textwidget p br {
+  content: "";
+  display: block;
+  margin-bottom: 0.5em;
+}
+.vamtam-body-sidebar p {
+  line-height: 1.6em;
+}
+/*# sourceMappingURL=general.css.map */

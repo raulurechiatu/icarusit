@@ -1,0 +1,37 @@
+// Post Navigation.
+.elementor-widget-post-navigation {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		.post-navigation__next--label,
+		.post-navigation__next--title,
+		.post-navigation__prev--label,
+		.post-navigation__prev--title {
+			white-space: normal;
+			overflow: visible;
+		}
+
+		.post-navigation__prev--label,
+		.post-navigation__next--label {
+			margin-bottom: 0.3em;
+		}
+
+		&.vamtam-post-navigation {
+			.elementor-post-navigation {
+				.post-navigation__arrow-wrapper i {
+					font-family: 'theme-icons' ;
+					font-weight: normal;
+				}
+
+				.post-navigation__arrow-prev i::before {
+					content: var(--vamtam-icon-arrow-left);
+				}
+
+				.post-navigation__arrow-next i::before {
+					content: var(--vamtam-icon-arrow-right);
+				}
+			}
+
+		}
+
+	}
+}
